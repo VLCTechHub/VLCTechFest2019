@@ -8,7 +8,7 @@
 	//once upon a time...
 	$.fn.jCounter = function(options,callback) {
 		var jCounterDirection = 'down'; // points out whether it should count down or up | handled via customRange setting
-		
+
 		var customRangeDownCount; //if true, it will tell countdown_proc() it's a down count and not an up count
 		var days,hours,minutes,seconds;
 		var endCounter = false; //stops jCounter if true
@@ -31,7 +31,7 @@
 			customRange: null,
 			date: null,
 			debugLog: false,
-			serverDateSource: 'dateandtime.php', //path to dateandtime.php file (i.e. http://my-domain.com/dateandtime.php)
+			serverDateSource: '', //path to dateandtime.php file (i.e. http://my-domain.com/dateandtime.php)
 			format: 'dd:hh:mm:ss',
 			timezone: 'Europe/London',
 			twoDigits: 'on'
@@ -83,7 +83,7 @@
 				});
 			},
 			//start method: $.jCounter('start')
-			
+
 			start : function() {
 				if(consoleLog) { console.log("(jC) Activity: Counter started."); }
 				return thisEl.each(function(i,el) {
@@ -94,7 +94,7 @@
 				});
 			}
 		}
-		
+
 		//checks whether customDuration is used
 		if(thisEl.data("userOptions").customDuration) {
 			if(!isNaN(thisEl.data("userOptions").customDuration)) {
@@ -104,9 +104,9 @@
 				if(consoleLog) { console.log("(jC) Error: The customDuration value is not a number! NOTE: 'customDuration' accepts a number of seconds."); }
 			}
 		}
-		
+
 		//checks whether customRange is used
-		if(thisEl.data("userOptions").customRange) {	
+		if(thisEl.data("userOptions").customRange) {
 			var customRangeValues = thisEl.data("userOptions").customRange.split(":");
 			var rangeVal0 = parseInt(customRangeValues[0]);
 			var rangeVal1 = parseInt(customRangeValues[1]);
@@ -125,12 +125,12 @@
 		}
 
 		//checks whether animation is set to slide
-		if(thisEl.data("userOptions").animation == 'slide') {	
+		if(thisEl.data("userOptions").animation == 'slide') {
 			thisEl.data("jCanimation","slide");
 		}
 
 		//FUNCTIONS
-		
+
 		//jCounter initializer
 		function initCounter(el) {
 			if(customDuration) {
@@ -147,7 +147,7 @@
 					if(endCounter == false) {
 						currentTime = parseInt(currentTime) + 1;
 						countdown_proc(currentTime,el)
-					}				
+					}
 				},1000));
 			} else if(customRange) {
 				eventDate = Math.round(customRangeValues[1]);
@@ -163,7 +163,7 @@
 					if(endCounter == false) {
 						var ifRangeDownCount = (customRangeDownCount) ? currentTime = parseInt(currentTime) - 1 : currentTime = parseInt(currentTime) + 1;
 						countdown_proc(currentTime,el);
-					}				
+					}
 				},1000));
 			} else {
 				eventDate = Date.parse($(el).data("userOptions").date) / 1000;
@@ -192,7 +192,7 @@
 					if(endCounter == false) {
 						currentDate = parseInt(currentDate) + 1;
 						countdown_proc(currentDate,el)
-					}				
+					}
 				},1000));
 			} else {
 				resetHTMLCounter(el)
@@ -204,9 +204,9 @@
 		function jCslider(el,unitClass,timeUnit,eventDate,duration) {
 			$(el).find(unitClass + " u").each(function(i,el) {
 				var twoDigits = (thisEl.data("userOptions").twoDigits == 'on') ? '0' : '';
-				var newIndex = (jCounterDirection == 'up') ? newIndex = -i : newIndex = i;		
+				var newIndex = (jCounterDirection == 'up') ? newIndex = -i : newIndex = i;
 				currNo = parseInt(timeUnit,10) + (newIndex);
-				if (String(parseInt(timeUnit,10)).length >= 2) { 
+				if (String(parseInt(timeUnit,10)).length >= 2) {
 					$(el).text(parseInt(timeUnit,10) + (newIndex))
 				} else if(String(parseInt(timeUnit,10)).length == 1 && currNo == 10) {
 					$(el).text(parseInt(timeUnit,10) + (newIndex))
@@ -219,7 +219,7 @@
 			},200, function() {
 				$(el).find(unitClass + " u:eq(1)").remove();
 				$(el).find(unitClass).prepend('<u></u>');
-				$(el).find(unitClass).css({'top':'-1.24em'})					
+				$(el).find(unitClass).css({'top':'-1.24em'})
 			});
 		}
 
@@ -254,12 +254,12 @@
 					}
 				}
 			}
-			
+
 			//if customRange is used, update the seconds variable
 			var seconds = (customRange) ? duration : eventDate - duration;
 
 			var thisInstanceFormat = thisEl.data("userOptions").format;
-			
+
 			//calculate seconds into days,hours,minutes,seconds
 			//if dd (days) is specified in the format setting (i.e. format: 'dd:hh:mm:ss')
 			if(thisInstanceFormat.indexOf('dd') != -1)  {
@@ -287,7 +287,7 @@
 			if (hours == 1) { $(el).find(".textHours").text(singularLabels[1]); } else { $(el).find(".textHours").text(pluralLabels[1]); }
 			if (minutes == 1) { $(el).find(".textMinutes").text(singularLabels[2]); } else { $(el).find(".textMinutes").text(pluralLabels[2]); }
 			if (seconds == 1) { $(el).find(".textSeconds").text(singularLabels[3]); } else { $(el).find(".textSeconds").text(pluralLabels[3]); }
-			
+
 			//twoDigits ON setting
 			//if the twoDigits setting is set to ON, jCounter will always diplay a minimum number of 2 digits
 			if(thisEl.data("userOptions").twoDigits == 'on') {
@@ -309,27 +309,27 @@
 					$(el).find(".hoursSlider u:eq(1)").text(hours);
 					$(el).find(".minutesSlider u:eq(1)").text(minutes);
 					$(el).find(".secondsSlider u:eq(1)").text(seconds);
-					jCslider(el,'.secondsSlider',seconds,eventDate,duration); 
-					if(parseInt(seconds,10) == 59) { 
-						jCslider(el,'.minutesSlider',minutes,eventDate,duration) 
-						if(parseInt(minutes,10) == 59) { 
-							jCslider(el,'.hoursSlider',hours,eventDate,duration) 
-							if(parseInt(hours,10) == 23) { 
-								jCslider(el,'.daysSlider',days,eventDate,duration) 
+					jCslider(el,'.secondsSlider',seconds,eventDate,duration);
+					if(parseInt(seconds,10) == 59) {
+						jCslider(el,'.minutesSlider',minutes,eventDate,duration)
+						if(parseInt(minutes,10) == 59) {
+							jCslider(el,'.hoursSlider',hours,eventDate,duration)
+							if(parseInt(hours,10) == 23) {
+								jCslider(el,'.daysSlider',days,eventDate,duration)
 							}
 						}
-					}	
+					}
 				}
-			} else { 
+			} else {
 				if(consoleLog) { console.log("(jC) Error: Invalid date! Here's an example: 01 January 1970 12:00:00"); }
 				clearInterval($(el).data("jC_interval"));
 			}
 			//stores the remaining time when pausing jCounter
 			$(el).data("jC_pausedTime", eventDate-duration);
 		}
-		
-		
-		
+
+
+
 		//method calling logic
 		if ( jC_methods[this.options] ) {
 			return jC_methods[ this.options ].apply( this, Array.prototype.slice.call( arguments, 1 ));
@@ -337,7 +337,7 @@
 			return jC_methods.init.apply( this, arguments );
 		} else {
 			console.log('(jC) Error: Method >>> ' +  this.options + ' <<< does not exist.' );
-		} 
+		}
 
 	}
 	//the end;
