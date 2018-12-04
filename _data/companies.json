@@ -1,0 +1,20 @@
+[
+  {
+    "organizers": [
+      {
+        "name": "VLCTechHub",
+        "link": "https://vlctechhub.org",
+        "image": "vlctechhub_blanco.svg"
+
+      }
+    ],
+    "collaborators": [
+      {
+        "name": "Las Naves",
+        "link": "https://www.lasnaves.com",
+        "image": "lasnaves.svg"
+
+      }
+    ]
+  }
+]

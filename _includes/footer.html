@@ -1,0 +1,43 @@
+<footer class="site-footer" id="footer">
+
+  <div class="wrapper">
+
+    <p class="footer-heading">(C) 2018-2019 VLCTechHub</p>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p>{{ site.data.t[page.lang].footer.vlctechhub_description }}</p>
+      </div>
+
+      <div class="footer-col">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+
+          {% if site.slack_url %}
+          <li>
+            {% include icon-slack.html url=site.slack_url title=site.slack_title %}
+          </li>
+          {% endif %}
+
+          {% if site.hub_url %}
+          <li>
+            {% include icon-world.html url=site.hub_url title=site.hub_title %}
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

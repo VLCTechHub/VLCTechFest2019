@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Grupo Ágil Levante",
+    "image": "agilelevante_logo.png",
+    "links": ["https://twitter.com/agilelevante", "https://www.meetup.com/Agile-Levante/"]
+  },
+  {
+    "name": "Devscola",
+    "image": "devscola_logo.jpeg",
+    "links": ["http://devscola.org/", "https://twitter.com/devscola", "https://www.meetup.com/Aprende-a-programar-en-Valencia/", "https://youtube.com/devscolavlc"]
+  },
+  {
+    "name": "DevWomen",
+    "image": "devwomen_logo.png",
+    "links": ["http://devwomen.com/", "https://twitter.com/DevWomen_ES", "https://www.facebook.com/DevWomenES/", "https://www.linkedin.com/showcase/devwomen/", "https://www.instagram.com/DevWomen_es/"]
+  },
+  {
+    "name": "Drupal Valencia",
+    "image": "drupalvlc_logo.png",
+    "links": ["https://twitter.com/drupalvalencia", "https://www.meetup.com/es-ES/Drupales/"]
+  },
+  {
+    "name": "GDG Valencia",
+    "image": "gdgvalencia_logo.png",
+    "links": ["http://gdgvalencia.es/", "https://www.meetup.com/GDGValencia/", "https://facebook.com/gdgvalencia", "https://twitter.com/gdgvalencia", "https://github.com/gdgvalencia"]
+  },
+  {
+    "name": "Hackerspace Valencia",
+    "image": "hackerspace_logo.jpeg",
+    "links": ["https://twitter.com/HackVlc", "https://www.meetup.com/Hackerspace-Valencia/"]
+  },
+  {
+    "name": "MeetMobile",
+    "image": "meetmobile_logo.png",
+    "links": ["http://meetmobile.es/", "https://twitter.com/meetmobileVLC", "https://www.meetup.com/http-meetmobile-es/"]
+  },
+  {
+    "name": "PHP Valencia",
+    "image": "phpvalencia_logo.png",
+    "links": ["https://www.meetup.com/PHP-Valencia/", "https://twitter.com/phpvalencia"]
+  },
+  {
+    "name": "Python Valencia",
+    "image": "pythonvalencia_logo.png",
+    "links": ["https://www.meetup.com/Python-Valencia-Meetup/", "https://twitter.com/python_vlc"]
+  },
+  {
+    "name": "Valencia JS",
+    "image": "valenciajs_logo.jpeg",
+    "links": ["https://www.meetup.com/ValenciaJS/", "https://twitter.com/VlcJS"]
+  },
+  {
+    "name": "Valencia Java User Group",
+    "image": "valenciajug_logo.jpg",
+    "links": ["https://www.meetup.com/ValenciaJUG/", "https://twitter.com/VLC_JUG"]
+  },
+  {
+    "name": "Valencia.rb",
+    "image": "valenciarb_logo.png",
+    "links": ["http://valenciarb.org/", "https://twitter.com/valenciarb", "https://github.com/valenciarb"]
+  },
+  {
+    "name": "Databeers Valencia",
+    "image": "databeersvlc_logo.png",
+    "links": ["https://databeersvlc.tumblr.com/", "https://twitter.com/databeersvlc"]
+  },
+  {
+    "name": "Women Techmakers Valencia",
+    "image": "wtmvalencia_logo.png",
+    "links": ["https://womentechmakersvalencia.com", "https://www.facebook.com/WtmValencia/", "https://twitter.com/WtmValencia/"]
+  },
+  {
+    "name": "Alcoià Comtat Devs",
+    "image": "alcoiacomtatdevs_logo.png",
+    "links": ["https://twitter.com/AlcoiaComtatDev"]
+  },
+  {
+    "name": "Decharlas (Castellón)",
+    "image": "decharlas_logo.jpg",
+    "links": ["https://twitter.com/decharlas"]
+  }
+]

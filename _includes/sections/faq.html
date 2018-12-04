@@ -1,0 +1,11 @@
+<section id="faq" class="faq">
+  <div class="wrapper">
+    <h1>FAQ</h1>
+    {% for faq in site.data.faq[page.lang] %}
+      <article>
+        <h1>{{faq.question}}</h1>
+        {{faq.answer | markdownify }}
+      </article>
+    {%endfor%}
+  </div>
+</section>

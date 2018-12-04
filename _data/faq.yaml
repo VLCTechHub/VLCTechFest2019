@@ -1,0 +1,23 @@
+es:
+  - question: ¿A quién va dirigido este evento?
+    answer: Esta charla va dirigida a personas profesionales y estudiantes de tecnología.
+
+  - question: ¿Cuánto cuesta la entrada?
+    answer: El evento es **completamente gratuito** y de **entrada libre** hasta completar aforo.
+
+  - question: ¿Hay que registrarse?
+    answer: No, **no hay registro**. Basta con asistir a _Las Naves_ el dia 11 de mayo, ya sea a la jornada completa o a ciertas sesiones concretas. Ten en cuenta que el aforo de las salas es limitado.
+
+  - question: ¿Cómo llego hasta allí?
+    answer: "Puedes llegar _Las Naves_ en bici o en alguno de los siguientes autobuses: 4, 19, 30, 92. Si vas en coche no deberías tener problema en aparcar por la zona."
+
+  - question: ¿Hay comida/bebida incluida?
+    answer: "No. Entre las sesiones de mañana y de tarde hay un descanso de dos horas para que los asistentes puedan comer donde quieran. Puedes comer en tu casa, llevarte tu propia comida o acudir a algún bar/restaurante de la zona. También hay un centro comercial cerca.
+    El propio centro cultural _Las Naves_ dispone de una cafetería. Y en las salas habrá dispensadores de agua, por lo que si tienes alguna cantimplora puedes taerla para reducir el derroche de plástico."
+
+  - question: ¿Se van a grabar las sesiones?
+    answer: Haremos lo posible porque se graben, pero depende de varios factores y no podemos asegurar que todas las sesiones vayan a estar disponibles para su visionado posterior. Si no quieres perderte las charlas el mejor consejo es que acudas al evento ;)
+
+en:
+
+ca:
