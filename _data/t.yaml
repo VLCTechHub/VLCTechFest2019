@@ -35,18 +35,10 @@ es:
   footer:
     vlctechhub_description: 'VlcTechHub promueve y fomenta las distintas comunidades tecnológicas de Valencia. Para ello cuenta con una <a target="_blank" href="https://vlctechhub.org/events/upcoming">agenda de eventos,</a> <a target="_blank" href="https://vlctechhub.org/events/upcoming">un tablón de ofertas de trabajo,</a> <a target="_blank" href="https://vlctechhub.org/events/upcoming">un chat</a> donde la comunidad puede compartir. También organiza eventos como este <strong>VLCTechFest.</strong>'
 en:
-  communities:
-    logo_from: 'Lopotipo de'
   news:
     cfp_open:
-      text: 'Abierto call for papers'
-      button: 'Manda tu propuesta'
       url: 'https://docs.google.com/forms/d/1srQO1Uj9A_42MpINL6hAl6W9tFGB388JtsBXsr7wHd8'
 ca:
-  communities:
-    logo_from: 'Lopotipo de'
   news:
     cfp_open:
-      text: 'Abierto call for papers'
-      button: 'Manda tu propuesta'
       url: 'https://docs.google.com/forms/d/18yTkrF6DzR1i5yfPpT0gjEIL7aymb8yaHDIDCze5aqU'
