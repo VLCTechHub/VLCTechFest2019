@@ -39,6 +39,38 @@ en:
     cfp_open:
       url: 'https://docs.google.com/forms/d/1srQO1Uj9A_42MpINL6hAl6W9tFGB388JtsBXsr7wHd8'
 ca:
+  head:
+    description: Un esdeveniment gratuït i d'accés lliure
+  navigation:
+    index:
+      link: "#top"
+      label: "Inici"
+    info:
+      link: "#about"
+      label: "Info"
+    faq:
+      link: "#faq"
+      label: "FAQ"
+    contact:
+      link: "#footer"
+      label: "Contacte"
+    vtf2018:
+      link: "https://2018.vlctechfest.org"
+      label: "2018"
+  main:
+    subtitle: Un esdeveniment gratuït i d'accés lliure
+    date: 11 Mayo 2019
+    place: Las Naves
+  communities:
+    logo_from: 'Lopotipo de'
+  company:
+    type:
+      organizers: 'Organitza:'
+      collaborators: 'Col·labora:'
   news:
     cfp_open:
+      text: 'Obert call for papers'
+      button: 'Envia la teua proposta'
       url: 'https://docs.google.com/forms/d/18yTkrF6DzR1i5yfPpT0gjEIL7aymb8yaHDIDCze5aqU'
+  footer:
+    vlctechhub_description: "VlcTechHub promou i fomenta les diferents comunitats tecnològiques de València. Per a això compta amb una <a target=\"_blank\" href=\"https://vlctechhub.org/events/upcoming\">agenda d'esdeveniments,</a> <a target=\"_blank\" href=\"https://vlctechhub.org/job/board\"> un tauló d'ofertes de treball,</a><a target=\"_blank\" href=\"https://slack.vlctechhub.org/\" >un xat</a> on la comunitat pot compartir. També organitza esdeveniments com aquest <strong>VLCTechFest.</strong>"
