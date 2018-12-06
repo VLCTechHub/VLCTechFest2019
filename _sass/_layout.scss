@@ -231,8 +231,55 @@ footer a:hover{
 }
 
 
-/**/
 
+/**
+ * Utilities
+ */
+.mobile {
+    display: none;
+    @include media-query($on-palm) {
+        display: inherit;
+    }
+}
+.desktop {
+    display: inherit;
+    @include media-query($on-palm) {
+        display: none;
+    }
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+
+
+/**
+ * Secondary Template Pages
+ */
+.breadcrumbs {
+    margin-top: $spacing-unit;
+    li {
+        display: inline;
+    }
+    .separator {
+        &:before {
+            content: "»"
+        }
+    }
+}
+
+
+
+/**
+ * Home Sections
+ */
 .main{
     background-color: $brand-color;
     color: white;
@@ -270,29 +317,6 @@ footer a:hover{
             }
         }
     }
-}
-
-.mobile {
-    display: none;
-    @include media-query($on-palm) {
-        display: inherit;
-    }
-}
-.desktop {
-    display: inherit;
-    @include media-query($on-palm) {
-        display: none;
-    }
-}
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0,0,0,0);
-    border: 0;
 }
 
 .about {
@@ -426,6 +450,46 @@ footer a:hover{
     }
 }
 
+.coc {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 300px;
+        grid-column-gap: $spacing-unit;
+        grid-template-areas:
+        "header header"
+        "left right"
+        "footer footer";
+        h1 {
+            grid-area: header;
+        }
+        > p {
+            grid-area: left;
+        }
+        div {
+            grid-area: right;
+            align-self: start;
+            background-color: $grey-color-light;
+            text-align: center;
+            padding: $spacing-unit / 2;
+            margin-bottom: $spacing-unit / 2;
+        }
+        > p:last-child {
+            grid-area: footer;
+        }
+        @include media-query($on-laptop) {
+            grid-template-columns: 1fr 200px;
+        }
+        @include media-query($on-palm) {
+            display: block;
+        }
+    }
+}
+
+
+
+/**
+ * Header
+ */
 .site-header{
     .site-nav {
         color: black;
