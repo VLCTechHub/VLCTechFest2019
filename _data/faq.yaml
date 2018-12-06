@@ -21,3 +21,21 @@ es:
 en:
 
 ca:
+  - question: A qui va dirigit aquest esdeveniment?
+    answer: Aquesta xarrada va dirigida a persones professionals i estudiants de tecnologia.
+
+  - question: Quant costa l'entrada?
+    answer: L'esdeveniment és **completament gratuït** i de **entrada lliure** fins a completar aforament.
+
+  - question: Cal registrar-se?
+    answer: No, **no hi ha registre**. N'hi ha prou amb assistir a _Les Naus_ el dia 11 de maig, ja siga a la jornada completa o a certes sessions concretes. Tingues en compte que l'aforament de les sales és limitat.
+
+  - question: Com arribe fins allí?
+    answer: "Pots arribar _Les Naus_ amb bici o en algun dels següents autobusos: 4, 19, 30, 92. Si vas amb cotxe no hauries de tindre problema a aparcar per la zona."
+
+  - question: Hi ha menjar/begut inclòs?
+    answer: "No. Entre les sessions de demà i de vesprada hi ha un descans de dues hores perquè els assistents puguen menjar on vulguen. Pots menjar a la teua casa, portar-te el teu propi menjar o acudir a algun bar/restaurant de la zona. També hi ha un centre comercial a prop.
+    El propi centre cultural _Les Naus_ disposa d'una cafeteria. I a les sales hi haurà dispensadors d'aigua, per la qual cosa si tens alguna *cantimplora pots portar-la per a reduir el malbaratament de plàstic."
+
+  - question: Es gravaran les sessions?
+    answer: Farem el possible perquè es graven, però depén de diversos factors i no podem assegurar que totes les sessions vagen a estar disponibles per al seu visionat posterior. Si no vols perdre't les xarrades el millor consell és que acudisques a l'esdeveniment ;)
