@@ -10,30 +10,44 @@
       </div>
 
       <div class="footer-col">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
+        <ul div="social-media-list">
+          {% assign users = "fest,hub" | split: "," %}
+          {% for user in users %}
+            {% assign u=site[user] %}
+            <ul>
 
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
+              {% if u.web_url %}
+                <li>
+                  {% include icon-world.html url=u.web_url title=u.web_title %}
+                </li>
+              {% endif %}
 
-          {% if site.slack_url %}
-          <li>
-            {% include icon-slack.html url=site.slack_url title=site.slack_title %}
-          </li>
-          {% endif %}
+              {% if u.twitter_username %}
+                <li>
+                  {% include icon-twitter.html username=u.twitter_username %}
+                </li>
+              {% endif %}
 
-          {% if site.hub_url %}
-          <li>
-            {% include icon-world.html url=site.hub_url title=site.hub_title %}
-          </li>
-          {% endif %}
+              {% if u.youtube_url %}
+                <li>
+                  {% include icon-youtube.html url=u.youtube_url %}
+                </li>
+              {% endif %}
+
+              {% if u.slack_url %}
+                <li>
+                  {% include icon-slack.html url=u.slack_url title=u.slack_title %}
+                </li>
+              {% endif %}
+
+              {% if site[user].github_username %}
+                <li>
+                  {% include icon-github.html username=u.github_username %}
+                </li>
+              {% endif %}
+
+            </ul>
+          {% endfor %}
         </ul>
       </div>
     </div>

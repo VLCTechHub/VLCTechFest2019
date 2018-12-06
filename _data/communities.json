@@ -17,12 +17,12 @@
   {
     "name": "Drupal Valencia",
     "image": "drupalvlc_logo.png",
-    "links": ["https://twitter.com/drupalvalencia", "https://www.meetup.com/es-ES/Drupales/"]
+    "links": ["https://twitter.com/drupalvalencia", "https://www.meetup.com/Drupales/"]
   },
   {
     "name": "GDG Valencia",
     "image": "gdgvalencia_logo.png",
-    "links": ["http://gdgvalencia.es/", "https://www.meetup.com/GDGValencia/", "https://facebook.com/gdgvalencia", "https://twitter.com/gdgvalencia", "https://github.com/gdgvalencia"]
+    "links": ["http://gdgvalencia.es/", "https://www.meetup.com/GDGValencia/", "https://www.facebook.com/gdgvalencia", "https://twitter.com/gdgvalencia", "https://github.com/gdgvalencia"]
   },
   {
     "name": "Hackerspace Valencia",

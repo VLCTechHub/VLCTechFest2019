@@ -8,18 +8,30 @@
   </a>
 
   <div class="trigger">
-    <ul class="sections">
-      {% for item in site.navigation %}
-        <li>
-          {% if site.data.t[page.lang].navigation[item].link contains 'http'  %}
-            <a target="_blank" href="{{ site.data.t[page.lang].navigation[item].link }}">{{ site.data.t[page.lang].navigation[item].label }}</a>
-          {% else %}
-            <a href="{{ site.data.t[page.lang].navigation[item].link }}">{{ site.data.t[page.lang].navigation[item].label }}</a>
-            {% endif %}
-          </li>
-      {% endfor %}
-    </ul>
+    <div>
+      <ul class="sections">
+        {% for item in site.navigation %}
+          <li>
+            {% if site.data.t[page.lang].navigation[item].link contains 'http'  %}
+              <a target="_blank" href="{{ site.data.t[page.lang].navigation[item].link }}">{{ site.data.t[page.lang].navigation[item].label }}</a>
+            {% else %}
+              <a href="{{ site.data.t[page.lang].navigation[item].link }}">{{ site.data.t[page.lang].navigation[item].label }}</a>
+              {% endif %}
+            </li>
+        {% endfor %}
+      </ul>
 
-    {% include langs.html %}
+      <ul class="social">
+        {% if site.fest.twitter_username %}
+          <li>{% include icon-twitter.html username=site.fest.twitter_username %}</li>
+        {% endif %}
+
+        {% if site.fest.youtube_url %}
+          <li>{% include icon-youtube.html url=site.fest.youtube_url %}</li>
+        {% endif %}
+      </ul>
+
+      {% include langs.html %}
+    </div>
   </div>
 </nav>
