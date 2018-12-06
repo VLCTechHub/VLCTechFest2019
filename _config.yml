@@ -10,12 +10,16 @@ title: VLCTechFest 2019
 email: hola@vlctechfest.org
 baseurl: "/vlctechfest2019" # the subpath of your site, e.g. /blog
 url: "https://vlctechfest.org" # the base hostname & protocol for your site
-twitter_username: vlctechfest
-github_username:  vlctechhub
-hub_url: https://vlctechhub.org/
-hub_title: vlctechhub.org
-slack_url: https://slack.vlctechhub.org/
-slack_title: Chat
+fest:
+  twitter_username: vlctechfest
+  youtube_url: https://www.youtube.com/channel/UCS7z_DqAOTqwANFvmKmM5ig
+hub:
+  twitter_username: vlctechhub
+  github_username:  vlctechhub
+  web_url: https://vlctechhub.org/
+  web_title: vlctechhub.org
+  slack_url: https://slack.vlctechhub.org/
+  slack_title: Chat
 path:
   company_images: "images/companies/"
   community_images: "images/communities/"

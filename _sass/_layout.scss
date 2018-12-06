@@ -26,7 +26,7 @@
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 48px;
 
     .menu-icon {
         display: none;
@@ -374,6 +374,61 @@ footer a:hover{
     }
 }
 
+.communities {
+    .wrapper {
+        max-width: 1200px;
+        > ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            > li {
+                min-width: 100px;
+                max-width: 200px;
+                box-sizing: border-box;
+                margin: $spacing-unit / 3;
+                padding: $spacing-unit / 3;
+                img {
+                    // max-height: 100%;
+                    // max-width: 100%;
+                }
+                p {
+                    display: none;
+                    margin-bottom: 0;
+                }
+            }
+            &.mini {
+                display: block;
+                > li {
+                    max-width: 100%;
+                    width: 100%;
+                    display: grid;
+                    grid-template-columns: 100px auto;
+                    grid-template-rows: auto 1fr;
+                    grid-column-gap: $spacing-unit / 3;
+                    grid-template-areas:
+                        "logo name"
+                        "logo links";
+                    border: 1px solid #333;
+                    p {
+                        grid-area: name;
+                        display: block;
+                        margin-bottom: 0;
+                    }
+                    img {
+                        grid-area: logo;
+                        width: 100px;
+                    }
+                    ul {
+                        grid-area: links;
+                        display: flex;
+                        flex-flow: column;
+                    }
+                }
+            }
+        }
+    }
+}
+
 .location {
     height: 300px;
     padding: 0;
@@ -432,6 +487,7 @@ footer a:hover{
         width: 100%;
         .trigger {
             min-width: 200px;
+            padding-bottom: 0;
         }
         ul {
             display: inline-block;
@@ -443,6 +499,28 @@ footer a:hover{
                 padding: $spacing-unit / 5;
                 margin: $spacing-unit / 10;
                 text-decoration: none;
+                &.youtube,
+                &.twitter {
+                    display: inline-block;
+                    line-height: 25px;
+                    border-radius: 5px;
+                    > .username,
+                    > .url {
+                        display: none;
+                    }
+                    &:hover {
+                        border: none;
+                        svg path {
+                            fill: #ffffff;
+                        }
+                        &.youtube {
+                            background-color: #cd201f;
+                        }
+                        &.twitter {
+                            background-color: #55acee;
+                        }
+                    }
+                }
                 &.active {
                     border-bottom: 2px dotted $brand-color;
                 }
@@ -464,23 +542,51 @@ footer a:hover{
         }
         .site-nav {
             width: auto;
-            ul {
-                display: block;
-                margin: 0;
-            }
-            li {
-                text-align: center;
-                padding: 0;
-            }
-            .sections li {
-                display: block;
-            }
-            .languages {
-                float: none;
-                display: flex;
-                width: 100%;
-                li {
-                    flex-grow: 1;
+            .trigger > div{
+                display: grid;
+                grid-template-areas:
+                "languages"
+                "sections"
+                "social";
+                ul {
+                    display: block;
+                    margin: 0;
+                    li {
+                        text-align: center;
+                        padding: 0;
+                        a {
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            height: 100%;
+                            box-sizing: border-box;
+                        }
+                    }
+                }
+                .sections {
+                    grid-area: sections;
+                    li {
+                        display: block;
+                    }
+                }
+                .social {
+                    grid-area: social;
+                    li a {
+                        line-height: inherit;
+                    }
+                }
+                .languages {
+                    grid-area: languages;
+                    line-height: 28px;
+                }
+                .social,
+                .languages {
+                    float: none;
+                    display: flex;
+                    width: 100%;
+                    li {
+                        flex-grow: 1;
+                    }
                 }
             }
         }
