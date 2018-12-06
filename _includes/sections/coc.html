@@ -1,0 +1,12 @@
+{% assign coc = site.data.coc[page.lang] %}
+<section id="coc" class="coc">
+  <div class="wrapper">
+    <h1>{{coc.title}}</h1>
+    <p class="notice">{{coc.notice}}</p>
+    <div>
+      <p class="resume"><b>{{coc.resume}}</b></p>
+      <p><a class="button" target="_blank" href="{{coc.link.relative_path}}">{{coc.link.text}}</a></p>
+    </div>
+    <p class="help">{{coc.help}}</p>
+  </div>
+</section>
