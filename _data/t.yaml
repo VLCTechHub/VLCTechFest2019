@@ -42,8 +42,8 @@ en:
       url: 'https://docs.google.com/forms/d/1srQO1Uj9A_42MpINL6hAl6W9tFGB388JtsBXsr7wHd8'
 ca:
   head:
-    description: Esdeveniment gratuït // Accés lliure //  11 de Maig // Les Naus
-    description_mobile_1: 11 de Maig // Les Naus
+    description: Esdeveniment gratuït // Accés lliure //  11 de Maig // Las Naves
+    description_mobile_1: 11 de Maig // Las Naves
     description_mobile: Un esdeveniment gratuït i d'accés lliure
   navigation:
     index:
