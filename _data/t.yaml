@@ -24,7 +24,7 @@ es:
     date: 11 Mayo 2019
     place: Las Naves
   communities:
-    logo_from: 'Lopotipo de'
+    logo_from: 'Logotipo de'
   company:
     type:
       organizers: 'Organiza:'
@@ -35,7 +35,7 @@ es:
       button: 'Manda tu propuesta'
       url: 'https://docs.google.com/forms/d/1neQ_yuOTYVYQMhWZn32w72FRWUx8-Lwz8kQXzIfgADE'
   footer:
-    vlctechhub_description: 'VlcTechHub promueve y fomenta las distintas comunidades tecnológicas de Valencia. Para ello cuenta con una <a target="_blank" href="https://vlctechhub.org/events/upcoming">agenda de eventos,</a> <a target="_blank" href="https://vlctechhub.org/events/upcoming">un tablón de ofertas de trabajo,</a> <a target="_blank" href="https://vlctechhub.org/events/upcoming">un chat</a> donde la comunidad puede compartir. También organiza eventos como este <strong>VLCTechFest.</strong>'
+    vlctechhub_description: 'VlcTechHub promueve y fomenta las distintas comunidades tecnológicas de Valencia. Para ello cuenta con una <a target="_blank" href="https://vlctechhub.org/events/upcoming">agenda de eventos,</a> <a target="_blank" href="https://vlctechhub.org/job/board">un tablón de ofertas de trabajo,</a> <a target="_blank" href="https://slack.vlctechhub.org">un chat</a> donde la comunidad puede compartir. También organiza eventos como este <strong>VLCTechFest.</strong>'
 en:
   news:
     cfp_open:
@@ -66,7 +66,7 @@ ca:
     date: 11 Mayo 2019
     place: Las Naves
   communities:
-    logo_from: 'Lopotipo de'
+    logo_from: 'Logotip de'
   company:
     type:
       organizers: 'Organitza:'
