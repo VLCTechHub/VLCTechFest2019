@@ -8,6 +8,7 @@
 # Site settings
 title: VLCTechFest 2019
 email: hola@vlctechfest.org
+baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://vlctechfest.org" # the base hostname & protocol for your site
 description:
   es: Evento gratuito y abierto a todo el mundo que reune a las comunidades tecnológicas de la Comunidad Valenciana. 11 de junio de 2019.
