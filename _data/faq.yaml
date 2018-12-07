@@ -19,6 +19,24 @@ es:
     answer: Haremos lo posible porque se graben, pero depende de varios factores y no podemos asegurar que todas las sesiones vayan a estar disponibles para su visionado posterior. Si no quieres perderte las charlas el mejor consejo es que acudas al evento ;)
 
 en:
+  - question: Who is this event for?
+    answer: This talk is aimed to professionals and technology students.
+
+  - question: How much is admission? 
+    answer: The event is **completely free** and **free entry** until full capacity.
+
+  - question: Do you have to register?
+    answer: No, **sthere is no record**. It is enough to assist to _Las Naves_ on May 11, either full-time or certain specific sessions. Keep in mind that the capacity of the rooms is limited.
+
+  - question: How do I get there?
+    answer: "You can arrive to _Las Naves_ by bike or using one of the following buses: 4, 19, 30, 92. If you came by car you should have no problem to park in the area."
+
+  - question: Is there food / drink included?
+    answer: "No.  There will be a two hours breake Between the morning and afternoon sessions so the assistants can eat wherever they want. You can eat at home, take your own food or go to a bar / restaurant in the area. There is also a shopping center nearby.
+    The cultural center _Las Naves_ has a coffe shop. In the rooms there will be water dispensers, so if you have a water bottle you can refille it to reduce the waste of plastic."
+
+  - question: Are the sessions going to be recorded?
+    answer: We will do our best because they are recorded, but it depends on several factors and we can not guarantee that all the sessions will be available for later viewing. If you do not want to miss the talks, the best advice is that you go to the event ;)
 
 ca:
   - question: A qui va dirigit aquest esdeveniment?
