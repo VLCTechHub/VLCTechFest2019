@@ -37,9 +37,43 @@ es:
   footer:
     vlctechhub_description: 'VlcTechHub promueve y fomenta las distintas comunidades tecnológicas de Valencia. Para ello cuenta con una <a target="_blank" href="https://vlctechhub.org/events/upcoming">agenda de eventos,</a> <a target="_blank" href="https://vlctechhub.org/events/upcoming">un tablón de ofertas de trabajo,</a> <a target="_blank" href="https://vlctechhub.org/events/upcoming">un chat</a> donde la comunidad puede compartir. También organiza eventos como este <strong>VLCTechFest.</strong>'
 en:
+  head: 
+    description: Free event // Free access  //  May 11 // Las Naves
+    description_mobile_1: May 11 // Las Naves
+    description_mobile: Free event and free access
+  navigation:
+    index:
+      link: "#top"
+      label: "Index"
+    info:
+      link: "#about"
+      label: "About Us"
+    faq:
+      link: "#faq"
+      label: "FAQ"
+    contact:
+      link: "#footer"
+      label: "Contact"
+    vtf2018:
+      link: "https://2018.vlctechfest.org"
+      label: "2018"
+  main:
+    subtitle: Free event and free access
+    date: 11 May 2019
+    place: Las Naves
+  communities:
+    logo_from: 'Logo of'
+  company:
+    type:
+      organizers: 'Organize:'
+      collaborators: 'Cooperate:'
   news:
     cfp_open:
+      text: 'Open call for papers'
+      button: 'Send us your proposal'
       url: 'https://docs.google.com/forms/d/1srQO1Uj9A_42MpINL6hAl6W9tFGB388JtsBXsr7wHd8'
+  footer:
+     vlctechhub_description: 'VlcTechHub promotes and advances the different technological communities of Valencia. For this reason, ther is an  <a target="_blank" href="https://vlctechhub.org/events/upcoming"> schedule of events,</a> <a target="_blank" href="https://vlctechhub.org/job/board">a job offers board,</a><a target="_blank" href="https://slack.vlctechhub.org">a chat</a> where the community can share. It also organizes events like <strong>VLCTechFest.</strong>'
 ca:
   head:
     description: Un esdeveniment gratuït i d'accés lliure
