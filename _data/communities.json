@@ -7,12 +7,12 @@
   {
     "name": "Devscola",
     "image": "devscola_logo.jpeg",
-    "links": ["http://devscola.org/", "https://twitter.com/devscola", "https://www.meetup.com/Aprende-a-programar-en-Valencia/", "https://youtube.com/devscolavlc"]
+    "links": ["http://devscola.org", "https://twitter.com/devscola", "https://www.meetup.com/Aprende-a-programar-en-Valencia/", "https://youtube.com/devscolavlc"]
   },
   {
     "name": "DevWomen",
     "image": "devwomen_logo.png",
-    "links": ["http://devwomen.com/", "https://twitter.com/DevWomen_ES", "https://www.facebook.com/DevWomenES/", "https://www.linkedin.com/showcase/devwomen/", "https://www.instagram.com/DevWomen_es/"]
+    "links": ["http://devwomen.com", "https://twitter.com/DevWomen_ES", "https://www.facebook.com/DevWomenES/", "https://www.linkedin.com/showcase/devwomen/", "https://www.instagram.com/DevWomen_es/"]
   },
   {
     "name": "Drupal Valencia",
@@ -22,7 +22,7 @@
   {
     "name": "GDG Valencia",
     "image": "gdgvalencia_logo.png",
-    "links": ["http://gdgvalencia.es/", "https://www.meetup.com/GDGValencia/", "https://www.facebook.com/gdgvalencia", "https://twitter.com/gdgvalencia", "https://github.com/gdgvalencia"]
+    "links": ["http://gdgvalencia.es", "https://www.meetup.com/GDGValencia/", "https://www.facebook.com/gdgvalencia", "https://twitter.com/gdgvalencia", "https://github.com/gdgvalencia"]
   },
   {
     "name": "Hackerspace Valencia",
@@ -32,7 +32,7 @@
   {
     "name": "MeetMobile",
     "image": "meetmobile_logo.png",
-    "links": ["http://meetmobile.es/", "https://twitter.com/meetmobileVLC", "https://www.meetup.com/http-meetmobile-es/"]
+    "links": ["http://meetmobile.es", "https://twitter.com/meetmobileVLC", "https://www.meetup.com/http-meetmobile-es/"]
   },
   {
     "name": "PHP Valencia",
@@ -57,7 +57,7 @@
   {
     "name": "Valencia.rb",
     "image": "valenciarb_logo.png",
-    "links": ["http://valenciarb.org/", "https://twitter.com/valenciarb", "https://github.com/valenciarb"]
+    "links": ["http://valenciarb.org", "https://twitter.com/valenciarb", "https://github.com/valenciarb"]
   },
   {
     "name": "Databeers Valencia",

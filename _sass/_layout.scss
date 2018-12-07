@@ -248,14 +248,7 @@ footer a:hover{
     }
 }
 .sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0,0,0,0);
-    border: 0;
+    @include sr-only;
 }
 
 
@@ -402,52 +395,122 @@ footer a:hover{
     .wrapper {
         max-width: 1200px;
         > ul {
+            display: block;
+            > li {
+                max-width: 100%;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 100px auto;
+                grid-template-rows: auto 1fr;
+                grid-column-gap: $spacing-unit / 3;
+                grid-template-areas:
+                    "logo name"
+                    "logo links";
+                border: 1px solid #333;
+                p {
+                    grid-area: name;
+                    display: block;
+                    margin-bottom: 0;
+                }
+                img {
+                    grid-area: logo;
+                    width: 100px;
+                }
+                ul {
+                    grid-area: links;
+                    display: flex;
+                    flex-flow: column;
+                }
+            }
+        }
+    }
+    .list-grid-toggle {
+        width: 40px;
+        height: 40px;
+        padding: $spacing-unit / 3;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 200;
+        letter-spacing: 3px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: all 0.15s ease;
+        user-select: none;
+        .label {
+            display: none;
+        }
+        .icon {
+            width: 40px;
+            margin-bottom: 10px;
+            .icon-bar {
+                position: relative;
+                width: 40px;
+                height: 10px;
+                margin: 0 auto 5px auto;
+                background: $brand-color;
+                transition: all 0.15s ease;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                &:before,
+                &:after {
+                    position: absolute;
+                    display: block;
+                    width: 10px;
+                    height: 10px;
+                    background: $brand-color;
+                    content: '';
+                    opacity: 0;
+                    transition: all 0.15s ease;
+                }
+                &:before {
+                    left: -15px;
+                }
+                &:after {
+                    right: -15px;
+                }
+            }
+        }
+        &:hover {
+            .icon .icon-bar,
+            .icon .icon-bar:before,
+            .icon .icon-bar:after {
+                background: darken($brand-color, 15%);
+            }
+        }
+    }
+
+    &.icon-grid {
+        .wrapper > ul {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
             > li {
+                display: block;
                 min-width: 100px;
                 max-width: 200px;
                 box-sizing: border-box;
                 margin: $spacing-unit / 3;
                 padding: $spacing-unit / 3;
-                img {
-                    // max-height: 100%;
-                    // max-width: 100%;
-                }
                 p {
                     display: none;
                     margin-bottom: 0;
                 }
             }
-            &.mini {
-                display: block;
-                > li {
-                    max-width: 100%;
-                    width: 100%;
-                    display: grid;
-                    grid-template-columns: 100px auto;
-                    grid-template-rows: auto 1fr;
-                    grid-column-gap: $spacing-unit / 3;
-                    grid-template-areas:
-                        "logo name"
-                        "logo links";
-                    border: 1px solid #333;
-                    p {
-                        grid-area: name;
-                        display: block;
-                        margin-bottom: 0;
-                    }
-                    img {
-                        grid-area: logo;
-                        width: 100px;
-                    }
-                    ul {
-                        grid-area: links;
-                        display: flex;
-                        flex-flow: column;
-                    }
-                }
+        }
+        .list-grid-toggle .icon .icon-bar {
+            width: 10px;
+            &:before,
+            &:after {
+                opacity: 1;
+            }
+            &:before {
+                left: 0;
+                transform: translateX(-15px);
+            }
+            &:after {
+                right: 0;
+                transform: translateX(15px);
             }
         }
     }
