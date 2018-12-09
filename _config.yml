@@ -33,9 +33,9 @@ path:
   company_images: "images/companies/"
   community_images: "images/communities/"
 navigation:
-  - info
+  - about
+  - cfp
   - faq
-  - contact
   - vtf2018
 # Build settings
 markdown: kramdown
