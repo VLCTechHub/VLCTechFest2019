@@ -101,10 +101,10 @@ article h2 {
 .highlight {
   &::after {
     content: '';
-    background-color: transparentize($brand-color, 0.4);
-    height: 21px;
+    background-color: transparentize($blue, 0.4);
+    height: 16px;
     display: block;
-    margin-top: -16px;
+    margin-top: -15px;
   }
 }
 
@@ -127,8 +127,8 @@ a {
     &.button {
         display: inline-block;
         padding: $spacing-unit / 4 $spacing-unit / 2;
-        border: 1px solid darken(#aabf24, 10%);
-        background-color: darken(#aabf24, 1%);
+        border: 1px solid darken($brand-color, 10%);
+        background-color: $brand-color;
         color: white;
         &:hover {
             background-color: $brand-color;
@@ -136,8 +136,11 @@ a {
             color: #ffffff;
         }
         &.inverse {
+            border: 1px solid #111;
+            background-color: #444;
             border: 1px solid #ffffff;
             color: #ffffff;
+            font-weight: 900;
             &:hover {
                 background-color: #ffffff;
                 border: 1px solid $brand-color;
