@@ -1,59 +1,56 @@
 es:
   - question: ¿A quién va dirigido este evento?
-    answer: Esta charla va dirigida a personas profesionales y estudiantes de tecnología.
+    answer: Esta conferencia va dirigida a profesionales y estudiantes de tecnología.
 
   - question: ¿Cuánto cuesta la entrada?
     answer: El evento es **completamente gratuito** y de **entrada libre** hasta completar aforo.
 
   - question: ¿Hay que registrarse?
-    answer: No, **no hay registro**. Basta con asistir a _Las Naves_ el dia 11 de mayo, ya sea a la jornada completa o a ciertas sesiones concretas. Ten en cuenta que el aforo de las salas es limitado.
+    answer: No, **no hay registro**. Basta con acudir a _Las Naves_ el dia 11 de mayo, ya sea la jornada completa o únicamente a ciertas sesiones concretas. Ten en cuenta que el aforo de las salas es limitado.
 
   - question: ¿Cómo llego hasta allí?
-    answer: "Puedes llegar _Las Naves_ en bici o en alguno de los siguientes autobuses: 4, 19, 30, 92. Si vas en coche no deberías tener problema en aparcar por la zona."
+    answer: "Puedes llegar a _Las Naves_ en bici o en alguno de los siguientes autobuses: 4, 19, 30, 92. Si vas en coche no deberías tener problema en aparcar por la zona."
 
   - question: ¿Hay comida/bebida incluida?
-    answer: "No. Entre las sesiones de mañana y de tarde hay un descanso de dos horas para que los asistentes puedan comer donde quieran. Puedes comer en tu casa, llevarte tu propia comida o acudir a algún bar/restaurante de la zona. También hay un centro comercial cerca.
-    El propio centro cultural _Las Naves_ dispone de una cafetería. Y en las salas habrá dispensadores de agua, por lo que si tienes alguna cantimplora puedes taerla para reducir el derroche de plástico."
+    answer: No. Entre las sesiones de mañana y de tarde hay un descanso para que los asistentes puedan comer donde quieran. Puedes comer en tu casa, llevarte tu propia comida o acudir a algún bar/restaurante de la zona. También hay un centro comercial cerca y el propio centro cultural _Las Naves_ dispone de una cafetería. En las salas habrá dispensadores de agua, por lo que si tienes alguna cantimplora puedes taerla para reducir el derroche de plástico.
 
   - question: ¿Se van a grabar las sesiones?
-    answer: Haremos lo posible porque se graben, pero depende de varios factores y no podemos asegurar que todas las sesiones vayan a estar disponibles para su visionado posterior. Si no quieres perderte las charlas el mejor consejo es que acudas al evento ;)
+    answer: Haremos lo posible por que se graben, pero depende de varios factores y no podemos asegurar que todas las sesiones vayan a estar disponibles para su visionado posterior. Si no quieres perderte las charlas el mejor consejo es que acudas al evento ;)
 
 en:
   - question: Who is this event for?
-    answer: This talk is aimed to professionals and technology students.
+    answer: This conference is aimed to professional and technology students.
 
-  - question: How much is admission? 
-    answer: The event is **completely free** and **free entry** until full capacity.
+  - question: How much conference tickets cost?
+    answer: The event is **completely free** and the **entry is free** until seating capacity is reached.
 
-  - question: Do you have to register?
-    answer: No, **sthere is no record**. It is enough to assist to _Las Naves_ on May 11, either full-time or certain specific sessions. Keep in mind that the capacity of the rooms is limited.
+  - question: Do I have to register?
+    answer: No, **there is no registration**. It is enough to go to _Las Naves_ on May 11, either the full day or specific sessions only. Keep in mind that seating capacity on the conference rooms is limited.
 
   - question: How do I get there?
-    answer: "You can arrive to _Las Naves_ by bike or using one of the following buses: 4, 19, 30, 92. If you came by car you should have no problem to park in the area."
+    answer: "You can reach to _Las Naves_ by bike or by one of the following buses: 4, 19, 30, 92. If you come by car you shouldn't have parking problems in the area."
 
-  - question: Is there food / drink included?
-    answer: "No.  There will be a two hours breake Between the morning and afternoon sessions so the assistants can eat wherever they want. You can eat at home, take your own food or go to a bar / restaurant in the area. There is also a shopping center nearby.
-    The cultural center _Las Naves_ has a coffe shop. In the rooms there will be water dispensers, so if you have a water bottle you can refille it to reduce the waste of plastic."
+  - question: Is there food/drink included?
+    answer: No. There is a break between the morning and afternoon sessions so the attendees can eat wherever they want. You can eat at home, take your own food or go to a bar/restaurant in the area. There is also a shopping center nearby and Las Naves cultural center has a coffe shop. There will be water dispensers in the conference rooms, so if you have a water bottle you can bring it to reduce the waste of plastic.
 
   - question: Are the sessions going to be recorded?
-    answer: We will do our best because they are recorded, but it depends on several factors and we can not guarantee that all the sessions will be available for later viewing. If you do not want to miss the talks, the best advice is that you go to the event ;)
+    answer: We will do our best to have them recorded, but it depends on several factors and we cannot guarantee that all the sessions will be available for later viewing. If you do not want to miss the talks, the best advice is to go to the event ;)
 
 ca:
   - question: A qui va dirigit aquest esdeveniment?
-    answer: Aquesta xarrada va dirigida a persones professionals i estudiants de tecnologia.
+    answer: Aquesta conferència va dirigida a professionals i estudiants de tecnologia.
 
   - question: Quant costa l'entrada?
-    answer: L'esdeveniment és **completament gratuït** i de **entrada lliure** fins a completar aforament.
+    answer: L'esdeveniment és **completament gratuït** i d'**entrada lliure** fins a completar aforament.
 
   - question: Cal registrar-se?
-    answer: No, **no hi ha registre**. N'hi ha prou amb assistir a _Les Naus_ el dia 11 de maig, ja siga a la jornada completa o a certes sessions concretes. Tingues en compte que l'aforament de les sales és limitat.
+    answer: No, **no hi ha registre**. N'hi ha prou amb acudir a _Las Naves_ el dia 11 de maig, ja siga la jornada completa o únicament a certes sessions concretes. Tingues en compte que l'aforament de les sales és limitat.
 
   - question: Com arribe fins allí?
-    answer: "Pots arribar _Les Naus_ amb bici o en algun dels següents autobusos: 4, 19, 30, 92. Si vas amb cotxe no hauries de tindre problema a aparcar per la zona."
+    answer: "Pots arribar _Las Naves_ amb bici o en algun dels següents autobusos: 4, 19, 30, 92. Si vas amb cotxe no hauries de tindre problema a aparcar per la zona."
 
-  - question: Hi ha menjar/begut inclòs?
-    answer: "No. Entre les sessions de demà i de vesprada hi ha un descans de dues hores perquè els assistents puguen menjar on vulguen. Pots menjar a la teua casa, portar-te el teu propi menjar o acudir a algun bar/restaurant de la zona. També hi ha un centre comercial a prop.
-    El propi centre cultural _Les Naus_ disposa d'una cafeteria. I a les sales hi haurà dispensadors d'aigua, per la qual cosa si tens alguna *cantimplora pots portar-la per a reduir el malbaratament de plàstic."
+  - question: Hi ha menjar/beguda inclòs?
+    answer: No. Entre les sessions de matí i de vesprada hi ha un descans perquè els assistents puguen menjar on vulguen. Pots menjar a la teua casa, portar-te el teu propi menjar o acudir a algun bar/restaurant de la zona. També hi ha un centre comercial a prop i el propi centre cultural _Las Naves_ disposa d'una cafeteria. A les sales hi haurà dispensadors d'aigua, per la qual cosa si tens alguna cantimplora pots portar-la per a reduir el malbaratament de plàstic.
 
   - question: Es gravaran les sessions?
     answer: Farem el possible perquè es graven, però depén de diversos factors i no podem assegurar que totes les sessions vagen a estar disponibles per al seu visionat posterior. Si no vols perdre't les xarrades el millor consell és que acudisques a l'esdeveniment ;)
