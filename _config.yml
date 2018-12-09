@@ -11,9 +11,9 @@ email: hola@vlctechfest.org
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://vlctechfest.org" # the base hostname & protocol for your site
 description:
-  es: Evento gratuito y abierto a todo el mundo que reune a las comunidades tecnológicas de la Comunidad Valenciana. 11 de junio de 2019.
-  en: Evento gratuito y abierto a todo el mundo que reune a las comunidades tecnológicas de la Comunidad Valenciana. 11 de junio de 2019.
-  ca: Evento gratuito y abierto a todo el mundo que reune a las comunidades tecnológicas de la Comunidad Valenciana. 11 de junio de 2019.
+  es: 11 de mayo de 2019. Evento gratuito y abierto a todo el mundo que reúne a las comunidades tecnológicas de la Comunidad Valenciana. 11 de junio de 2019.
+  ca: 11 de mai de 2019. Esdeveniment gratuït i obert a tothom que reuneix a les comunitats tecnològiques de la Comunitat Valenciana.
+  en: 11th May 2019. Free and open event for everyone that brings together the technocal communities of Valencian Community.
 share_image:
   es: 'vlctechfest2019-cfp-2-1.png'
   en: 'vlctechfest2019-cfp-2-1.png'
