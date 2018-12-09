@@ -8,7 +8,6 @@
 # Site settings
 title: VLCTechFest 2019
 email: hola@vlctechfest.org
-baseurl: "/vlctechfest2019" # the subpath of your site, e.g. /blog
 url: "https://vlctechfest.org" # the base hostname & protocol for your site
 fest:
   twitter_username: vlctechfest
