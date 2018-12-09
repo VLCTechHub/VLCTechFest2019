@@ -9,6 +9,14 @@
 title: VLCTechFest 2019
 email: hola@vlctechfest.org
 url: "https://vlctechfest.org" # the base hostname & protocol for your site
+description:
+  es: Evento gratuito y abierto a todo el mundo que reune a las comunidades tecnológicas de la Comunidad Valenciana. 11 de junio de 2019.
+  en: Evento gratuito y abierto a todo el mundo que reune a las comunidades tecnológicas de la Comunidad Valenciana. 11 de junio de 2019.
+  ca: Evento gratuito y abierto a todo el mundo que reune a las comunidades tecnológicas de la Comunidad Valenciana. 11 de junio de 2019.
+share_image:
+  es: 'vlctechfest2019-cfp-2-1.png'
+  en: 'vlctechfest2019-cfp-2-1.png'
+  ca: 'vlctechfest2019-cfp-2-1.png'
 fest:
   twitter_username: vlctechfest
   youtube_url: https://www.youtube.com/channel/UCS7z_DqAOTqwANFvmKmM5ig
@@ -20,6 +28,7 @@ hub:
   slack_url: https://slack.vlctechhub.org/
   slack_title: Chat
 path:
+  images: "images/"
   company_images: "images/companies/"
   community_images: "images/communities/"
 navigation:
