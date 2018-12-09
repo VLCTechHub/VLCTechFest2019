@@ -7,15 +7,15 @@ es:
     index:
       link: "#top"
       label: Inicio
-    info:
+    about:
       link: "#about"
-      label: Info
+      label: Qué es
+    cfp:
+      link: "#cfp"
+      label: Propuestas
     faq:
       link: "#faq"
       label: FAQ
-    contact:
-      link: "#footer"
-      label: Contacto
     vtf2018:
       link: https://2018.vlctechfest.org
       label: 2018
@@ -33,7 +33,7 @@ es:
     cfp_open:
       text: Call for papers abierto
       button: Envía tu propuesta
-      url: https://docs.google.com/forms/d/1neQ_yuOTYVYQMhWZn32w72FRWUx8-Lwz8kQXzIfgADE
+      url: https://goo.gl/forms/Xa2ikyc8Gt9bxsRt1
   footer:
     vlctechhub_description: VlcTechHub promueve y fomenta las distintas comunidades tecnológicas de Valencia. Para ello cuenta con una <a target="_blank" href="https://vlctechhub.org/events/upcoming">agenda de eventos</a>, <a target="_blank" href="https://vlctechhub.org/job/board">un tablón de ofertas de trabajo</a>, y <a target="_blank" href="https://slack.vlctechhub.org">un chat</a> donde la comunidad puede compartir. También organiza eventos como este <strong>VLCTechFest.</strong>
 
@@ -46,15 +46,15 @@ en:
     index:
       link: "#top"
       label: Index
-    info:
+    about:
       link: "#about"
-      label: About
+      label: What is it
+    cfp:
+      link: "#cfp"
+      label: Proposals
     faq:
       link: "#faq"
       label: FAQ
-    contact:
-      link: "#footer"
-      label: Contact
     vtf2018:
       link: https://2018.vlctechfest.org
       label: 2018
@@ -72,7 +72,7 @@ en:
     cfp_open:
       text: Open call for papers
       button: Send us your proposal
-      url: https://docs.google.com/forms/d/1srQO1Uj9A_42MpINL6hAl6W9tFGB388JtsBXsr7wHd8
+      url: https://goo.gl/forms/Xa2ikyc8Gt9bxsRt1
   footer:
      vlctechhub_description: VlcTechHub promotes and encourages the different technological communities of Valencia. For this, it has an <a target="_blank" href="https://vlctechhub.org/events/upcoming"> events calendar</a>, <a target="_blank" href="https://vlctechhub.org/job/board">a job board</a>, and <a target="_blank" href="https://slack.vlctechhub.org">a chat</a> where the community can share. It also organizes events like <strong>VLCTechFest</strong>.
 
@@ -85,15 +85,15 @@ ca:
     index:
       link: "#top"
       label: Inici
-    info:
+    about:
       link: "#about"
-      label: Info
+      label: Què és
+    cfp:
+      link: "#cfp"
+      label: Propostes
     faq:
       link: "#faq"
       label: FAQ
-    contact:
-      link: "#footer"
-      label: Contacte
     vtf2018:
       link: https://2018.vlctechfest.org
       label: 2018
@@ -111,6 +111,6 @@ ca:
     cfp_open:
       text: Call for papers obert
       button: Envia la teua proposta
-      url: https://docs.google.com/forms/d/18yTkrF6DzR1i5yfPpT0gjEIL7aymb8yaHDIDCze5aqU
+      url: https://goo.gl/forms/Xa2ikyc8Gt9bxsRt1
   footer:
     vlctechhub_description: VlcTechHub promou i fomenta les diferents comunitats tecnològiques de València. Per a això compta amb una <a target="_blank" href="https://vlctechhub.org/events/upcoming">agenda d'esdeveniments</a>, <a target="_blank" href="https://vlctechhub.org/job/board">un tauló d'ofertes de treball</a>, y <a target="_blank" href="https://slack.vlctechhub.org/" >un xat</a> on la comunitat pot compartir. També organitza esdeveniments com aquest <strong>VLCTechFest</strong>.

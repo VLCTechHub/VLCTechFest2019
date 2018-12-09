@@ -2,9 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    background-color: #444;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -47,7 +46,7 @@
         top: 9px;
         right: $spacing-unit / 2;
         background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        border: 1px solid white;
         border-radius: 5px;
         text-align: right;
 
@@ -65,7 +64,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: white;
                 }
             }
         }
@@ -98,7 +97,8 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
+    color: #ccc;
+    background-color: #444;
     padding: $spacing-unit 0;
 }
 
@@ -107,18 +107,26 @@
     margin-bottom: $spacing-unit / 2;
 }
 
+.footer-col-wrapper {
+    font-size: 15px;
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+
+    a {
+      color: #ccc;
+      text-decoration: underline;
+    }
+}
 .contact-list,
 .social-media-list {
     list-style: none;
     margin-left: 0;
+
+    a, a:hover {
+      text-decoration: none;
+    }
 }
 
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
 
 .footer-col {
     float: left;
@@ -137,7 +145,7 @@
     width:         calc(35% - (#{$spacing-unit} / 2));
 }
 footer a:hover{
-    color: darken($brand-color, 15%);
+    color: $brand-color;
     text-decoration: underline;
 }
 
@@ -288,7 +296,7 @@ footer a:hover{
     .wrapper {
         .vtf-logo {
             margin: 0 auto;
-            max-height: 300px;
+            max-height: 350px;
             max-width: 100%;
             svg {
                 height: 100%;
@@ -319,7 +327,7 @@ footer a:hover{
     }
 }
 
-.about {
+section {
     article {
         margin-bottom: $spacing-unit;
         > * {
@@ -327,8 +335,6 @@ footer a:hover{
         }
         h1 {
             margin-left: 0;
-            font-size: 1.4em;
-            font-weight: bold;
         }
         a:not(.button){
             text-decoration: none;
@@ -358,30 +364,8 @@ footer a:hover{
 }
 
 .faq {
-    background-color: #ccc;
-    // font-weight: 900;
-    column-count: 3;
-    column-gap: 10px;
-    column-fill: auto;
-    // height: 300px;
-    > .wrapper > h1{
-        column-span: all;
-        text-align: center
-    }
-    article {
-        break-inside: avoid;
-        margin-bottom: $spacing-unit / 5;
-        h1 {
-            font-weight: bold;
-            margin-bottom: $spacing-unit / 5;
-        }
-    }
-    @include media-query($on-laptop) {
-        column-count: 2;
-    }
-    @include media-query($on-palm) {
-        column-count: 1;
-    }
+    background-color: white;
+    color: #444;
 }
 
 .companies {
@@ -505,41 +489,6 @@ footer a:hover{
     }
 }
 
-.coc {
-    .wrapper {
-        display: grid;
-        grid-template-columns: 1fr 300px;
-        grid-column-gap: $spacing-unit;
-        grid-template-areas:
-        "header header"
-        "left right"
-        "footer footer";
-        h1 {
-            grid-area: header;
-        }
-        > p {
-            grid-area: left;
-        }
-        div {
-            grid-area: right;
-            align-self: start;
-            background-color: $grey-color-light;
-            text-align: center;
-            padding: $spacing-unit / 2;
-            margin-bottom: $spacing-unit / 2;
-        }
-        > p:last-child {
-            grid-area: footer;
-        }
-        @include media-query($on-laptop) {
-            grid-template-columns: 1fr 200px;
-        }
-        @include media-query($on-palm) {
-            display: block;
-        }
-    }
-}
-
 
 
 /**
@@ -552,6 +501,7 @@ footer a:hover{
         .trigger {
             min-width: 200px;
             padding-bottom: 0;
+            padding-top: 10px;
         }
         ul {
             display: inline-block;
@@ -559,7 +509,7 @@ footer a:hover{
         li {
             display: inline;
             a{
-                color: inherit;
+                color: white;
                 padding: $spacing-unit / 5;
                 margin: $spacing-unit / 10;
                 text-decoration: none;
