@@ -1,7 +1,7 @@
 es:
   head:
-    description: 11 de Mayo // Las Naves // Evento gratuito // Acceso libre
-    description_mobile_1: 11 de Mayo // Las Naves
+    description: 11 de mayo // Las Naves // Evento gratuito // Acceso libre
+    description_mobile_1: 11 de mayo // Las Naves
     description_mobile: Un evento gratuito y de acceso libre
   navigation:
     index:
