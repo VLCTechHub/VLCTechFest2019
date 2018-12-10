@@ -2,8 +2,7 @@
  * Site header
  */
 .site-header {
-    min-height: 56px;
-    background-color: #444;
+    background-color: #111;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -98,7 +97,7 @@
  */
 .site-footer {
     color: #ccc;
-    background-color: #444;
+    background-color: #111;
     padding: $spacing-unit 0;
 }
 
@@ -289,7 +288,7 @@ footer a:hover{
  * Home Sections
  */
 .main{
-    background-color: $brand-color;
+    background-color: transparent;
     color: white;
     fill: white;
     text-align: center;
@@ -328,6 +327,7 @@ footer a:hover{
 }
 
 section {
+    background-color: white;
     article {
         margin-bottom: $spacing-unit;
         > * {
@@ -501,10 +501,10 @@ section {
         .trigger {
             min-width: 200px;
             padding-bottom: 0;
-            padding-top: 10px;
         }
         ul {
             display: inline-block;
+            margin-bottom: 0;
         }
         li {
             display: inline;
@@ -606,3 +606,11 @@ section {
         }
     }
 }
+
+#particles canvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+

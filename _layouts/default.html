@@ -4,14 +4,23 @@
   {% include head.html %}
 
   <body id="top">
-
-    {% include header.html %}
+   {% include header.html %}
 
     <div class="page-content">
       {{ content }}
     </div>
 
     {% include footer.html %}
+ <div id="particles"></div>
+  <script src="/js/particles.js"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function(event) {
+        particlesJS.load('particles', '/js/particles.json', function() {
+            console.log('callback - particles.js config loaded');
+          });
+      });
+
+   </script>
 
   </body>
 
