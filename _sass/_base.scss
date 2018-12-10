@@ -25,7 +25,10 @@ body {
     font-kerning: normal;
 }
 
-
+body#top-secondary {
+  background-color: white;
+  color: black;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
