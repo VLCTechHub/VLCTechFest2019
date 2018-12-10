@@ -10,7 +10,7 @@
 
     <li>
       <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }} {{ active }}">
-        {{ page.lang }}
+        {{ page.lang | replace: "ca", "va"}}
       </a>
     </li>
   {% endfor %}
