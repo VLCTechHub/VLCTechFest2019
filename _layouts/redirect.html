@@ -9,8 +9,8 @@
 <!DOCTYPE html>
 <html lang="{{ site.locale[page.lang] | replace: '_', '-' }}">
   <meta charset="utf-8">
-  {% include meta-facebook.html %}
-  {% include meta-twitter.html %}
+  {%- include meta-facebook.html -%}
+  {%- include meta-twitter.html -%}
   <title>Redirecting&hellip;</title>
   <link rel="canonical" href="{{ redirect_to }}">
   <script>location="{{ redirect_to }}"</script>

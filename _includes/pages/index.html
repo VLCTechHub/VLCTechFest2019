@@ -7,25 +7,27 @@
       <p class="desktop">{{ site.data.t[page.lang].head.description }}</p>
       <p class="mobile" style="font-size: 1.3em; margin-bottom: 0px;">{{ site.data.t[page.lang].head.description_mobile_1 }}</p>
       <p class="mobile" style="font-size: 1em;">{{ site.data.t[page.lang].head.description_mobile }}</p>
-      <!-- <p>{{ site.data.t[page.lang].main.subtitle }}</p> -->
-      <!-- <p>
-        <span>{{ site.data.t[page.lang].main.date }}</span>
-        -
-        <span>{{ site.data.t[page.lang].main.place }}</span>
-      </p> -->
+      {%- comment -%}
+        <p>{{ site.data.t[page.lang].main.subtitle }}</p>
+        <p>
+          <span>{{ site.data.t[page.lang].main.date }}</span>
+          -
+          <span>{{ site.data.t[page.lang].main.place }}</span>
+        </p>
+      {%- endcomment -%}
       <div>
-          <a class="button inverse" target="_blank" href="{{ site.data.t[page.lang].news.cfp_open.url }}">
-              {{ site.data.t[page.lang].news.cfp_open.button }}
-          </a>
+        <a class="button inverse" target="_blank" href="{{ site.data.t[page.lang].news.cfp_open.url }}">
+          {{ site.data.t[page.lang].news.cfp_open.button }}
+        </a>
       </div>
     </div>
   </section>
 
-  {% include sections/about.html %}
-  {% include sections/cfp.html %}
-  {% include sections/faq.html %}
-  {% include sections/location.html %}
-  {% include sections/coc.html %}
-  <!-- {% include sections/communities.html %} -->
-  {% include sections/companies.html %}
+  {%- include sections/about.html -%}
+  {%- include sections/cfp.html -%}
+  {%- include sections/faq.html -%}
+  {%- include sections/location.html -%}
+  {%- include sections/coc.html -%}
+  {%- comment -%} {%- include sections/communities.html -%} {%- endcomment -%}
+  {%- include sections/companies.html -%}
 </div>

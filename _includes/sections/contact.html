@@ -23,12 +23,12 @@
 </div>
 
 <ul>
-  {% assign types = "organizers,collaborators" | split: "," %}
-  {% for type in types %}
+  {%- assign types = "organizers,collaborators" | split: "," -%}
+  {%- for type in types -%}
     <li class="type">
       <span>{{ site.data.t[page.lang].company.type[type] }}</span>
       <ul>
-      {% for company in site.data.companies[type] %}
+      {%- for company in site.data.companies[type] -%}
         <li>
           <a href="{{ company.link }}" target="_blank">
             <img src="{{ folder.company.images }}/{{ company.image }}"
@@ -36,8 +36,8 @@
                   title="{{ site.data.t[page.lang].communities.logo_from }} {{ community.name }}">
           </a>
         </li>
-      {% endfor %}
+      {%- endfor -%}
       </ul>
     </li>
-    {% endfor %}
+    {%- endfor -%}
 </ul>
