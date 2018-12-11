@@ -66,8 +66,8 @@ en:
     logo_from: Logo of
   company:
     type:
-      organizers: "Organize:"
-      collaborators: "Cooperate:"
+      organizers: "Organized by:"
+      collaborators: "Supported by:"
   news:
     cfp_open:
       text: Open call for papers
