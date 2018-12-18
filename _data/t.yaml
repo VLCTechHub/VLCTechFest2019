@@ -48,7 +48,7 @@ en:
       label: Index
     about:
       link: "#about"
-      label: What is it
+      label: About
     cfp:
       link: "#cfp"
       label: Proposals
@@ -74,7 +74,7 @@ en:
       button: Send us your proposal
       url: https://goo.gl/forms/Xa2ikyc8Gt9bxsRt1
   footer:
-     vlctechhub_description: VlcTechHub promotes and encourages the different technological communities of Valencia. For this, it has an <a target="_blank" href="https://vlctechhub.org/events/upcoming"> events calendar</a>, <a target="_blank" href="https://vlctechhub.org/job/board">a job board</a>, and <a target="_blank" href="https://slack.vlctechhub.org">a chat</a> where the community can share. It also organizes events like <strong>VLCTechFest</strong>.
+     vlctechhub_description: VLCTechHub promotes and encourages the different technological communities of Valencia. For this, it has an <a target="_blank" href="https://vlctechhub.org/events/upcoming"> events calendar</a>, <a target="_blank" href="https://vlctechhub.org/job/board">a job board</a>, and <a target="_blank" href="https://slack.vlctechhub.org">a chat</a> where the community can share. It also organises events like <strong>VLCTechFest</strong>.
 
 ca:
   head:
