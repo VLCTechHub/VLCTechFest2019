@@ -383,28 +383,70 @@ section {
 }
 
 .communities {
-    .wrapper {
+    .wrapper.wrapper-wide {
         max-width: 1200px;
         > ul {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: space-evenly;
             > li {
+                display: grid;
+                grid-template-areas:
+                "logo"
+                "name"
+                "links";
+                grid-template-rows: auto 4em 5em;
                 min-width: 100px;
                 max-width: 200px;
                 box-sizing: border-box;
                 margin: $spacing-unit / 3;
                 padding: $spacing-unit / 3;
-                img {
-                    // max-height: 100%;
-                    // max-width: 100%;
-                }
+                text-align: center;
                 p {
-                    display: none;
-                    margin-bottom: 0;
+                    grid-area: name;
+                    padding-top: .5em;
+                }
+                img {
+                    grid-area: logo;
+                    align-self: center;
+                }
+                ul {
+                    grid-area: links;
+                        > li {
+                        display: inline-block;
+                        a {
+                            display: inline-block;
+                            border: 1px solid #ccc;
+                            border-radius: .5em;
+                            margin: 0 .5em .5em 0;
+                            padding: .5em;
+                            line-height: 1em;
+                            &:hover {
+                                background-color: $brand-color;
+                                .icon {
+                                    svg {
+                                        fill:#fff;
+                                    }
+                                }
+                            }
+                            .icon {
+                                svg {
+                                    width: 1em;
+                                    fill:#000;
+                                }
+                            }
+                            .name {
+                                display: none;
+                            }
+                            p {
+                                display: none;
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
                 }
             }
-            &.mini {
+            @include media-query($on-palm) {
                 display: block;
                 > li {
                     max-width: 100%;
@@ -416,20 +458,17 @@ section {
                     grid-template-areas:
                         "logo name"
                         "logo links";
-                    border: 1px solid #333;
+                    text-align: left;
                     p {
-                        grid-area: name;
                         display: block;
                         margin-bottom: 0;
                     }
                     img {
-                        grid-area: logo;
                         width: 100px;
                     }
                     ul {
-                        grid-area: links;
                         display: flex;
-                        flex-flow: column;
+                        flex-wrap: wrap;
                     }
                 }
             }

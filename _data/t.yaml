@@ -24,6 +24,8 @@ es:
     date: 11 Mayo 2019
     place: Las Naves
   communities:
+    title: Comunidades
+    text:
     logo_from: Logotipo de
   company:
     type:
@@ -63,6 +65,8 @@ en:
     date: 11 May 2019
     place: Las Naves
   communities:
+    title: Communities
+    text:
     logo_from: Logo of
   company:
     type:
@@ -102,6 +106,8 @@ ca:
     date: 11 Mayo 2019
     place: Las Naves
   communities:
+    title: Comunitats
+    text:
     logo_from: Logotip de
   company:
     type:
