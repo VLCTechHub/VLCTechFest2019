@@ -61,6 +61,7 @@
 - name: Hackerspace Valencia
   image: hackerspace_logo.jpeg
   links:
+    - http://hackvlc.es
     - https://twitter.com/HackVlc
     - https://www.meetup.com/Hackerspace-Valencia/
 
