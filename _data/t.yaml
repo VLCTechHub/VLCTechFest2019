@@ -19,6 +19,9 @@ es:
     vtf2018:
       link: https://2018.vlctechfest.org
       label: 2018
+    communities:
+      link: "#communities"
+      label: Comunidades
   main:
     subtitle: Un evento gratuito y de acceso libre
     date: 11 Mayo 2019
@@ -60,6 +63,9 @@ en:
     vtf2018:
       link: https://2018.vlctechfest.org
       label: 2018
+    communities:
+      link: "#communities"
+      label: Communities
   main:
     subtitle: Free event and free access
     date: 11 May 2019
@@ -101,6 +107,9 @@ ca:
     vtf2018:
       link: https://2018.vlctechfest.org
       label: 2018
+    communities:
+      link: "#communities"
+      label: Comunitats
   main:
     subtitle: Un esdeveniment gratuït i d'accés lliure
     date: 11 Mayo 2019
