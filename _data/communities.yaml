@@ -31,7 +31,7 @@
 - name: Drupal Valencia
   image: drupalvlc_logo.png
   links:
-    - https://twitter.com/drupalvalencia
+    - https://twitter.com/drupalval
     - https://www.meetup.com/Drupales/
 
 # - name: GDG Valencia
