@@ -1,33 +1,28 @@
 <section id="communities" class="communities">
+
+  {%- assign section = site.data.t[page.lang].communities -%}
   <div class="wrapper">
-    <h1>Comunidades:</h1>
-    <ul class="mini">
-      {%- for community in site.data.communities -%}
+    <article>
+      <h1><span class="highlight">{{ section.title }}</span></h1>
+      <p>{{ section.text }}</p>
+    </article>
+  </div>
+
+  <div class="wrapper wrapper-wide">
+    <ul>
+      {% for community in site.data.communities %}
         <li>
           <p>{{ community.name }}</p>
           <img src="{{ site.path.community_images }}{{ community.image }}" alt="{{ site.data.t[page.lang].communities.logo_from }} {{ community.name }}" title="{{ community.name }}">
           <ul class="links">
-            {%- for link in community.links -%}
-              {%- assign parts = link | split: "/" -%}
-              {%- assign domain = parts[2] -%}
-              {%- case domain -%}
-                {%- when 'twitter.com' -%} {%- assign service = "twitter" -%} {%- assign name = parts[3] -%}
-                {%- when 'www.facebook.com' -%} {%- assign service = "facebook" -%} {%- assign name = parts[3] -%}
-                {%- when 'www.instagram.com' -%} {%- assign service = "instagram" -%} {%- assign name = parts[3] -%}
-                {%- when 'www.linkedin.com' -%} {%- assign service = "linkedin" -%} {%- assign name = parts[4] -%}
-                {%- when 'www.meetup.com' -%} {%- assign service = "meetup" -%} {%- assign name = parts[3] -%}
-                {%- when 'github.com' -%} {%- assign service = "github" -%} {%- assign name = parts[3] -%}
-                {%- else -%} {%- assign service = "web" -%} {%- assign name = link -%}
-              {%- endcase -%}
-
-              <a href="{{ link }}" target="_blank">
-                <i class="fa fa-{{service}}">{{ service }}</i>
-                <span>{{ name }}</span>
-              </a>
-            {%- endfor -%}
+            {% for link in community.links %}
+              <li>
+                {% include icon-social.html url=link %}
+              </li>
+            {% endfor %}
           </ul>
         </li>
-      {%- endfor -%}
+      {% endfor %}
     </ul>
   </div>
 </section>

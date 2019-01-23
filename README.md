@@ -16,6 +16,12 @@ $ bundle exec jekyll serve --watch
 
 Based on https://github.com/sylvaindurand/jekyll-multilingual. For more info visit  the [**Making Jekyll multilingual**](https://www.sylvaindurand.org/making-jekyll-multilingual/) article
 
+## Adding a new community
+
+When adding a new community, there are two steps that need to be done:
+
+1. Add the community logo (preferably in SVG format) to `images/communities/`
+2. Modify the `_data/communities.yaml` file, with the next fields: `name`, `image` (the logo image name, with no path) and `links`: a list of social media links.
 
 ## Theme
 
