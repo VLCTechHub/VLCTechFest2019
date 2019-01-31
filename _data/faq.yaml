@@ -2,6 +2,9 @@ es:
   - question: ¿A quién va dirigido este evento?
     answer: Esta conferencia va dirigida a profesionales y estudiantes de tecnología.
 
+  - question: ¿Es necesario pertenecer a una comunidad técnica de la Comunidad Valenciana para presentar una charla o acudir al evento?
+    answer: No es necesario. Aprovecha ese día para conocer a las comunidades técnicas existentes.
+
   - question: ¿Cuánto cuesta la entrada?
     answer: El evento es **completamente gratuito** y de **entrada libre** hasta completar aforo.
 
@@ -21,6 +24,9 @@ en:
   - question: Who is this event for?
     answer: This conference is aimed to professional and technology students.
 
+  - question: Must I be a member of a technological community of the Valencian Community to submit a talk or attend the event?
+    answer: No, it's not a must. Use that day to meet the existing technological communities.
+
   - question: How much conference tickets cost?
     answer: The event is **completely free** and the **entry is free** until seating capacity is reached.
 
@@ -39,6 +45,9 @@ en:
 ca:
   - question: A qui va dirigit aquest esdeveniment?
     answer: Aquesta conferència va dirigida a professionals i estudiants de tecnologia.
+
+  - question: És necessari pertànyer a una comunitat tècnica de la Comunitat Valenciana per a presentar una xarrada o assistir a l'esdeveniment?
+  - answer: No és necessari. Aprofita eixe dia per a conèixer a les comunitats tècniques existents.
 
   - question: Quant costa l'entrada?
     answer: L'esdeveniment és **completament gratuït** i d'**entrada lliure** fins a completar aforament.
