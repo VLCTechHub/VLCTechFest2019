@@ -1,12 +1,12 @@
 es:
   title: Diversidad
-  description: "En VLCTechHub llevamos la diversidad en nuestros estatutos y buscamos siempre nuevas iniciativas que podamos realizar para integrar a grupos infrarrepresentados dentro de la comunidad tecnológica. Aquí puedes encontrar las diferentes iniciativas que hacemos en este festival:"
+  description: "En VLCTechHub llevamos la diversidad en nuestros estatutos y buscamos siempre nuevas iniciativas que podamos realizar para integrar a grupos infra-representados dentro de la comunidad tecnológica. Aquí puedes encontrar las diferentes iniciativas que hacemos en este festival:"
   actions:
     - title: "Código de conducta"
       description: "Para asegurarnos que el evento transcurre sin incidentes y donde todo el mundo es bienvenido, incluimos un código de conducta. "
 
     - title: "Mentorización de ponentes"
-      description: "Para facilitar que gente de cualquier transfondo pueda hacer una charla, estamos organizando un grupo de voluntarios con experiencia dando charlas para mentorizar a gente que nunca haya dado una charla, priorizando a los integrantes de grupos infrarrepresentados. Si te interesa utilizar esta ayuda, contacta con nosotros: hola@vlctechfest.org."
+      description: "Para facilitar que personas de cualquier transfondo puedan presentar una charla, estamos organizando un grupo de voluntarios con experiencia dando charlas para mentorizar a personas que nunca hayan dado una charla, priorizando a los integrantes de grupos infra-representados. Si te interesa utilizar esta ayuda, por favor contacta con nosotros: hola@vlctechfest.org."
 
     - title: "¿Crees qué podemos hacer algo más?"
       description: "Si se te ocurre alguna otra acción que podamos llevar a cabo para mejorar la inclusividad, no dudes en compartirla con nosotros: hola@vlctechfest.org"
@@ -32,7 +32,7 @@ ca:
       description: "Per a assegurar-nos que l'esdeveniment transcorre sense incidents i on tot el món és benvingut, incloem un codi de conducta."
 
     - title: "Mentorització de ponents"
-      description: "Per a facilitar que gent amb qualsevol rerefons puga donar una xarrada, estem organitzant un grup de voluntaris amb experiència donant xarrades per a mentoritzar a gent que mai haja donat una xarrada, prioritzant als integrants dels grups infrarrepresentats. Si t'interessa fer ús d'aquesta ajuda, per favor contacta amb David (david@vlctechhub.org)."
+      description: "Per a facilitar que persones amb qualsevol rerefons puguen donar una xarrada, estem organitzant un grup de voluntaris amb experiència donant xarrades per a mentoritzar a persones que mai hagen donat una xarrada, prioritzant als integrants dels grups infrarepresentats. Si t'interessa fer ús d'aquesta ajuda, per favor contacta amb David (david@vlctechhub.org)."
 
     - title: "Creus que podem fer alguna cosa més?"
       description: "Si se t'ocorre alguna altra acció que puguem dur a terme per a millorar la inclusivitat, no dubtes en compartir-la amb nosaltres: hola@vlctechfest.org"
