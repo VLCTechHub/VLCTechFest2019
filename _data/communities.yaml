@@ -1,3 +1,14 @@
+- name: Agile Levante
+  image: agilelevante_logo.png
+  links:
+    - https://twitter.com/agilelevante
+    - https://www.meetup.com/Agile-Levante/
+
+- name: Alcoià Comtat Devs
+  image: alcoiacomtatdevs_logo.png
+  links:
+    - https://twitter.com/AlcoiaComtatDev
+
 - name: Alicante Frontend
   image: alicantefrontend_logo.svg
   links:
@@ -52,12 +63,6 @@
     - https://www.facebook.com/geoinquietosVLC
     - https://telegram.me/geoinquietosvlc
 
-- name: Agile Levante
-  image: agilelevante_logo.png
-  links:
-    - https://twitter.com/agilelevante
-    - https://www.meetup.com/Agile-Levante/
-
 - name: Hackerspace Valencia
   image: hackerspace_logo.jpeg
   links:
@@ -111,11 +116,6 @@
 #     - https://womentechmakersvalencia.com
 #     - https://www.facebook.com/WtmValencia/
 #     - https://twitter.com/WtmValencia/
-
-- name: Alcoià Comtat Devs
-  image: alcoiacomtatdevs_logo.png
-  links:
-    - https://twitter.com/AlcoiaComtatDev
 
 # - name: Decharlas (Castellón)
 #   image: decharlas_logo.jpg
