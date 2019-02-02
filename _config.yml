@@ -38,8 +38,8 @@ path:
 navigation:
   - about
   - cfp
-  - faq
   - communities
+  - faq
   - vtf2018
 locale:
   es: es_ES
