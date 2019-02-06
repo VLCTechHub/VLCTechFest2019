@@ -133,6 +133,7 @@ a {
         border: 1px solid darken($brand-color, 10%);
         background-color: $brand-color;
         color: white;
+        margin-bottom: 15px;
         &:hover {
             background-color: $brand-color;
             border: 1px solid #ffffff;

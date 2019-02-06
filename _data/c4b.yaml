@@ -23,7 +23,7 @@ es:
         copy-invite: Copiar
         send-email: Enviar correo
 ca:
-    subtitle: Coneixes a alguna persona que podría participar al nostre event?
+    subtitle: Coneixes a alguna persona que podría participar al nostre esdeveniment?
     label:
         name: Estic pensant en
         reason: Per què? Imagina't que eixa persona està davant!
