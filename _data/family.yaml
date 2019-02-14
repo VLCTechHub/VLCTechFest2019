@@ -1,0 +1,77 @@
+es:
+  title: "Track familiar"
+  description: ""
+  no_registration_text: "No es necesario registro"
+  registration_text: "Regístrate"
+  sessions:
+    - title: "ByLinedu"
+      description: ""
+      registration_link: ""
+
+    - title: "Nerdy Derby"
+      description: "El Hackerspace Valencia nos trae una pista donde podremos construir nuestros propios vehículos y comparar resultados en la pista con otros vehículos."
+      registration_link: ""
+
+    - title: "Yolanda Corral"
+      description: ""
+      registration_link: ""
+
+    - title: "Aitziber Irisarri"
+      description: ""
+      registration_link: ""
+
+    - title: "Droide Comunidad"
+      description: ""
+      registration_link: ""
+
+en:
+  title: "Family track"
+  description: ""
+  no_registration_text: "Registry not needed"
+  registration_text: "Register"
+  sessions:
+    - title: "ByLinedu"
+      description: ""
+      registration_link: ""
+
+    - title: "Nerdy Derby"
+      description: "The Hackerspace Valencia bring us a track where we can build our own vehicles and compare results in the track with other vehicles."
+      registration_link: ""
+
+    - title: "Yolanda Corral"
+      description: ""
+      registration_link: ""
+
+    - title: "Aitziber Irisarri"
+      description: ""
+      registration_link: ""
+
+    - title: "Droide Comunidad"
+      description: ""
+      registration_link: ""
+
+ca:
+  title: "Track familiar"
+  description: ""
+  no_registration_text: "No cal registre"
+  registration_text: "Registra't"
+  sessions:
+    - title: "ByLinedu"
+      description: ""
+      registration_link: ""
+
+    - title: "Nerdy Derby"
+      description: "El Hackerspace Valencia ens porta una pista on podem construir els nostres vehicles i comparar els resultats en la pista amb altres vehicles."
+      registration_link: ""
+
+    - title: "Yolanda Corral"
+      description: ""
+      registration_link: ""
+
+    - title: "Aitziber Irisarri"
+      description: ""
+      registration_link: ""
+
+    - title: "Droide Comunidad"
+      description: ""
+      registration_link: ""

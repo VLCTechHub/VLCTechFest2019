@@ -11,6 +11,9 @@ es:
     - title: "¿Crees qué podemos hacer algo más?"
       description: "Si se te ocurre alguna otra acción que podamos llevar a cabo para mejorar la inclusividad, no dudes en compartirla con nosotros: hola@vlctechfest.org"
 
+    - title: "Track familiar"
+      description: "Para facilitar la conciliacion familiar, hemos preparado todo un track con actividades orientadas a la tecnología para los niños con sus padres."
+
 en:
   title: Diversity
   description: "In VLCTechHub we include diversity in our statutes and we are always looking for new initiatives to integrate underrepresented groups in the technical community. Here you can find the different initiatives we have for this festival:"
@@ -24,6 +27,9 @@ en:
     - title: "Do you think we could do something else?"
       description: "If you can think of anything else we could do to improve inclusiveness, do not hesitate to share it with us: hola@vlctechfest.org."
 
+    - title: "Family Track"
+      description: "To ease the family conciliation, we have prepared a full track of activities oriented to technology for kids and their parents."
+
 ca:
   title: Diversitat
   description: "En VLCTechHub portem la diversitat als nostres estatuts i sempre busquem noves iniciatives que puguem realitzar per integrar als grups infrarepresentats a la comunitat tecnològica. Ací pots trobar les diferents iniciatives que fem per aquest festival:"
@@ -36,3 +42,6 @@ ca:
 
     - title: "Creus que podem fer alguna cosa més?"
       description: "Si se t'ocorre alguna altra acció que puguem dur a terme per a millorar la inclusivitat, no dubtes en compartir-la amb nosaltres: hola@vlctechfest.org"
+
+    - title: "Track familiar"
+      description: "Per a facilitar la conciliació familiar, hem preparat tot un track de activitats orientades a la tecnologia per a xiquets amb el seus pares."

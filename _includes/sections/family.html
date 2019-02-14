@@ -1,0 +1,19 @@
+{%- assign family = site.data.family[page.lang] -%}
+<section id="family-track" class="family-track">
+  <div class="wrapper">
+    <h1><span class="highlight">{{ family.title }}</span></h1>
+    <p>{{ family.description }}</p>
+    {%- for track in family.sessions -%}
+      <article>
+        <h2>{{ track.title }}</h2>
+        {{ track.description | markdownify }}
+        {% if track.link == "" %}
+          <p>{{ family.no_registration_text }}</p>
+        {% else %}
+          <a href="{{ track.registration_link }}">{{ family.registration_text }}</a>
+        {% endif %}
+      </article>
+    {%- endfor -%}
+  </div>
+</section>
+
