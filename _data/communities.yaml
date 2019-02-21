@@ -16,11 +16,24 @@
     - https://twitter.com/AlicanteFront
     - https://youtube.com/AlicanteFrontend
 
+- name: BitUp Ciberseguridad
+  image: logo_bitup.png
+  links:
+    - https://www.meetup.com/es-ES/bitupalicante/
+    - https://twitter.com/bitupalicante
+    - http://bitupalicante.com/
+    - http://t.me/bitupalicante
+
 - name: Databeers Valencia
   image: databeersvlc_logo.png
   links:
     - https://databeersvlc.tumblr.com/
     - https://twitter.com/databeersvlc
+
+- name: Decharlas
+  image: decharlas_logo.jpg
+  links:
+    - https://twitter.com/decharlas
 
 - name: Devscola
   image: devscola_logo.jpeg
@@ -30,14 +43,14 @@
     - https://www.meetup.com/Aprende-a-programar-en-Valencia/
     - https://youtube.com/devscolavlc
 
-# - name: DevWomen
-#   image: devwomen_logo.png
-#   links:
-#     - http://devwomen.com/
-#     - https://twitter.com/DevWomen_ES
-#     - https://www.facebook.com/DevWomenES/
-#     - https://www.linkedin.com/showcase/devwomen/
-#     - https://www.instagram.com/DevWomen_es/
+- name: DevWomen
+  image: devwomen_logo.png
+  links:
+    - http://devwomen.com/
+    - https://twitter.com/DevWomen_ES
+    - https://www.facebook.com/DevWomenES/
+    - https://www.linkedin.com/showcase/devwomen/
+    - https://www.instagram.com/DevWomen_es/
 
 - name: Drupal Valencia
   image: drupalvlc_logo.png
@@ -45,14 +58,14 @@
     - https://twitter.com/drupalval
     - https://www.meetup.com/Drupalval/
 
-# - name: GDG Valencia
-#   image: gdgvalencia_logo.png
-#   links:
-#     - http://gdgvalencia.es/
-#     - https://www.meetup.com/GDGValencia/
-#     - https://www.facebook.com/gdgvalencia
-#     - https://twitter.com/gdgvalencia
-#     - https://github.com/gdgvalencia
+- name: GDG Valencia
+  image: gdgvalencia_logo.png
+  links:
+    - http://gdgvalencia.es/
+    - https://www.meetup.com/GDGValencia/
+    - https://www.facebook.com/gdgvalencia
+    - https://twitter.com/gdgvalencia
+    - https://github.com/gdgvalencia
 
 - name: Geoinquietos Valencia
   image: geoinquietosvlc_logo.svg
@@ -91,11 +104,18 @@
     - https://t.me/python_vlc
     - https://twitter.com/python_vlc
 
-# - name: Valencia JS
-#   image: valenciajs_logo.jpeg
-#   links:
-#     - https://www.meetup.com/ValenciaJS/
-#     - https://twitter.com/VlcJS
+- name: School of AI
+  image: schoolofai.png
+  links:
+    - https://www.facebook.com/groups/302152843664687
+    - https://www.meetup.com/es-ES/Meetup-Valencia-School-of-AI/
+    - https://www.theschool.ai/
+
+- name: Valencia JS
+  image: valenciajs_logo.jpeg
+  links:
+    - https://www.meetup.com/ValenciaJS/
+    - https://twitter.com/VlcJS
 
 # - name: Valencia Java User Group
 #   image: valenciajug_logo.jpg
@@ -103,12 +123,12 @@
 #     - https://www.meetup.com/ValenciaJUG/
 #     - https://twitter.com/VLC_JUG
 
-# - name: Valencia.rb
-#   image: valenciarb_logo.png
-#   links:
-#     - http://valenciarb.org/
-#     - https://twitter.com/valenciarb
-#     - https://github.com/valenciarb
+- name: Valencia.rb
+  image: valenciarb_logo.png
+  links:
+    - http://valenciarb.org/
+    - https://twitter.com/valenciarb
+    - https://github.com/valenciarb
 
 # - name: Women Techmakers Valencia
 #   image: wtmvalencia_logo.png
@@ -116,8 +136,3 @@
 #     - https://womentechmakersvalencia.com
 #     - https://www.facebook.com/WtmValencia/
 #     - https://twitter.com/WtmValencia/
-
-# - name: Decharlas (Castellón)
-#   image: decharlas_logo.jpg
-#   links:
-#     - https://twitter.com/decharlas
