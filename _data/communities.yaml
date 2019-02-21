@@ -111,17 +111,17 @@
     - https://www.meetup.com/es-ES/Meetup-Valencia-School-of-AI/
     - https://www.theschool.ai/
 
+- name: Valencia Java User Group
+  image: valenciajug_logo.jpg
+  links:
+    - https://www.meetup.com/ValenciaJUG/
+    - https://twitter.com/VLC_JUG
+
 - name: Valencia JS
   image: valenciajs_logo.jpeg
   links:
     - https://www.meetup.com/ValenciaJS/
     - https://twitter.com/VlcJS
-
-# - name: Valencia Java User Group
-#   image: valenciajug_logo.jpg
-#   links:
-#     - https://www.meetup.com/ValenciaJUG/
-#     - https://twitter.com/VLC_JUG
 
 - name: Valencia.rb
   image: valenciarb_logo.png
