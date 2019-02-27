@@ -130,9 +130,9 @@
     - https://twitter.com/valenciarb
     - https://github.com/valenciarb
 
-# - name: Women Techmakers Valencia
-#   image: wtmvalencia_logo.png
-#   links:
-#     - https://womentechmakersvalencia.com
-#     - https://www.facebook.com/WtmValencia/
-#     - https://twitter.com/WtmValencia/
+- name: Women Techmakers Valencia
+  image: wtmvalencia_logo.png
+  links:
+    - https://womentechmakersvalencia.com
+    - https://www.facebook.com/WtmValencia/
+    - https://twitter.com/WtmValencia/
