@@ -34,7 +34,7 @@ es:
     place: Las Naves
   communities:
     title: Comunidades
-    text:
+    text: Estas son las comunidades que colaboran con la organización del evento. Si organizas una comunidad que no está en la lista y quieres colaborar escríbenos a hola@vlctechfest.org
     logo_from: Logotipo de
   company:
     type:
@@ -86,7 +86,7 @@ en:
     place: Las Naves
   communities:
     title: Communities
-    text:
+    text: These are the communities that collaborate with the organization of the event. If you organize a community that is not on the list and you want to collaborate write to hola@vlctechfest.org
     logo_from: Logo of
   company:
     type:
@@ -138,7 +138,7 @@ ca:
     place: Las Naves
   communities:
     title: Comunitats
-    text:
+    text: Aquestes són les comunitats que col·laboren amb l'organització de l'esdeveniment. Si organitzes una comunitat que no està a la llista i vols col·laborar escriu-nos a hola@vlctechfest.org
     logo_from: Logotip de
   company:
     type:
