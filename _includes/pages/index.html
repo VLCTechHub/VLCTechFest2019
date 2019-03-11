@@ -7,19 +7,10 @@
       <p class="desktop">{{ site.data.t[page.lang].head.description }}</p>
       <p class="mobile" style="font-size: 1.3em; margin-bottom: 0px;">{{ site.data.t[page.lang].head.description_mobile_1 }}</p>
       <p class="mobile" style="font-size: 1em;">{{ site.data.t[page.lang].head.description_mobile }}</p>
-      <div>
-        <a class="button inverse" target="_blank" href="{{ site.data.t[page.lang].news.cfp_open.url }}">
-          {{ site.data.t[page.lang].news.cfp_open.button }}
-        </a>
-        <a class="button inverse" href="call4buddies">
-          {{ site.data.t[page.lang].news.c4b_open.button }}
-        </a>
-      </div>
     </div>
   </section>
 
   {%- include sections/about.html -%}
-  {%- include sections/cfp.html -%}
   {%- include sections/diversity.html -%}
   {%- include sections/coc.html -%}
   {%- include sections/communities.html -%}
