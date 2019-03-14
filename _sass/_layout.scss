@@ -304,6 +304,12 @@ footer a:hover{
         }
         >p {
             font-size: 1.5em;
+            @include media-query($on-palm) {
+                font-size: 1em;
+                &:first-child{
+                    font-size: 1.3em; margin-bottom: 0px;
+                }
+            }
         }
         .news {
             background-color: rgba(0,0,0,.4);
@@ -448,7 +454,7 @@ section {
             @include media-query($on-palm) {
                 display: block;
                 > li {
-                    max-width: 100%;
+                    max-width: 90vw;
                     width: 100%;
                     display: grid;
                     grid-template-columns: 100px auto;
