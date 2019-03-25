@@ -104,6 +104,13 @@
     - https://t.me/python_vlc
     - https://twitter.com/python_vlc
 
+- name: Software Crafters Alicante
+  image: CraftsmanshipALC.png
+  links:
+    - https://www.meetup.com/Software-Crafters-Alicante/
+    - https://twitter.com/AlicanteSwCraft
+    - https://github.com/alicanteswcraft
+
 - name: School of AI
   image: schoolofai.png
   links:
