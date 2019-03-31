@@ -1,13 +1,6 @@
 /**
  * Site header
  */
-.site-header {
-    background-color: #111;
-
-    // Positioning context for the mobile navigation icon
-    position: relative;
-}
-
 .site-title {
     font-size: 26px;
     font-weight: 300;
@@ -287,6 +280,35 @@ footer a:hover{
 /**
  * Home Sections
  */
+
+#about {
+  @extend .section-white;
+}
+
+#diversity {
+  @extend .section-blue;
+}
+
+#coc {
+  @extend .section-pink;
+}
+
+#communities {
+  @extend .section-white;
+}
+
+#location {
+  @extend .section-blue;
+}
+
+#faq {
+  @extend .section-pink;
+}
+
+#companies {
+  @extend .section-purple;
+}
+
 .main{
     background-color: transparent;
     color: white;
@@ -336,6 +358,9 @@ footer a:hover{
  * Header
  */
 .site-header{
+    background-color: var(--pink);
+    // Positioning context for the mobile navigation icon
+    position: relative;
     .site-nav {
         color: black;
         width: 100%;
@@ -351,7 +376,8 @@ footer a:hover{
             display: inline;
             a{
                 color: white;
-                padding: $spacing-unit / 5;
+                svg path { fill: white; }
+               padding: $spacing-unit / 5;
                 margin: $spacing-unit / 10;
                 text-decoration: none;
                 &.youtube,
@@ -366,21 +392,21 @@ footer a:hover{
                     &:hover {
                         border: none;
                         svg path {
-                            fill: #ffffff;
+                            fill: var(--pink);
                         }
                         &.youtube {
-                            background-color: #cd201f;
+                            background-color: white;
                         }
                         &.twitter {
-                            background-color: #55acee;
+                            background-color: white;
                         }
                     }
                 }
                 &.active {
-                    border-bottom: 2px dotted $brand-color;
+                    border-bottom: 2px dotted var(--blue);
                 }
                 &:hover {
-                    border-bottom: 2px solid $brand-color;
+                    border-bottom: 2px solid var(--blue);
                 }
             }
         }
@@ -486,7 +512,7 @@ footer a:hover{
     display: flex;
 }
 
-.section-1 {
+.section-white {
     --backgroundColor: var(--white);
     --textColor: var(--black);
     --primaryColor: var(--pink);
@@ -494,7 +520,7 @@ footer a:hover{
     --secondaryColor: var(--blue);
     --secondaryTextColor: var(--backgroundColor);
 }
-.section-2 {
+.section-blue {
     --backgroundColor: var(--blue);
     --textColor: var(--white);
     --primaryColor: var(--pink);
@@ -502,7 +528,7 @@ footer a:hover{
     --secondaryColor: var(--green);
     --secondaryTextColor: var(--white);
 }
-.section-3 {
+.section-purple {
     --backgroundColor: var(--purple);
     --textColor: var(--white);
     --primaryColor: var(--pink);
@@ -510,7 +536,7 @@ footer a:hover{
     --secondaryColor: var(--green);
     --secondaryTextColor: var(--white);
 }
-.section-4 {
+.section-pink {
     --backgroundColor: var(--pink);
     --textColor: var(--white);
     --primaryColor: var(--white);
@@ -581,7 +607,7 @@ section {
             }
         }
     }
-    button {
+    button, a.button {
         --line-height: 1.5em;
         --vertical-padding: .6em;
         font-size: 1.3em;
