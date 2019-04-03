@@ -1,0 +1,232 @@
+- time: "10:00-10:45"
+  room: 1
+  title: "Videojuegos diferentes para un publico diferente"
+  description:
+  speaker:
+    - name: "Beatriz Olcina"
+      bio:
+      links:
+
+- time: "10:00-10:45"
+  room: 2
+  title: "Introduccio al programari lliure i la tecnologia etica"
+  description:
+  speaker:
+    - name: "Ricard Sancho"
+      bio:
+      links:
+
+- time: "10:00-10:45"
+  room: 3
+  title: "Ingenieria del caos: Rompiendo cosas a proposito en producción"
+  description:
+  speaker:
+    - name: "David Lluna"
+      bio:
+      links:
+
+- time: "10:00-10:45"
+  room: 1
+  title: "Videojuegos diferentes para un publico diferente"
+  description:
+  speaker:
+    - name: "Beatriz Olcina"
+      bio:
+      links:
+
+- time: "11:00-11:45"
+  room: 1
+  title: "Programando al servicio de la especulacion financiera"
+  description:
+  speaker:
+    - name: "Carles Climent"
+      bio:
+      links:
+
+
+
+- time: "11:00-11:45"
+  room: 2
+  title: "Si no te gusta, pon un concern"
+  description:
+  speaker:
+    - name: "Vicente Baixauli"
+      bio:
+      links:
+
+
+
+- time: "11:00-11:45"
+  room: 3
+  title: "Que deberíamos construir después?"
+  description:
+  speaker:
+    - name: "Pedro Igualada"
+      bio:
+      links:
+
+
+
+- time: "12:00-12:45"
+  room: 1
+  title: "Privacidad: atentados a nuestra intimidad y como defendernos"
+  description:
+  speaker:
+    - name: "Jesus Marin Garcia"
+      bio:
+      links:
+
+
+
+- time: "12:00-12:45"
+  room: 2
+  title: "Service workers en PWA"
+  description:
+  speaker:
+    - name: "Juan Diega Marin"
+      bio:
+      links:
+    - name: "Blas Ramos"
+      bio:
+      links:
+
+- time: "12:00-12:45"
+  room: 3
+  title: "Ciberseguridad. Por que a mi? Por que esto? Por que ahora?"
+  description:
+  speaker:
+    - name: "Lidia Garcia"
+      bio:
+      links:
+
+- time: "13:00-13:45"
+  room: 1
+  title: "Tic y Genero: Rompiendo la brecha"
+  description:
+  speaker:
+    - name: "Silvia Rueda"
+      bio:
+      links:
+    - name: "Emilia Lopez"
+      bio:
+      links:
+    - name: "Carmen Botella"
+      bio:
+      links:
+    - name: "Paula Marzal"
+      bio:
+      links:
+
+- time: "13:00-13:45"
+  room: 2
+  title: "Desmontando mitos sobre accesibilidad web"
+  description:
+  speaker:
+    - name: "Carlos Muncharaz"
+      bio:
+      links:
+
+- time: "13:00-13:45"
+  room: 3
+  title: "TBD"
+  description:
+  speaker:
+    - name: "TBD"
+      bio:
+      links:
+
+
+- time: "15:30-16:15"
+  room: 1
+  title: "Hackers de garaje: Mujeres y hombres que cambiaron la historia"
+  description:
+  speaker:
+    - name: "Fran Ramirez"
+      bio:
+      links:
+
+
+- time: "15:30-16:15"
+  room: 2
+  title: "eXtreme Programming para millenialls"
+  description:
+  speaker:
+    - name: "David Stanete"
+      bio:
+      links:
+
+
+- time: "15:30-16:15"
+  room: 3
+  title: "Creando experiencias VR/AR con Unity 3D"
+  description:
+  speaker:
+    - name: "Manuel S. Lemos"
+      bio:
+      links:
+
+
+- time: "16:30-17:15"
+  room: 1
+  title: "Functional programming principles in JS"
+  description:
+  speaker:
+    - name: "Flavio Corpa"
+      bio:
+      links:
+
+
+- time: "16:30-17:15"
+  room: 2
+  title: "Una experiencia real con Lean UX"
+  description:
+  speaker:
+    - name: "Raquel Galvez"
+      bio:
+      links:
+    - name: "Tony Morella"
+      bio:
+      links:
+
+- time: "16:30-17:15"
+  room: 3
+  title: "Entendiendo la red Tor"
+  description:
+  speaker:
+    - name: "Miguel Macias"
+      bio:
+      links:
+
+
+- time: "17:30-18:15"
+  room: 1
+  title: "Y la IA para cuando?"
+  description:
+  speaker:
+    - name: "Toni Sanchez Zaplana"
+      bio:
+      links:
+
+
+- time: "17:30-18:15"
+  room: 2
+  title: "Kaizen: Introduciendo Agile mediante la mejora continua"
+  description:
+  speaker:
+    - name: "Mateja Jermani"
+      bio:
+      links:
+
+
+- time: "17:30-18:15"
+  room: 3
+  title: "Tuneando el browser con extensiones"
+  description:
+  speaker:
+    - name: "Albaro de Miguel"
+      bio:
+      links:
+    - name: "Miguel Angel Fernandez"
+      bio:
+      links:
+
