@@ -285,6 +285,10 @@ footer a:hover{
   @extend .section-white;
 }
 
+#speakers {
+  @extend .section-purple;
+}
+
 #diversity {
   @extend .section-blue;
 }
@@ -533,7 +537,7 @@ footer a:hover{
     --textColor: var(--white);
     --primaryColor: var(--pink);
     --primaryTextColor: var(--white);
-    --secondaryColor: var(--green);
+    --secondaryColor: var(--blue);
     --secondaryTextColor: var(--white);
 }
 .section-pink {
@@ -647,30 +651,41 @@ section {
 ul.speakers {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     --listIconWidth: 3em;
     --listIconPadding: 1em;
     > li {
-        --marginLeft: calc(var(--listIconWidth) + var(--listIconPadding));
         position: relative;
-        width: calc(45% - var(--marginLeft));
-        margin-left: var(--marginLeft);
+        width: 27%;
+        @include media-query($on-palm) {
+            width: 42%;
+        }
+        @include media-query($on-mini) {
+            width: 94%;
+        }
+
         margin-bottom: 2em;
-        img {
+        > img, > svg {
             border: .25em solid var(--secondaryColor);
             border-radius: 50%;
+        }
+        > svg {
+            max-width: 90%;
+            padding: 5%;
+            fill: var(--primaryTextColor);
+            background-color: var(--primaryColor);
         }
         .title {
             position: relative;
             top: -2em;
-            margin-bottom: -1.5em;
-            min-height: calc(6.5em);
+            margin-bottom: -2.5em;
+            min-height: 6.5em;
             span {
                 display: block;
                 background-color: var(--secondaryColor);
                 color: var(--secondaryTextColor);
                 text-transform: uppercase;
-                font-size: 1.8em;
+                font-size: 1.3em;
                 line-height: 1.3em;
                 font-weight: 600;
                 padding: .4em .6em;
@@ -680,12 +695,18 @@ ul.speakers {
     }
     ul.social {
         text-align: right;
-        li {
+        > li {
             display: inline-block;
+            margin: 0 .4em;
+            &:last-child {
+                margin-right: 0;
+            }
             svg {
-                width: 1.7em;
-                padding: 0 .3em;
-                fill: var(--primaryColor);
+                width: 1.5em;
+                padding: .35em;
+                fill: var(--primaryTextColor);
+                background-color: var(--primaryColor);
+                border-radius: 50%;
             }
             .name {
                 @include sr-only;
