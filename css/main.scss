@@ -27,6 +27,7 @@ $content-width:    800px;
 $on-mini:          400px;
 $on-palm:          600px;
 $on-laptop:        800px;
+$on-big:          1200px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -37,6 +38,11 @@ $on-laptop:        800px;
 // }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
+        @content;
+    }
+}
+@mixin media-query-over($device) {
+    @media screen and (min-width: $device) {
         @content;
     }
 }

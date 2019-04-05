@@ -1,5 +1,6 @@
-- time: "10:00-10:45"
-  room: 1
+- startTime: "10:00"
+  endTime: "10:45"
+  room: Biblioteca
   title: "Videojuegos diferentes para un publico diferente"
   description: "My granny Lala and me es un videojuego de corte social inspirado en la vida de mis abuelas y las mujeres de mi familia, dónde mediante una historia muy intensa basada en hechos reales podremos experimentar de primera mano las dificultades que tiene una persona de la tercera edad en el siglo XXI. Para resolver los puzzles deveremos viajar entre el mundo de la anciana y un mundo imaginario que ha creado su nieta para ayudarla en el día a día. Point and click de corte clásico hecho por más de un 50% de mujeres y que recientemente ha ganado un premio a mejor narrativa con tan solo una build en Alpha."
   speaker:
@@ -10,8 +11,9 @@
         - https://twitter.com/Illinois_break
         - https://www.linkedin.com/in/beatrizolcinamoncho
 
-- time: "10:00-10:45"
-  room: 2
+- startTime: "10:00"
+  endTime: "10:45"
+  room: Factoría
   title: "Introduccio al programari lliure i la tecnologia etica"
   description: "Introducció amena, senzilla i comprensible del que és el Programari Lliure i les raons per les quals és l'opció ètica, justa, solidària i que respecta la llibertat dels usuaris que l'utilitzen programari en la seua tecnologia del dia a dia."
   speaker:
@@ -19,8 +21,9 @@
       bio: "Un dels membres fundador de l'associació GNU/Linux València, activista i apassionat del programari lliure i la tecnologia ètica."
       links:
 
-- time: "10:00-10:45"
-  room: 3
+- startTime: "10:00"
+  endTime: "10:45"
+  room: Visual Room
   title: "Ingenieria del caos: Rompiendo cosas a proposito en producción"
   description: "La ingeniería del caos es una joven disciplina centrada en la realización
   de experimentos controlados en sistemas en producción con el fin de mejorar
@@ -36,8 +39,9 @@
       bio: "Trabaja en esta nuestra industria desde 2002, actualmente como SRE en @flywire, friki de innumerables temas y habitual de ValenciaDevOps"
       links:
 
-- time: "11:00-11:45"
-  room: 1
+- startTime: "11:00"
+  endTime: "11:45"
+  room: Biblioteca
   title: "Programando al servicio de la especulacion financiera"
   description: "Vivimos tiempos extraños donde nada es lo que parece. Son los tiempos de la postverdad, del relativismo, de la obsesión por la individualidad. Una de las manifestaciones más representativas de nuestra época es el fenómeno Startup. Un enorme ecosistema plagado de eslóganes de auto-ayuda (¡Todo es posible!)y palabras vacías que se desarrolla como el escenario de un teatro mágico. En él, la mano de obra rebautizada como talento ya no trabaja por el salario, desarrolla su vocación. Tanto es así que es difícil encontrar entre quienes trabajan en ese entorno a alguien que reconozca trabajar con el objeto de procurarse un sustento. Entre partidos de ping-pong y team buildings, se parte de la premisa de que el trabajo debe dominar (subsumir) la mayor parte de nuestras vidas.
 
@@ -51,8 +55,9 @@
 
 
 
-- time: "11:00-11:45"
-  room: 2
+- startTime: "11:00"
+  endTime: "11:45"
+  room: Factoría
   title: "Si no te gusta, pon un concern"
   description: "Como programadores ágiles, nos gustan las buenas prácticas: desplegar habitualmente a producción, evitar bloqueos, creemos en la propiedad colectiva del código, tenemos un buen sistema de control de versiones, probamos y revisamos el código que hacemos... pero casi todos nos hemos enfrentado a una pull request que se está llenando de comentarios.
 
@@ -66,8 +71,9 @@
 
 
 
-- time: "11:00-11:45"
-  room: 3
+- startTime: "11:00"
+  endTime: "11:45"
+  room: Visual Room
   title: "Que deberíamos construir después?"
   description: "Diferentes formas para saber desde producto que es lo siguiente mas interesante para construir. Para ello se tienen que tener en cuenta, métricas (cuantitativas, cualitativas), mercado, problemas del usuario y todo eso al mismo tiempo tiene que estar unido a la estrategia de la empresa. En muchas ocasiones me han hecho esta pregunta por lo que creo la gente podría estar interesado en saber un poco mas que diferentes opciones existen, como se hace en algunas empresas y como varia dependiendo del tamaño de empresa que estes o tipo de producto que trabajes."
   speaker:
@@ -77,8 +83,9 @@
 
 
 
-- time: "12:00-12:45"
-  room: 1
+- startTime: "12:00"
+  endTime: "12:45"
+  room: Biblioteca
   title: "Privacidad: atentados a nuestra intimidad y como defendernos"
   description: "La charla tratará sobre la privacidad y los escándalos con la NSA o similares. Enseñamos a usar Tor a través de una distribución llamada Tails, para que cualquier persona sin conocimientos pueda conectarse a traves de Tor y luchar por su derecho a la intimidad."
   speaker:
@@ -90,8 +97,9 @@
 
 
 
-- time: "12:00-12:45"
-  room: 2
+- startTime: "12:00"
+  endTime: "12:45"
+  room: Factoría
   title: "Service workers en Progressive Web Applications"
   description: "La rápida evolución del desarrollo de aplicaciones web nos ofrece gran cantidad de herramientas para poder construir páginas realmente increíbles. Los Service Workers nos ayudan a que nuestro sitio web se comporte como una aplicación nativa, ofreciendo al usuario una experiencia de uso más óptima. En esta charla veremos qué son los Service Workers, repasaremos los conceptos y usos básicos, y también aprenderemos de manera práctica cómo implementarlo para poder interactuar con las APIs a nuestra disposición (Cache, Notification, Background Sync e IndexedDB)."
   speaker:
@@ -102,8 +110,9 @@
       bio:
       links:
 
-- time: "12:00-12:45"
-  room: 3
+- startTime: "12:00"
+  endTime: "12:45"
+  room: Visual Room
   title: "Ciberseguridad. Por que a mi? Por que esto? Por que ahora?"
   description: "La seguridad es incómoda por naturaleza, pero la manera en la que ésta se valore y se integre en todos los procesos y actividades de las compañías (no sólo en el área de Sistemas) será la clave del éxito y, en algunos casos, de la supervivencia de las mismas.
   En la ponencia haremos un repaso sobre el contexto actual, en el que impera la digitalización y el uso de la tecnología, así como en las implicaciones/riesgos que estos cambios conllevan y la relevancia que cobra la ciberseguridad en este nuevo paradigma."
@@ -112,8 +121,9 @@
       bio: "Ingeniería informática con más de 10 años de experiencia en el sector de la seguridad de la información, focalizando su experiencia en la gestión del riesgo y la protección de infraestructuras críticas. Actualmente formo parte del equipo de ElevenPaths, área de ciberseguridad de Teléfonica."
       links:
 
-- time: "13:00-13:45"
-  room: 1
+- startTime: "13:00"
+  endTime: "13:45"
+  room: Biblioteca
   title: "Tic y Genero: Rompiendo la brecha"
   description: "Que hay pocas mujeres en el ámbito STEM (ciencia, tecnología, ingeniería y matemáticas, en su sigla en inglés) es una realidad. Pero esta brecha de género es aún mayor en el área de las Tecnologías de la Información y las Comunicaciones (TIC). El mercado laboral demanda cada vez más profesionales en este campo, sin embargo, las personas que deciden dedicarse a estas profesiones siguen sin cubrir la demanda. Lo más preocupante es que la proporción de mujeres que lo hacen es muy inferior a la de los hombres. El mercado de las TICS no se puede estar perdiendo el potencial de la mitad de la población. Es imprescindible la presencia de mujeres en todos los niveles. Desde la Escuela Técnica Superior de Ingeniería de la Universitat de Valencia (ETSE-UV) creemos que la implicación de las instituciones educativas es clave para cambiar las cifras. Por ese motivo. La ETSE-UV puso en marcha un programa en 2011 para fomentar las vocaciones TIC y aumentar el número de mujeres que deciden cursar este tipo de estudios. El programa ha conseguido colocar a la escuela más de cuatro puntos por encima de la media nacional en porcentaje de mujeres matriculadas en grados TIC."
   speaker:
@@ -130,8 +140,9 @@
       bio: "Licenciada en Química y Doctora en Química por la UV, máster en Ciencia y Tecnología de Alimentos por la UPV, profesora en el Departamento de Ingeniería Química de la UV y Directora de la ETSE-UV."
       links:
 
-- time: "13:00-13:45"
-  room: 2
+- startTime: "13:00"
+  endTime: "13:45"
+  room: Factoría
   title: "Desmontando mitos sobre accesibilidad web"
   description: "La accesibilidad web es algo que la mayoría de los proyectos descuidan. Se suele asumir una serie de ideas erróneas, o mitos: que es difícil implementarla; que no hay tiempo para ella; que nadie le presta atención; que se trata de un accesorio, algo bueno pero no necesario; que solo es necesaria si nos dirigimos a personas con discapacidad; que supone un gran coste adicional; o que utilizando alguna herramienta al final se pueden arreglar un par de cosas.
 
@@ -141,8 +152,9 @@
       bio: "Desarrollador front-end en Datamaran, aplicación web de análisis de big data destinada a profesionales de la sostenibilidad. Anteriormente diseñador gráfico y fotógrafo (El Mundo, Corts Valencianes, trabajador autónomo). Persona con discapacidad auditiva, experimentada en el movimiento asociativo y comprometida con la accesibilidad."
       links:
 
-- time: "13:00-13:45"
-  room: 3
+- startTime: "13:00"
+  endTime: "13:45"
+  room: Visual Room
   title: "TBD"
   description:
   speaker:
@@ -151,8 +163,9 @@
       links:
 
 
-- time: "15:30-16:15"
-  room: 1
+- startTime: "15:30"
+  endTime: "16:15"
+  room: Biblioteca
   title: "Hackers de garaje: Mujeres y hombres que cambiaron la historia"
   description: "La historia de la informática es una gran herramienta de motivación e inspiración para toda persona que tenga en mente trazar su propio proyecto, empresarial o no, ya que nos enseñan su actitud, ideas, genialidades, problemas que tuvieron que superar, etc hasta lograr su meta final.
 
@@ -163,8 +176,9 @@
       links:
 
 
-- time: "15:30-16:15"
-  room: 2
+- startTime: "15:30"
+  endTime: "16:15"
+  room: Factoría
   title: "Extreme Programming para millenialls"
   description: "Ideado hace más de 20 años por Kent Beck, XP es el framework de desarrollo de software más relevante y el origen de todas las metodologías ágiles. Los equipos que adoptan XP tiene éxito desarrollando proyectos y productos de forma efectiva. ¿Por qué? ¿Qué distingue XP de otros frameworks? ¿Cómo aplicar XP teniendo en cuenta los cambios de las últimas dos décadas? ¿Son las tostadas de aguacate necesarias? ¿Cómo adaptar XP al trabajo en remoto? ¿Cómo evolucionar hacia XP y qué tooling usar? ¿Cuál es el futuro de XP?"
   speaker:
@@ -175,8 +189,9 @@
       links:
 
 
-- time: "15:30-16:15"
-  room: 3
+- startTime: "15:30"
+  endTime: "16:15"
+  room: Visual Room
   title: "Creando experiencias VR/AR con Unity 3D"
   description: "La Realidad Virtual y Realidad Aumentada (VR/AR) es el presente y no solo en el campo del videojuego. Solo hay que ver las numerosas startups que hay usando la VR para usos medicinales, psicologicos o deportivos. Con Unity3D no hay excusas para crear una experiencia VR o AR y sumarte a la revolución."
   speaker:
@@ -185,8 +200,9 @@
       links:
 
 
-- time: "16:30-17:15"
-  room: 1
+- startTime: "16:30"
+  endTime: "17:15"
+  room: Biblioteca
   title: "Functional programming principles in JS"
   description: "Functional programming? Lambda calculus?? and… JAVASCRIPT!? This talk is a tribute to functional programming and how to solve some of the most common issues while using the latest cutting-edge JavaScript!"
   speaker:
@@ -195,8 +211,9 @@
       links:
 
 
-- time: "16:30-17:15"
-  room: 2
+- startTime: "16:30"
+  endTime: "17:15"
+  room: Factoría
   title: "Una experiencia real con Lean UX"
   description: "Contaremos como hemos llevado a la práctica Lean UX, adaptando el flujo de trabajo a las necesidades del día a día. Y colaborando conjuntamente el equipo de UX, desarrollo, negocio, marketing, datos y usuarios."
   speaker:
@@ -207,8 +224,9 @@
       bio:
       links:
 
-- time: "16:30-17:15"
-  room: 3
+- startTime: "16:30"
+  endTime: "17:15"
+  room: Visual Room
   title: "Entendiendo la red Tor"
   description: "Aunque todos hemos oído hablar de la red Tor, casi nadie le ha dedicado el tiempo suficiente para desterrar los mitos, prejuicios y leyendas urbanas que la rodean.
   El objetivo es revisar con detalle las características de la red Tor, desde distintos puntos de vista, sentando una base sólida que permita entender su uso, tanto para utilizarla como usuarios como para aceptar a usuarios de Tor en nuestros servicios."
@@ -218,8 +236,9 @@
       links:
 
 
-- time: "17:30-18:15"
-  room: 1
+- startTime: "17:30"
+  endTime: "18:15"
+  room: Biblioteca
   title: "Y la Inteligencia Artificial para cuándo?"
   description: "Desmitificación de la Inteligencia Artificial de forma didáctica (sin fórmulas ni teoría) y divertida, presentando casos reales en producción aplicados en la ciudad de Alicante."
   speaker:
@@ -230,8 +249,9 @@
       links:
 
 
-- time: "17:30-18:15"
-  room: 2
+- startTime: "17:30"
+  endTime: "18:15"
+  room: Factoría
   title: "Kaizen: Introduciendo Agile mediante la mejora continua"
   description: "Uno de los principios del Manifiesto Ágil que arranca todo el movimiento de las metodologías ágiles es:
 
@@ -247,8 +267,9 @@
       links:
 
 
-- time: "17:30-18:15"
-  room: 3
+- startTime: "17:30"
+  endTime: "18:15"
+  room: Visual Room
   title: "Tuneando el browser con extensiones"
   description: "Los navegadores están construidos bajo un principio muy simple: la misma experiencia para todos los usuarios. A partir de ahí, ponen a nuestra disposición unas extensiones para que podamos personalizarlo a nuestro gusto. ¿Y si nos pusieramos al otro lado de la pantalla? ¡Construyamos una extensión! Si eres un programador, las APIs existentes te lo ponen muy fácil para adaptar el navegador a tus necesidades personales. Y por si esto no fuera del todo convincente, la extensión puede instalarse tanto en Firefox, Chrome como en Opera sin cambios o con mínimos cambios.
 

@@ -285,6 +285,10 @@ footer a:hover{
   @extend .section-white;
 }
 
+#sessions {
+  @extend .section-pink;
+}
+
 #speakers {
   @extend .section-purple;
 }
@@ -494,7 +498,7 @@ footer a:hover{
     border: 0;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500,900|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,900|Roboto|Roboto+Slab|Ubuntu+Mono');
 
 :root {
     --white: #ffffff;
@@ -505,9 +509,11 @@ footer a:hover{
     --green: #10ffb3;
     --primaryFont: 'Roboto', sans-serif;
     --textFont: 'Montserrat', sans-serif;
+    --slabFont: 'Roboto Slab', serif;
+    --monoFont: 'Ubuntu Mono', monospace;
 }
 
-* {
+body {
     font-family: var(--textFont);
     font-weight: 500;
 }
@@ -645,6 +651,112 @@ section {
         }
     }
 }
+
+//sessions
+
+ul.sessions {
+    > li {
+        > p {
+            font-family: var(--slabFont);
+            font-size: 1.8em;
+            line-height: 1.2em;
+        }
+        > ul {
+            > li {
+                background-color: white;
+                color: black;
+                margin: 1em 0;
+                padding: 1.5em;
+                .title {
+                    grid-area: title;
+                    color: var(--primaryTextColor);
+                    font-size: 1.8em;
+                    line-height: 1.2em;
+                    margin: 0;
+                }
+                .description {
+                    grid-area: description;
+                    margin: 0;
+                    font-family: var(--slabFont);
+                    padding-top: 1em;
+                }
+                .room {
+                    grid-area: room;
+                    margin: 0;
+                    color: #444;
+                    font-size: .9em;
+                }
+                > ul {
+                    margin: .3em 0 .6em;
+                    grid-area: speakers;
+                    > li {
+                        display: inline;
+                        &:not(:last-child):after {
+                            content: ", ";
+                        }
+                    }
+                }
+                &:last-child {
+                    margin-bottom: 4em;
+                }
+
+                @include media-query($on-laptop) {
+                    &:not(.open) {
+                        .description {
+                            @include sr-only;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    @include media-query-over($on-laptop) {
+        > li {
+            > ul {
+                > li {
+                    display: grid;
+                    grid-template-areas:
+                    "title description"
+                    "speakers description"
+                    "room description";
+                    grid-template-rows: auto auto 1fr;
+                    > .description {
+                        padding: 0;
+                    }
+                    > .title, > .room, > ul {
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+
+    @include media-query-over($on-big) {
+        > li {
+            > p {
+                position: sticky;
+                top: 0;
+                height: 3em;
+                margin-top: 2em;
+                margin-left: -5em;
+                width: 4em;
+                text-align: right;
+                span {
+                    display: inline-block;
+                }
+            }
+            > ul {
+                margin-top: -8.75em;
+                margin-bottom: 7em;
+            }
+        }
+    }
+}
+
 
 //speakers
 
