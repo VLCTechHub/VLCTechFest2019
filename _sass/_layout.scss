@@ -733,6 +733,7 @@ ul.sessions {
                     }
                     > .title, > .room, > ul {
                         width: 300px;
+                        padding-right: .5em;
                     }
                 }
             }
@@ -938,6 +939,40 @@ ul.speakers {
                     display: flex;
                     flex-wrap: wrap;
                 }
+            }
+        }
+    }
+}
+
+#location {
+    .wrapper div  a {
+        color: inherit;
+        text-decoration: underline;
+    }
+    @include media-query($on-laptop) {
+        display: grid;
+        grid-template-areas:
+        "info"
+        "map";
+        iframe {
+            grid-area: map;
+            height: 200px;
+        }
+        .wrapper {
+            grid-area: info;
+        }
+    }
+    @include media-query-over($on-laptop) {
+        padding: 0;
+        margin-bottom: -8px;
+        .wrapper {
+            position: relative;
+            height: 600px;
+            margin-top: -600px;
+            > div {
+                background-color: var(--backgroundColor);
+                width: 20em;
+                padding: 1em;
             }
         }
     }
