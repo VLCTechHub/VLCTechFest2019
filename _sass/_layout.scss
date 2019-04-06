@@ -318,22 +318,27 @@ footer a:hover{
 }
 
 .main{
-    background-color: transparent;
+    background-image: url(/images/fondo.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--purple);
     color: white;
-    fill: white;
     text-align: center;
+    padding: 30px 0;
     .wrapper {
-        .vtf-logo {
+            .vtf-logo {
             margin: 0 auto;
-            max-height: 300px;
             max-width: 100%;
             svg {
                 height: 100%;
-                width: 100%;
+                width: 70%;
             }
         }
         >p {
-            font-size: 1.5em;
+            font-size: 1.2em;
+            padding: 0;
+            margin: 0 auto;
             @include media-query($on-palm) {
                 font-size: 1em;
                 &:first-child{
@@ -935,6 +940,14 @@ ul.speakers {
                 }
             }
         }
+    }
+}
+
+#companies > .wrapper > ul {
+    display: flex;
+    justify-content: space-around;
+    > li {
+        width: 45%;
     }
 }
 
