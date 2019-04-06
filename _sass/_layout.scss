@@ -938,6 +938,33 @@ ul.speakers {
     }
 }
 
+.col-2 {
+    column-count: 2;
+    column-gap: 3em;
+    column-fill: auto;
+    h1 {
+        display: table;
+        column-span: all;
+        margin-bottom: 1.25em;
+    }
+    article {
+        padding: 1.25em 0;
+        break-inside: avoid;
+        h2 {
+            font-size: 1.2em;
+            font-weight: bolder;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+    }
+    @include media-query($on-palm) {
+        column-count: 1;
+        article {
+            margin-bottom: 0;
+            padding: 0;
+        }
+    }
+}
 
 //
 
