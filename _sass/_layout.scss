@@ -515,7 +515,6 @@ footer a:hover{
 
 body {
     font-family: var(--textFont);
-    font-weight: 500;
 }
 
 .flex {
@@ -581,7 +580,7 @@ section {
             margin-top: 0;
         }
     }
-    p {
+    .wrapper > p, article > p {
         max-width: 40em;
         padding-right: 1.5em;
         &:last-child {
@@ -831,26 +830,30 @@ ul.speakers {
 //communities
 
 .communities {
-    >ul, >div>ul {
+    > ul, > div > ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        font-family: var(--textFont);
         > li {
+            flex-basis: 25%;
             display: grid;
             grid-template-areas:
-            "logo"
-            "name"
-            "links";
-            grid-template-rows: auto 4em 5em;
-            min-width: 100px;
-            max-width: 200px;
-            width: 20vw;
+            "logo links"
+            "name links";
+            grid-template-columns: auto 2em;
+            grid-template-rows: auto 100fr;
+            min-width: 200px;
             box-sizing: border-box;
             text-align: center;
-            margin: 0 40px;
+            padding: .5em;
+            color: var(--pink);
+            font-weight: 500;
+            font-size: 1.2em;
             p {
                 grid-area: name;
                 padding-top: .5em;
+                word-break: break-word;
             }
             .logo {
                 position: relative;
@@ -858,6 +861,8 @@ ul.speakers {
                 align-self: center;
                 border: 1px solid #ccc;
                 width: 100%;
+                align-self: start;
+                box-shadow: 0px 3px 5px #888888;
                 &:before{
                     content: "";
                     display: block;
@@ -877,23 +882,20 @@ ul.speakers {
                     display: inline-block;
                     a {
                         display: inline-block;
-                        border: 1px solid #ccc;
-                        border-radius: .5em;
-                        margin: 0 .5em .5em 0;
-                        padding: .5em;
+                        margin: 0 .3em .3em 0;
                         line-height: 1em;
                         &:hover {
-                            background-color: $brand-color;
                             .icon {
                                 svg {
-                                    fill:#fff;
+                                    fill: var(--blue);
                                 }
                             }
                         }
                         .icon {
                             svg {
                                 width: 1em;
-                                fill:#000;
+                                fill: var(--pink);
+                                opacity: .6;
                             }
                         }
                         .name {
