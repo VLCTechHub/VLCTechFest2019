@@ -845,7 +845,7 @@ ul.speakers {
     justify-content: space-evenly;
     font-family: var(--textFont);
     > li {
-      flex-basis: 25%;
+      flex-basis: 16%;
       display: grid;
       grid-template-areas:
         "logo links"
@@ -858,7 +858,7 @@ ul.speakers {
       padding: 0.5em;
       color: var(--pink);
       font-weight: 500;
-      font-size: 1.2em;
+      font-size: 1.1em;
       p {
         grid-area: name;
         padding-top: 0.5em;

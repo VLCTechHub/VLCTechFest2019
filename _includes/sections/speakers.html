@@ -1,7 +1,9 @@
 {%- assign speakers = site.data.t[page.lang].speakers -%}
 <section id="speakers">
-  <div class="container -big">
+  <div class="container">
     <h1>{{ speakers.title }} </h1>
+  </div>
+  <div class="container -big">
     <ul class="speakers">
       {%- for session in site.data.sessions -%}
         {%- for speaker in session.speaker -%}

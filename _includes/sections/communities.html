@@ -1,14 +1,14 @@
 <section id="communities" class="communities">
 
   {%- assign section = site.data.t[page.lang].communities -%}
-  <div class="wrapper">
+  <div class="container">
     <article>
       <h1>{{ section.title }}</h1>
       <p>{{ section.text }}</p>
     </article>
   </div>
 
-  <div class="wrapper wrapper-wide">
+  <div class="container -big">
     <ul>
       {% for community in site.data.communities %}
         <li>
