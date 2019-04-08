@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit;
 }
 
 
@@ -97,18 +97,9 @@ h1 {
 
 article h2 {
   font-size: 1.2em;
-  font-weight: normal;
-  color: $blue;
-}
-
-.highlight {
-  &::after {
-    content: '';
-    background-color: transparentize($blue, 0.4);
-    height: 16px;
-    display: block;
-    margin-top: -15px;
-  }
+  font-weight: bolder;
+  margin-top: $spacing-unit * 1.5;
+  margin-bottom: $spacing-unit / 2;
 }
 
 
@@ -125,32 +116,6 @@ a {
 
     &:hover {
         color: $text-color;
-    }
-
-    &.button {
-        display: inline-block;
-        padding: $spacing-unit / 4 $spacing-unit / 2;
-        border: 1px solid darken($brand-color, 10%);
-        background-color: $brand-color;
-        color: white;
-        margin-bottom: 15px;
-        &:hover {
-            background-color: $brand-color;
-            border: 1px solid #ffffff;
-            color: #ffffff;
-        }
-        &.inverse {
-            border: 1px solid #111;
-            background-color: $brand-color;
-            border: 1px solid #ffffff;
-            color: #ffffff;
-            font-weight: 900;
-            &:hover {
-                background-color: #ffffff;
-                border: 1px solid $brand-color;
-                color: $brand-color;
-            }
-        }
     }
 }
 
