@@ -554,6 +554,9 @@ section {
     max-width: 900px;
     margin: 0 auto;
     padding: 0.3em;
+    &.-big {
+      max-width: 1200px;
+    }
   }
   .title {
     font-weight: 500;
@@ -769,8 +772,8 @@ ul.speakers {
   --listIconPadding: 1em;
   > li {
     position: relative;
-    width: 27%;
-    @include media-query($on-palm) {
+    width: 29%;
+    @include media-query($on-laptop) {
       width: 42%;
     }
     @include media-query($on-mini) {
@@ -782,9 +785,13 @@ ul.speakers {
     > svg {
       border: 0.25em solid var(--secondaryColor);
       border-radius: 50%;
+      margin: 0 20%;
+    }
+    >img {
+      max-width: 60%;
     }
     > svg {
-      max-width: 90%;
+      max-width: calc(50% - (0.25em * 2));
       padding: 5%;
       fill: var(--primaryTextColor);
       background-color: var(--primaryColor);
