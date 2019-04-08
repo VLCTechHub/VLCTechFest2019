@@ -1,6 +1,7 @@
+{%- assign sessions = site.data.t[page.lang].sessions -%}
 <section id="sessions">
   <div class="container">
-    <h1>Sessions</h1>
+    <h1>{{ sessions.title }}</h1>
     <ul class="sessions">
       {% assign time = "" %}
       {%- for session in site.data.sessions -%}
