@@ -99,12 +99,11 @@
   title: "Service workers en Progressive Web Applications"
   description: "La rápida evolución del desarrollo de aplicaciones web nos ofrece gran cantidad de herramientas para poder construir páginas realmente increíbles. Los Service Workers nos ayudan a que nuestro sitio web se comporte como una aplicación nativa, ofreciendo al usuario una experiencia de uso más óptima. En esta charla veremos qué son los Service Workers, repasaremos los conceptos y usos básicos, y también aprenderemos de manera práctica cómo implementarlo para poder interactuar con las APIs a nuestra disposición (Cache, Notification, Background Sync e IndexedDB)."
   speaker:
-    - name: "Juan Diega Marin"
+    - name: "Juan Diego Martín-Blas Ramos"
       bio: "Trabajo como frontend developer en Mr Jeff. Mi interés por conocer cómo funcionan las cosas me llevó a estudiar Diseño Industrial en la UPV y a formarme de manera autodidacta en muchos otros ámbitos. Después de 8 años trabajando por cuenta propia, a principios de 2018 empecé a aprender programación y pude descubrir un mundo que me permite disfrutar de mi trabajo y conocer algo nuevo cada día."
       links:
-    - name: "Blas Ramos"
-      bio:
-      links:
+        - https://twitter.com/JuanDiegoMbr
+        - https://www.linkedin.com/in/juandiego-martin/
 
 - startTime: "12:00"
   endTime: "12:45"
