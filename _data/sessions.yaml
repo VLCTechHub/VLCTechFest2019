@@ -1,8 +1,8 @@
 - startTime: "10:00"
   endTime: "10:45"
   room: Biblioteca
-  title: "Videojuegos diferentes para un publico diferente"
-  description: "My granny Lala and me es un videojuego de corte social inspirado en la vida de mis abuelas y las mujeres de mi familia, dónde mediante una historia muy intensa basada en hechos reales podremos experimentar de primera mano las dificultades que tiene una persona de la tercera edad en el siglo XXI. Para resolver los puzzles deveremos viajar entre el mundo de la anciana y un mundo imaginario que ha creado su nieta para ayudarla en el día a día. Point and click de corte clásico hecho por más de un 50% de mujeres y que recientemente ha ganado un premio a mejor narrativa con tan solo una build en Alpha."
+  title: "Videojuegos diferentes para un público diferente"
+  description: "My granny Lala and me es un videojuego de corte social inspirado en la vida de mis abuelas y las mujeres de mi familia, donde mediante una historia muy intensa basada en hechos reales podremos experimentar de primera mano las dificultades que tiene una persona de la tercera edad en el siglo XXI. Para resolver los puzzles deberemos viajar entre el mundo de la anciana y un mundo imaginario que ha creado su nieta para ayudarla en el día a día. Point and click de corte clásico hecho por más de un 50% de mujeres y que recientemente ha ganado un premio a mejor narrativa con tan solo una build en Alpha."
   speaker:
     - name: "Beatriz Olcina"
       bio: "Productora audiovisual, de videojuegos y VR, comenzó sus pasos en el cine y tras varios proyectos premiados decidió embarcarse en el mundo de las nuevas tecnologías, dónde produjo proyectos como una recreativa arcade VR, actualmente está desarrollando su propio videojuego, una aventura gráfica de corte social, donde una niña ayuda a su abuela a través de su mundo mágico entre otros proyectos."
@@ -14,7 +14,7 @@
 - startTime: "10:00"
   endTime: "10:45"
   room: Factoría
-  title: "Introduccio al programari lliure i la tecnologia etica"
+  title: "Introducció al programari lliure i la tecnologia ètica"
   description: "Introducció amena, senzilla i comprensible del que és el Programari Lliure i les raons per les quals és l'opció ètica, justa, solidària i que respecta la llibertat dels usuaris que l'utilitzen programari en la seua tecnologia del dia a dia."
   speaker:
     - name: "Ricard Sancho"
@@ -24,14 +24,10 @@
 - startTime: "10:00"
   endTime: "10:45"
   room: Visual Room
-  title: "Ingenieria del caos: Rompiendo cosas a proposito en producción"
-  description: "La ingeniería del caos es una joven disciplina centrada en la realización
-  de experimentos controlados en sistemas en producción con el fin de mejorar
-  su resiliencia.
+  title: "Ingeniería del caos: Rompiendo cosas a proposito en producción"
+  description: "La ingeniería del caos es una joven disciplina centrada en la realización de experimentos controlados en sistemas en producción con el fin de mejorar su resiliencia.
 
-  Aunque ha existido desde mucho antes, fue en 2010 cuando empezó a tomar
-  relevancia gracias al trabajo de Netflix con su 'Chaos monkey', desde entonces
-  se ha evolucionado mucho y ha crecido alrededor una vibrante comunidad
+  Aunque ha existido desde mucho antes, fue en 2010 cuando empezó a tomar relevancia gracias al trabajo de Netflix con su 'Chaos monkey', desde entonces se ha evolucionado mucho y ha crecido alrededor una vibrante comunidad.
 
   En esta charla veremos una introducción a los principios, prácticas y herramientas en torno a la ingeniería del caos."
   speaker:
@@ -42,7 +38,7 @@
 - startTime: "11:00"
   endTime: "11:45"
   room: Biblioteca
-  title: "Programando al servicio de la especulacion financiera"
+  title: "Programando al servicio de la especulación financiera"
   description: "Vivimos tiempos extraños donde nada es lo que parece. Son los tiempos de la postverdad, del relativismo, de la obsesión por la individualidad. Una de las manifestaciones más representativas de nuestra época es el fenómeno Startup. Un enorme ecosistema plagado de eslóganes de auto-ayuda (¡Todo es posible!)y palabras vacías que se desarrolla como el escenario de un teatro mágico. En él, la mano de obra rebautizada como talento ya no trabaja por el salario, desarrolla su vocación. Tanto es así que es difícil encontrar entre quienes trabajan en ese entorno a alguien que reconozca trabajar con el objeto de procurarse un sustento. Entre partidos de ping-pong y team buildings, se parte de la premisa de que el trabajo debe dominar (subsumir) la mayor parte de nuestras vidas.
 
   Pero bajo los lemas estimulantes del éxito y la cultura del esfuerzo se camuflan los procesos especulativos del capitalismo moderno. Las empresas tecnológicas, a través de las múltiples aplicaciones, han descubierto una nueva mecánica de acumulación por desposesión: la desposesión de los datos de nuestras vidas, del control de la información que recibimos, del control incluso de nuestros valores, principios y costumbres. Quienes trabajamos en el sector, cómplices de todo esto, parecemos vivir al margen de la destrucción que se está produciendo a nuestro paso. Vivimos una época dorada, con una explosión de empresas en dura competencia por una mano de obra aún escasa que cualquier día dejará de serlo. Y en ese caldo bullicioso, abrumadoramente masculino, juvenil, entusiasta y aparentemente desenfadado, medra la codiciosa voluntad de los fondos de inversión de convertir dinero en más dinero."
@@ -74,7 +70,7 @@
 - startTime: "11:00"
   endTime: "11:45"
   room: Visual Room
-  title: "Que deberíamos construir después?"
+  title: "¿Qué deberíamos construir después?"
   description: "Diferentes formas para saber desde producto que es lo siguiente mas interesante para construir. Para ello se tienen que tener en cuenta, métricas (cuantitativas, cualitativas), mercado, problemas del usuario y todo eso al mismo tiempo tiene que estar unido a la estrategia de la empresa. En muchas ocasiones me han hecho esta pregunta por lo que creo la gente podría estar interesado en saber un poco mas que diferentes opciones existen, como se hace en algunas empresas y como varia dependiendo del tamaño de empresa que estes o tipo de producto que trabajes."
   speaker:
     - name: "Pedro Igualada"
@@ -86,7 +82,7 @@
 - startTime: "12:00"
   endTime: "12:45"
   room: Biblioteca
-  title: "Privacidad: atentados a nuestra intimidad y como defendernos"
+  title: "Privacidad: atentados a nuestra intimidad y cómo defendernos"
   description: "La charla tratará sobre la privacidad y los escándalos con la NSA o similares. Enseñamos a usar Tor a través de una distribución llamada Tails, para que cualquier persona sin conocimientos pueda conectarse a traves de Tor y luchar por su derecho a la intimidad."
   speaker:
     - name: "Jesus Marin Garcia"
@@ -113,7 +109,7 @@
 - startTime: "12:00"
   endTime: "12:45"
   room: Visual Room
-  title: "Ciberseguridad. Por que a mi? Por que esto? Por que ahora?"
+  title: "Ciberseguridad. ¿Por qué a mí? ¿Por qué esto? ¿Por qué ahora?"
   description: "La seguridad es incómoda por naturaleza, pero la manera en la que ésta se valore y se integre en todos los procesos y actividades de las compañías (no sólo en el área de Sistemas) será la clave del éxito y, en algunos casos, de la supervivencia de las mismas.
   En la ponencia haremos un repaso sobre el contexto actual, en el que impera la digitalización y el uso de la tecnología, así como en las implicaciones/riesgos que estos cambios conllevan y la relevancia que cobra la ciberseguridad en este nuevo paradigma."
   speaker:
@@ -124,7 +120,7 @@
 - startTime: "13:00"
   endTime: "13:45"
   room: Biblioteca
-  title: "Tic y Genero: Rompiendo la brecha"
+  title: "Tic y género: rompiendo la brecha"
   description: "Que hay pocas mujeres en el ámbito STEM (ciencia, tecnología, ingeniería y matemáticas, en su sigla en inglés) es una realidad. Pero esta brecha de género es aún mayor en el área de las Tecnologías de la Información y las Comunicaciones (TIC). El mercado laboral demanda cada vez más profesionales en este campo, sin embargo, las personas que deciden dedicarse a estas profesiones siguen sin cubrir la demanda. Lo más preocupante es que la proporción de mujeres que lo hacen es muy inferior a la de los hombres. El mercado de las TICS no se puede estar perdiendo el potencial de la mitad de la población. Es imprescindible la presencia de mujeres en todos los niveles. Desde la Escuela Técnica Superior de Ingeniería de la Universitat de Valencia (ETSE-UV) creemos que la implicación de las instituciones educativas es clave para cambiar las cifras. Por ese motivo. La ETSE-UV puso en marcha un programa en 2011 para fomentar las vocaciones TIC y aumentar el número de mujeres que deciden cursar este tipo de estudios. El programa ha conseguido colocar a la escuela más de cuatro puntos por encima de la media nacional en porcentaje de mujeres matriculadas en grados TIC."
   speaker:
     - name: "Silvia Rueda"
@@ -155,10 +151,15 @@
 - startTime: "13:00"
   endTime: "13:45"
   room: Visual Room
-  title: "TBD"
-  description:
+  title: "Inteligencia Artificial, la nueva herramienta de los agricultores"
+  description: "El uso de la inteligencia artificial ya no es algo limitado a unos pocos, y como resultado de esto durante 2018 realizamos una aproximación del uso de inteligencia artificial para la maximización de cosechas basándonos en el uso del regadío y fertilizantes. El objetivo es generar un sistema de soporte a la decisión que, a través de una interfaz sencilla permita a los agricultores una mejor planificación de sus cosechas. Una prioridad del sector es reducir el consumo de agua y minimizar el impacto ambiental, a través de la reducción del uso de fertilizantes con el apoyo de IA. Enmarcar esta mejora dentro de la transformación tecnológica que afecta al sector, supone uno de los retos principales de este proyecto.
+
+  Como resultado se desarrolló una primera versión de producto basado en un universo controlado de datos y capaz de responder a las interacciones de un usuario para un cultivo prefijado."
   speaker:
-    - name: "TBD"
+    - name: "Pedro Nieto Pelaez"
+      bio:
+      links:
+    - name: "Esteban Chiner Sanz"
       bio:
       links:
 
@@ -166,7 +167,7 @@
 - startTime: "15:30"
   endTime: "16:15"
   room: Biblioteca
-  title: "Hackers de garaje: Mujeres y hombres que cambiaron la historia"
+  title: "Hackers de garaje: mujeres y hombres que cambiaron la historia"
   description: "La historia de la informática es una gran herramienta de motivación e inspiración para toda persona que tenga en mente trazar su propio proyecto, empresarial o no, ya que nos enseñan su actitud, ideas, genialidades, problemas que tuvieron que superar, etc hasta lograr su meta final.
 
   El principal objetivo de esta charla es explicar casos reales de éxito de mujeres y hombres hackers conocidos tanto del mundo de la ciberseguridad como de la historia de la informática, pero siempre partiendo del concepto real de la palabra hacker. Todas las explicaciones se realizarán partiendo de anécdotas y hechos curiosos que acontecieron durante la evolución de su proyecto o actividad empresarial."
@@ -239,7 +240,7 @@
 - startTime: "17:30"
   endTime: "18:15"
   room: Biblioteca
-  title: "Y la Inteligencia Artificial para cuándo?"
+  title: "¿Y la Inteligencia Artificial para cuándo?"
   description: "Desmitificación de la Inteligencia Artificial de forma didáctica (sin fórmulas ni teoría) y divertida, presentando casos reales en producción aplicados en la ciudad de Alicante."
   speaker:
     - name: "Toni Sanchez Zaplana"
@@ -255,7 +256,7 @@
   title: "Kaizen: Introduciendo Agile mediante la mejora continua"
   description: "Uno de los principios del Manifiesto Ágil que arranca todo el movimiento de las metodologías ágiles es:
 
-    'A intervalos regulares el equipo reflexiona sobre cómo ser más efectivo para a continuación ajustar y perfeccionar su comportamiento en consecuencia'
+    'A intervalos regulares el equipo reflexiona sobre cómo ser más efectivo para a continuación ajustar y perfeccionar su comportamiento en consecuencia'.
 
     Este principio generalmente se acaba implementando mediante la ceremonia de la retrospectiva.
     Kaizen es una manera de realizar la retrospectiva para maximizar el proceso de mejora continua que buscamos dentro de las metodologías ágiles.

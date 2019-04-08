@@ -1,7 +1,7 @@
 es:
   head:
     description: 11 de mayo // Las Naves // Evento gratuito // Acceso libre
-    description_1: 11 de mayo // 09:00 - 19:00 // Las Naves
+    description_1: 11 de mayo // 09:30 - 19:30 // Las Naves
     description_2: Un evento gratuito y de acceso libre
   navigation:
     index:
@@ -53,7 +53,7 @@ es:
 en:
   head:
     description: May 11 // Las Naves // Free event // Free access
-    description_1: May 11 // 09:00 - 19:00 // Las Naves
+    description_1: May 11 // 09:30 - 19:30 // Las Naves
     description_2: Free event and free access
   navigation:
     index:
@@ -105,7 +105,7 @@ en:
 ca:
   head:
     description: 11 de Maig // Las Naves // Esdeveniment gratuït // Accés lliure
-    description_1: 11 de Maig // 09:00 - 19:00 // Las Naves
+    description_1: 11 de Maig // 09:30 - 19:30 // Las Naves
     description_2: Un esdeveniment gratuït i d'accés lliure
   navigation:
     index:
