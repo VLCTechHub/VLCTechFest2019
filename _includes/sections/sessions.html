@@ -15,7 +15,8 @@
             <ul>
           {% assign time = session.startTime %}
         {%- endif -%}
-        <li>
+
+        <li class="{{session.room | downcase}}">
           <p class="title">{{session.title}}</p>
           <ul>
             {%- for speaker in session.speaker -%}

@@ -6,6 +6,7 @@
   speaker:
     - name: "Beatriz Olcina"
       bio: "Productora audiovisual, de videojuegos y VR, comenzó sus pasos en el cine y tras varios proyectos premiados decidió embarcarse en el mundo de las nuevas tecnologías, dónde produjo proyectos como una recreativa arcade VR, actualmente está desarrollando su propio videojuego, una aventura gráfica de corte social, donde una niña ayuda a su abuela a través de su mundo mágico entre otros proyectos."
+      photo: https://yt3.ggpht.com/a-/AAuE7mA_SQzbZE2PSoJ_6YiAg3MPnn79i-s6MTP2pw=s900-mo-c-c0xffffffff-rj-k-no
       links:
         - http://beatrizolcina.com/
         - https://twitter.com/Illinois_break
@@ -19,6 +20,7 @@
   speaker:
     - name: "Ricard Sancho"
       bio: "Un dels membres fundador de l'associació GNU/Linux València, activista i apassionat del programari lliure i la tecnologia ètica."
+      photo:
       links:
 
 - startTime: "10:00"
@@ -33,7 +35,11 @@
   speaker:
     - name: "David Lluna"
       bio: "Trabaja en esta nuestra industria desde 2002, actualmente como SRE en @flywire, friki de innumerables temas y habitual de ValenciaDevOps"
+      photo: https://pbs.twimg.com/profile_images/773229410/BENQ0011_400x400.jpg
       links:
+        - https://twitter.com/llunatweets
+
+
 
 - startTime: "11:00"
   endTime: "11:45"
@@ -47,9 +53,8 @@
       bio: "Carles inició su carrera como programador en el Banco Santander, departamento de riesgo, desarrollando software de scoring para los derivados de crédito que causaron la crisis financiera de 2019. Además del mundo Fintech, también ha trabajado en otros sectores como el juego online.
 
       Actualmente trata de que su trabajo impacte de la forma menos negativa posible en la sociedad en la que vive."
+      photo:
       links:
-
-
 
 - startTime: "11:00"
   endTime: "11:45"
@@ -63,9 +68,11 @@
   speaker:
     - name: "Vicente Baixauli"
       bio: "Cuando empezó a programar, tuvo un buen mentor que le enseñó el camino hacia ser un buen programador y mejor compañero. Varios años después sigue recorriendo ese camino, a la vez que intenta ayudar a otros a recorrerlo."
+      photo: https://pbs.twimg.com/profile_images/882829636836753408/UwnGaXlp_400x400.jpg
       links:
-
-
+        - https://twitter.com/vibaiher
+        - https://github.com/vibaiher
+        - https://www.linkedin.com/in/vibaiher/
 
 - startTime: "11:00"
   endTime: "11:45"
@@ -75,7 +82,10 @@
   speaker:
     - name: "Pedro Igualada"
       bio: "Product Manager en Flywire. Ha trabajado en diferentes productos dentro de la empresa desde back office interno hasta la experiencia de pago."
+      photo: https://pbs.twimg.com/profile_images/828368696921976832/-UPP3hET_400x400.jpg
       links:
+        - https://twitter.com/pediglo
+        - https://www.linkedin.com/in/pedro-igualada-lopez-113ba82a/
 
 
 
@@ -89,9 +99,10 @@
       bio: "Técnico Superior en Administración de Sistemas Informáticos con experiencia laboral en el ámbito de la informática y las telecomunicaciones. Al igual que en la creación e implantaciones de proyectos tecnológicos y experto en seguridad informática. Amplia experiencia en el sector de las telecomunicaciones con experiencia en el día a día e implantación en centro de Datos.
 
       Fundador de asociación nacional P.I.N.T. ( Promoción e Impulsó de las Nuevas Tecnologías ), emprendedor, autodidacta y curioso por defecto."
+      photo: https://pbs.twimg.com/profile_images/908740564765507584/_6VMjwhW_400x400.jpg
       links:
-
-
+        - https://twitter.com/jmaringarcia
+        - https://www.linkedin.com/in/jmaringarcia
 
 - startTime: "12:00"
   endTime: "12:45"
@@ -101,6 +112,7 @@
   speaker:
     - name: "Juan Diego Martín-Blas Ramos"
       bio: "Trabajo como frontend developer en Mr Jeff. Mi interés por conocer cómo funcionan las cosas me llevó a estudiar Diseño Industrial en la UPV y a formarme de manera autodidacta en muchos otros ámbitos. Después de 8 años trabajando por cuenta propia, a principios de 2018 empecé a aprender programación y pude descubrir un mundo que me permite disfrutar de mi trabajo y conocer algo nuevo cada día."
+      photo:
       links:
         - https://twitter.com/JuanDiegoMbr
         - https://www.linkedin.com/in/juandiego-martin/
@@ -112,9 +124,13 @@
   description: "La seguridad es incómoda por naturaleza, pero la manera en la que ésta se valore y se integre en todos los procesos y actividades de las compañías (no sólo en el área de Sistemas) será la clave del éxito y, en algunos casos, de la supervivencia de las mismas.
   En la ponencia haremos un repaso sobre el contexto actual, en el que impera la digitalización y el uso de la tecnología, así como en las implicaciones/riesgos que estos cambios conllevan y la relevancia que cobra la ciberseguridad en este nuevo paradigma."
   speaker:
-    - name: "Lidia Garcia"
+    - name: "Lidia García"
       bio: "Ingeniería informática con más de 10 años de experiencia en el sector de la seguridad de la información, focalizando su experiencia en la gestión del riesgo y la protección de infraestructuras críticas. Actualmente formo parte del equipo de ElevenPaths, área de ciberseguridad de Teléfonica."
+      photo: https://pbs.twimg.com/profile_images/1081525166285438976/rJqwRcWu_400x400.jpg
       links:
+        - https://twitter.com/ligaresp
+
+
 
 - startTime: "13:00"
   endTime: "13:45"
@@ -124,16 +140,25 @@
   speaker:
     - name: "Silvia Rueda"
       bio: "Ingeniera en Informática y Doctora en Ciencias de la Computación por la Universitat de València (UV), directora del Dpt. d’Informàtica de la ETSE-UV y miembro de la Asociación de Mujeres Investigadoras y Tecnólogas (AMIT)."
+      photo: https://pbs.twimg.com/profile_images/1087975795778379782/ycsL3in3_400x400.jpg
       links:
+        - https://twitter.com/sruedapascual
+        - https://www.linkedin.com/in/silvia-rueda-pascual-14b69946/
     - name: "Emilia Lopez"
       bio: "Licenciada en Matemáticas y Doctora en Ciencias de la Computación por la UV, es profesora en el Dpt. de Didàctica de la Matemàtica (UV), investigadora en IDAL (ETSE-UV), embajadora de Scientix y mentora en STEM Talent Girl y miembro AMIT"
+      photo:
       links:
+        - https://twitter.com/elibeni2010
     - name: "Carmen Botella"
       bio: "Ingeniera y Doctora en Ingeniería de Telecomunicaciones por la UPV, profesora en el Dpt. d’Informàtica de la ETSE-UV y asesora del Grupo de Afinidad de Rama Estudiantil ETSE-UV Women in Engineering (IEEE)."
+      photo: https://pbs.twimg.com/profile_images/1092398906049220608/dl34cAW1_400x400.jpg
       links:
+        - https://twitter.com/CBotellaMascar
     - name: "Paula Marzal"
       bio: "Licenciada en Química y Doctora en Química por la UV, máster en Ciencia y Tecnología de Alimentos por la UPV, profesora en el Departamento de Ingeniería Química de la UV y Directora de la ETSE-UV."
+      photo: https://pbs.twimg.com/profile_images/826781112206839809/YaG1dsbk_400x400.jpg
       links:
+        - https://twitter.com/p_marzal
 
 - startTime: "13:00"
   endTime: "13:45"
@@ -145,7 +170,10 @@
   speaker:
     - name: "Carlos Muncharaz"
       bio: "Desarrollador front-end en Datamaran, aplicación web de análisis de big data destinada a profesionales de la sostenibilidad. Anteriormente diseñador gráfico y fotógrafo (El Mundo, Corts Valencianes, trabajador autónomo). Persona con discapacidad auditiva, experimentada en el movimiento asociativo y comprometida con la accesibilidad."
+      photo: https://pbs.twimg.com/profile_images/840528351085359104/HkHD3C82_400x400.jpg
       links:
+        - https://twitter.com/cmuncharaz
+        - https://www.linkedin.com/in/cmuncharaz
 
 - startTime: "13:00"
   endTime: "13:45"
@@ -156,11 +184,24 @@
   Como resultado se desarrolló una primera versión de producto basado en un universo controlado de datos y capaz de responder a las interacciones de un usuario para un cultivo prefijado."
   speaker:
     - name: "Pedro Nieto Pelaez"
-      bio:
+      bio: "Siempre he sido un apasionado de los datos, con el paso de los años esta pasión se ha convertido en mi profesión y me ha permitido centrarme en tecnologías tan diversas como IoT, AI, Big Data... "
+      photo:
       links:
+        - https://www.linkedin.com/in/pedronietopelaez/
     - name: "Esteban Chiner Sanz"
-      bio:
+      bio: ""
+      photo:
       links:
+        - https://www.linkedin.com/in/echiner/
+
+
+
+- startTime: "14:00"
+  endTime: "15:30"
+  room: Patio
+  title: "Comida"
+  description: "Para reponer fuerzas compartiremos unas paellas en el patio de Las Naves."
+
 
 
 - startTime: "15:30"
@@ -171,10 +212,13 @@
 
   El principal objetivo de esta charla es explicar casos reales de éxito de mujeres y hombres hackers conocidos tanto del mundo de la ciberseguridad como de la historia de la informática, pero siempre partiendo del concepto real de la palabra hacker. Todas las explicaciones se realizarán partiendo de anécdotas y hechos curiosos que acontecieron durante la evolución de su proyecto o actividad empresarial."
   speaker:
-    - name: "Fran Ramirez"
+    - name: "Fran Ramírez"
       bio: "Ingeniero/Grado en Informática de Sistemas, Técnico Superior en Electrónica Digital y Máster en Seguridad de las TIC, con más de 15 años de experiencia como administrador de sistemas, realizando múltiples proyectos internacionales en EEUU y Canadá. Investigador de seguridad informática en el equipo de Ideas Locas CDO de Telefónica y colabora con LUCA (Big Data e IA) y ElevenPaths (Seguridad Informática). Fundador y escritor en el blog de temas geek www.cyberhades.com (nick: cybercaronte) sobre Seguridad Informática e Historia de la Informática. Co-autor de los libros “MicroHistorias: anécdotas y curiosidades de la Informática” , “Docker:SecDevOps” y “Machine Learning aplicado a la seguridad”"
+      photo: https://pbs.twimg.com/profile_images/880678446506156032/-ZVXudpe_400x400.jpg
       links:
-
+        - https://twitter.com/cybercaronte
+        - https://github.com/tuxotron
+        - https://www.linkedin.com/in/francisco-jos%C3%A9-ram%C3%ADrez-vicente-605a24137/
 
 - startTime: "15:30"
   endTime: "16:15"
@@ -186,8 +230,11 @@
       bio: "Ingeniero de software... y millennial. Ha sobrevivido a varias startups construyendo productos orientados al consumidor y ahora está intentando vender lechugas en Mercadona Online.
 
       Le obsesiona estudiar comportamientos que emergen de las interacciones entre distintos actores en sistemas complejos. Eso le lleva a intentar entender cómo liderar equipos para construir productos de la manera más efectiva."
+      photo: https://pbs.twimg.com/profile_images/1099067008266715139/Szg7AEPH_400x400.png
       links:
-
+        - https://twitter.com/stanete
+        - https://github.com/stanete
+        - https://www.linkedin.com/in/stanete
 
 - startTime: "15:30"
   endTime: "16:15"
@@ -197,6 +244,7 @@
   speaker:
     - name: "Manuel S. Lemos"
       bio: "Desarrollador Multiplataforma con amplia experiencia en emprender proyectos. Organiza el Meetup de WordPressValencia y Unity3D, además de colaborar en muchos otros como LinuxCenter."
+      photo:
       links:
 
 
@@ -208,8 +256,11 @@
   speaker:
     - name: "Flavio Corpa"
       bio: "Lead Frontend Engineer for @EU_IPO. JavaScript and Functional Programming Enthusiast. OSS contributor in: React, Vue, Angular, Babel, Webpack, Styled Components and many others!"
+      photo: https://pbs.twimg.com/profile_images/1056856309167984640/NMaMPDxN_400x400.jpg
       links:
-
+        - https://twitter.com/flaviocorpa
+        - https://github.com/kutyel
+        - https://linkedin.com/in/flaviocorpa
 
 - startTime: "16:30"
   endTime: "17:15"
@@ -217,12 +268,19 @@
   title: "Una experiencia real con Lean UX"
   description: "Contaremos como hemos llevado a la práctica Lean UX, adaptando el flujo de trabajo a las necesidades del día a día. Y colaborando conjuntamente el equipo de UX, desarrollo, negocio, marketing, datos y usuarios."
   speaker:
-    - name: "Raquel Galvez"
+    - name: "Raquel Gálvez"
       bio: "Somos un combo de Research, UX y Agile... Es decir Lean UX. Ayudamos a crear y mejorar la experiencia de las personas en servicios y productos. Para que se entiendan mejor, sean más útiles y fáciles de usar. Y si además, son proyectos de impacto medioambiental o social mejor!"
+      photo: https://pbs.twimg.com/profile_images/648202541445087236/X7WtESBu_400x400.jpg
       links:
-    - name: "Tony Morella"
+        - http://raquelgalvez.com/
+        - https://twitter.com/RaquelGalvezO
+        - https://www.linkedin.com/in/raquelgalvez/
+    - name: "Tony Morellá"
       bio:
+      photo: https://pbs.twimg.com/profile_images/378800000404300358/5fe6bc11582611a74f1dbbcde08b8a86_400x400.jpeg
       links:
+        - https://twitter.com/Hynnot
+        - https://www.linkedin.com/in/tony-morella-llacer/
 
 - startTime: "16:30"
   endTime: "17:15"
@@ -231,9 +289,11 @@
   description: "Aunque todos hemos oído hablar de la red Tor, casi nadie le ha dedicado el tiempo suficiente para desterrar los mitos, prejuicios y leyendas urbanas que la rodean.
   El objetivo es revisar con detalle las características de la red Tor, desde distintos puntos de vista, sentando una base sólida que permita entender su uso, tanto para utilizarla como usuarios como para aceptar a usuarios de Tor en nuestros servicios."
   speaker:
-    - name: "Miguel Macias"
+    - name: "Miguel Macías Enguídanos"
       bio: "Ingeniero Informático, trabajando en la UPV desde hace 17 años, con interés especial en la seguridad y en la identidad digital. Da charlas relacionadas con estos temas, frecuentemente, en los eventos de RedIRIS."
+      photo:
       links:
+
 
 
 - startTime: "17:30"
@@ -242,12 +302,14 @@
   title: "¿Y la Inteligencia Artificial para cuándo?"
   description: "Desmitificación de la Inteligencia Artificial de forma didáctica (sin fórmulas ni teoría) y divertida, presentando casos reales en producción aplicados en la ciudad de Alicante."
   speaker:
-    - name: "Toni Sanchez Zaplana"
+    - name: "Toni Sánchez Zaplana"
       bio: "Responsable de Innovación y Tecnología en Aguas Municipalizadas de Alicante, Ingeniero de Telecomunicaciones, Especialista Universitario en Economía de las Telecomunicaciones y MBA.
 
       Toni tiene más de 20 años de experiencia profesional, ha participado en diferentes proyectos de innovación nacional e internacional de implantación de tecnología en ciudades."
+      photo: https://pbs.twimg.com/profile_images/1068365006281080832/jKsEKy7C_400x400.jpg
       links:
-
+        - https://twitter.com/aszapla
+        - www.linkedin.com/in/antonio-sánchez-zaplana
 
 - startTime: "17:30"
   endTime: "18:15"
@@ -262,10 +324,10 @@
 
     En esta charla, el asistente conocerá algunas claves para mejorar sus retrospectivas, así como consejos y ayudas de como arrancar la implementación de las metodologías ágiles en equipos que todavía no lo son."
   speaker:
-    - name: "Mateja Jermani"
+    - name: "Mateja Jermanis"
       bio: "Product Owner @MakotoSquad. Member of Devscola."
+      photo:
       links:
-
 
 - startTime: "17:30"
   endTime: "18:15"
@@ -279,8 +341,18 @@
   speaker:
     - name: "Alvaro Martinez de Miguel"
       bio: "Programador @/Devscola. JS y lo que caiga."
+      photo:
       links:
-    - name: "Miguel Angel Fernandez"
+    - name: "Miguel Angel Fernández"
       bio: "Full Stack Amo de Casa."
+      photo:
       links:
+
+
+
+- startTime: "18:30"
+  endTime: "19:30"
+  room: Patio
+  title: "Asamblea VLCTechHub"
+  description: "Todo el mundo está invitado. Hablaremos de lo que hemos hecho en el último año y de lo que queremos hacer en adelante. Si tienes alguna propuesta, quieres colaborar o simplemente informarte serás más que bienvenid@ ¡VLCTechHub lo hacemos entre tod@s!."
 
