@@ -39,8 +39,6 @@
       links:
         - https://twitter.com/llunatweets
 
-
-
 - startTime: "11:00"
   endTime: "11:45"
   room: Biblioteca
@@ -88,8 +86,6 @@
         - https://twitter.com/pediglo
         - https://www.linkedin.com/in/pedro-igualada-lopez-113ba82a/
 
-
-
 - startTime: "12:00"
   endTime: "12:45"
   room: Biblioteca
@@ -127,11 +123,9 @@
   speaker:
     - name: "Lidia García"
       bio: "Ingeniería informática con más de 10 años de experiencia en el sector de la seguridad de la información, focalizando su experiencia en la gestión del riesgo y la protección de infraestructuras críticas. Actualmente formo parte del equipo de ElevenPaths, área de ciberseguridad de Teléfonica."
-      photo:
+      photo: https://pbs.twimg.com/profile_images/1068246816024641536/EaSq_gy-_400x400.jpg
       links:
         - https://twitter.com/ligaresp
-
-
 
 - startTime: "13:00"
   endTime: "13:45"
@@ -195,15 +189,11 @@
       links:
         - https://www.linkedin.com/in/echiner/
 
-
-
 - startTime: "14:00"
   endTime: "15:30"
   room: Patio
   title: "Comida"
   description: "Para reponer fuerzas compartiremos unas paellas en el patio de Las Naves."
-
-
 
 - startTime: "15:30"
   endTime: "16:15"
@@ -247,7 +237,6 @@
       bio: "Desarrollador Multiplataforma con amplia experiencia en emprender proyectos. Organiza el Meetup de WordPressValencia y Unity3D, además de colaborar en muchos otros como LinuxCenter."
       photo:
       links:
-
 
 - startTime: "16:30"
   endTime: "17:15"
@@ -294,8 +283,6 @@
       bio: "Ingeniero Informático, trabajando en la UPV desde hace 17 años, con interés especial en la seguridad y en la identidad digital. Da charlas relacionadas con estos temas, frecuentemente, en los eventos de RedIRIS."
       photo:
       links:
-
-
 
 - startTime: "17:30"
   endTime: "18:15"
@@ -348,8 +335,6 @@
       bio: "Full Stack Amo de Casa."
       photo:
       links:
-
-
 
 - startTime: "18:30"
   endTime: "19:30"
