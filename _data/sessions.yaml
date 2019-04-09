@@ -45,16 +45,17 @@
   endTime: "11:45"
   room: Biblioteca
   title: "Programando al servicio de la especulación financiera"
-  description: "Vivimos tiempos extraños donde nada es lo que parece. Son los tiempos de la postverdad, del relativismo, de la obsesión por la individualidad. Una de las manifestaciones más representativas de nuestra época es el fenómeno Startup. Un enorme ecosistema plagado de eslóganes de auto-ayuda (¡Todo es posible!)y palabras vacías que se desarrolla como el escenario de un teatro mágico. En él, la mano de obra rebautizada como talento ya no trabaja por el salario, desarrolla su vocación. Tanto es así que es difícil encontrar entre quienes trabajan en ese entorno a alguien que reconozca trabajar con el objeto de procurarse un sustento. Entre partidos de ping-pong y team buildings, se parte de la premisa de que el trabajo debe dominar (subsumir) la mayor parte de nuestras vidas.
+  description: "Vivimos tiempos extraños donde nada es lo que parece. Son los tiempos de la postverdad, del relativismo, de la obsesión por la individualidad. Una de las manifestaciones más representativas de nuestra época es el fenómeno Startup. Un enorme ecosistema plagado de eslóganes de auto-ayuda (¡Todo es posible!)y palabras vacías que se desarrolla como el escenario de un teatro mágico. En él, la mano de obra rebautizada como talento ya no trabaja por el salario, desarrolla su vocación. Tanto es así que es difícil encontrar entre quienes trabajan en ese entorno a alguien que reconozca trabajar con el objeto de procurarse un sustento. Entre partidos de ping-pong y team buildings, hemos aceptado que el trabajo debe dominar la mayor parte de nuestras vidas.
 
   Pero bajo los lemas estimulantes del éxito y la cultura del esfuerzo se camuflan los procesos especulativos del capitalismo moderno. Las empresas tecnológicas, a través de las múltiples aplicaciones, han descubierto una nueva mecánica de acumulación por desposesión: la desposesión de los datos de nuestras vidas, del control de la información que recibimos, del control incluso de nuestros valores, principios y costumbres. Quienes trabajamos en el sector, cómplices de todo esto, parecemos vivir al margen de la destrucción que se está produciendo a nuestro paso. Vivimos una época dorada, con una explosión de empresas en dura competencia por una mano de obra aún escasa que cualquier día dejará de serlo. Y en ese caldo bullicioso, abrumadoramente masculino, juvenil, entusiasta y aparentemente desenfadado, medra la codiciosa voluntad de los fondos de inversión de convertir dinero en más dinero."
   speaker:
     - name: "Carles Climent"
-      bio: "Carles inició su carrera como programador en el Banco Santander, departamento de riesgo, desarrollando software de scoring para los derivados de crédito que causaron la crisis financiera de 2019. Además del mundo Fintech, también ha trabajado en otros sectores como el juego online.
-
-      Actualmente trata de que su trabajo impacte de la forma menos negativa posible en la sociedad en la que vive."
-      photo:
+      bio: "Inició su carrera desarrollando software de scoring para derivados de crédito, conocidos por la crisis financiera de 2009. Continuó en el ámbito Fin-Tech y en otros sectores como el juego online. Hoy trata de que el producto de su trabajo dañe lo menos posible a la sociedad en la que vive."
+      photo: https://pbs.twimg.com/profile_images/974979411584933889/KUivXHQQ_400x400.jpg
       links:
+        - https://twitter.com/Carles_Climent
+        - https://github.com/carlescliment
+        - https://www.linkedin.com/in/carlescliment/
 
 - startTime: "11:00"
   endTime: "11:45"
