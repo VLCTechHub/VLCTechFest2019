@@ -112,7 +112,7 @@
   speaker:
     - name: "Juan Diego Martín-Blas Ramos"
       bio: "Trabajo como frontend developer en Mr Jeff. Mi interés por conocer cómo funcionan las cosas me llevó a estudiar Diseño Industrial en la UPV y a formarme de manera autodidacta en muchos otros ámbitos. Después de 8 años trabajando por cuenta propia, a principios de 2018 empecé a aprender programación y pude descubrir un mundo que me permite disfrutar de mi trabajo y conocer algo nuevo cada día."
-      photo:
+      photo: https://pbs.twimg.com/profile_images/1081525166285438976/rJqwRcWu_400x400.jpg
       links:
         - https://twitter.com/JuanDiegoMbr
         - https://www.linkedin.com/in/juandiego-martin/
@@ -126,7 +126,7 @@
   speaker:
     - name: "Lidia García"
       bio: "Ingeniería informática con más de 10 años de experiencia en el sector de la seguridad de la información, focalizando su experiencia en la gestión del riesgo y la protección de infraestructuras críticas. Actualmente formo parte del equipo de ElevenPaths, área de ciberseguridad de Teléfonica."
-      photo: https://pbs.twimg.com/profile_images/1081525166285438976/rJqwRcWu_400x400.jpg
+      photo:
       links:
         - https://twitter.com/ligaresp
 
