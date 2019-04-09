@@ -339,9 +339,9 @@
 
   Cuando termine la sesión serás capaz de hacer que el navegador ejecute tareas por ti, como por ejemplo publicar una conferencia en tu sitio de eventos favorito."
   speaker:
-    - name: "Alvaro Martinez de Miguel"
-      bio: "Programador @/Devscola. JS y lo que caiga."
-      photo:
+    - name: "Demi [Alvaro Martinez de Miguel]"
+      bio: "Programador @Devscola. JS y lo que caiga."
+      photo: https://media.licdn.com/dms/image/C4D03AQEXolYmrMrerQ/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=Nfv_x7Qslz0uJMCBI0pfZu_nJVYkOGyaVsAKjmDj9kg
       links:
     - name: "Miguel Angel Fernández"
       bio: "Full Stack Amo de Casa."
