@@ -13,6 +13,9 @@ es:
     cfp:
       link: "#cfp"
       label: Propuestas
+    agenda:
+      link: "#sessions"
+      label: Agenda
     diversity:
       link: "#diversity"
       label: Diversidad
@@ -69,6 +72,9 @@ en:
     cfp:
       link: "#cfp"
       label: Proposals
+    agenda:
+      link: "#sessions"
+      label: Schedule
     diversity:
       link: "#diversity"
       label: Diversity
@@ -125,6 +131,9 @@ ca:
     cfp:
       link: "#cfp"
       label: Propostes
+    agenda:
+      link: "#sessions"
+      label: Agenda
     diversity:
       link: "#diversity"
       label: Diversitat

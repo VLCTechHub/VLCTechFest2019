@@ -38,11 +38,11 @@ path:
   community_images: /images/communities/
 navigation:
   - about
+  - agenda
   - diversity
   - coc
   - communities
   - faq
-  - vtf2018
 locale:
   es: es_ES
   en: en_US
