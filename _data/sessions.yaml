@@ -139,7 +139,7 @@
       links:
         - https://twitter.com/sruedapascual
         - https://www.linkedin.com/in/silvia-rueda-pascual-14b69946/
-    - name: "Emilia Lopez"
+    - name: "Emilia López Iñesta"
       bio: "Licenciada en Matemáticas y Doctora en Ciencias de la Computación por la UV, es profesora en el Dpt. de Didàctica de la Matemàtica (UV), investigadora en IDAL (ETSE-UV), embajadora de Scientix y mentora en STEM Talent Girl y miembro AMIT"
       photo:
       links:
@@ -180,12 +180,12 @@
   speaker:
     - name: "Pedro Nieto Pelaez"
       bio: "Siempre he sido un apasionado de los datos, con el paso de los años esta pasión se ha convertido en mi profesión y me ha permitido centrarme en tecnologías tan diversas como IoT, AI, Big Data... "
-      photo:
+      photo: https://media.licdn.com/dms/image/C4E03AQF0YzOS_7yBhg/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=HFvW8LDXyziLTa_1YYWf_WLGoZbex1K1PmQIP2ACyUk
       links:
         - https://www.linkedin.com/in/pedronietopelaez/
     - name: "Esteban Chiner Sanz"
-      bio: ""
-      photo:
+      bio: "Arquitecto de software senior con larga experiencia en sistemas backend basados en Java. Trabajando en telcos, portales B2B e instituciones financieras. Acostumbrado a trabajar en equipos distribuidos y multiculturales y con larga experiencia en el ecosistema Java/JEE. También he trabajando en profundidad con Oracle, Informatica PowerCenter, Sistemas de Gestión de Reglas de Negocio (BRMS) y últimamente centrado en Hadoop."
+      photo: https://media.licdn.com/dms/image/C5603AQEYIkAkgp_Rkg/profile-displayphoto-shrink_800_800/0?e=1560384000&v=beta&t=yyf61HmCf8NLhUEegO--d7vrOS32fQmQ-UM3hDXhpQo
       links:
         - https://www.linkedin.com/in/echiner/
 
@@ -235,8 +235,10 @@
   speaker:
     - name: "Manuel S. Lemos"
       bio: "Desarrollador Multiplataforma con amplia experiencia en emprender proyectos. Organiza el Meetup de WordPressValencia y Unity3D, además de colaborar en muchos otros como LinuxCenter."
-      photo:
+      photo: https://pbs.twimg.com/profile_images/972873617137655808/wROZ8HPx_400x400.jpg
       links:
+        - https://twitter.com/manuels_lemos
+        - https://www.linkedin.com/in/manuelslemos/
 
 - startTime: "16:30"
   endTime: "17:15"
@@ -250,7 +252,7 @@
       links:
         - https://twitter.com/flaviocorpa
         - https://github.com/kutyel
-        - https://linkedin.com/in/flaviocorpa
+        - https://www.linkedin.com/in/flaviocorpa
 
 - startTime: "16:30"
   endTime: "17:15"
@@ -266,7 +268,7 @@
         - https://twitter.com/RaquelGalvezO
         - https://www.linkedin.com/in/raquelgalvez/
     - name: "Tony Morellá"
-      bio:
+      bio: "Difundiendo agilismo tanto a nivel de gestión de proyectos (Scrum, Kanban, Lean, Retrospectivas...) como de la calidad del software (TDD, Code reviews, DDD, IDD...). Practicante y fiel creyente de Lean UX."
       photo: https://pbs.twimg.com/profile_images/378800000404300358/5fe6bc11582611a74f1dbbcde08b8a86_400x400.jpeg
       links:
         - https://twitter.com/Hynnot
@@ -283,6 +285,7 @@
       bio: "Ingeniero Informático, trabajando en la UPV desde hace 17 años, con interés especial en la seguridad y en la identidad digital. Da charlas relacionadas con estos temas, frecuentemente, en los eventos de RedIRIS."
       photo:
       links:
+        - https://www.rediris.es/difusion/publicaciones/e-boletin/6/entrevista.html
 
 - startTime: "17:30"
   endTime: "18:15"
@@ -297,7 +300,7 @@
       photo: https://pbs.twimg.com/profile_images/1068365006281080832/jKsEKy7C_400x400.jpg
       links:
         - https://twitter.com/aszapla
-        - www.linkedin.com/in/antonio-sánchez-zaplana
+        - https://www.linkedin.com/in/antonio-sánchez-zaplana
 
 - startTime: "17:30"
   endTime: "18:15"
@@ -313,9 +316,11 @@
     En esta charla, el asistente conocerá algunas claves para mejorar sus retrospectivas, así como consejos y ayudas de como arrancar la implementación de las metodologías ágiles en equipos que todavía no lo son."
   speaker:
     - name: "Mateja Jermanis"
-      bio: "Product Owner @MakotoSquad. Member of Devscola."
-      photo:
+      bio: "Product Owner, actualmente trabajando con Devscola y Makoto Squad. Creativo y orientado al detalle. Obsesionada con Agile, los proyectos Open Source y el trabajo en equipo."
+      photo: https://pbs.twimg.com/profile_images/1112467746548264962/5UFVQcDf_400x400.jpg
       links:
+        - https://twitter.com/matejovski
+        - https://www.linkedin.com/in/mateja-jermanis/
 
 - startTime: "17:30"
   endTime: "18:15"
@@ -328,13 +333,19 @@
   Cuando termine la sesión serás capaz de hacer que el navegador ejecute tareas por ti, como por ejemplo publicar una conferencia en tu sitio de eventos favorito."
   speaker:
     - name: "Demi [Alvaro Martinez de Miguel]"
-      bio: "Programador @Devscola. JS y lo que caiga."
+      bio: "Programador @Xing. Modern JavaScript y lo que caiga."
       photo: https://media.licdn.com/dms/image/C4D03AQEXolYmrMrerQ/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=Nfv_x7Qslz0uJMCBI0pfZu_nJVYkOGyaVsAKjmDj9kg
       links:
+        - https://twitter.com/DemiTralla
+        - https://github.com/demipel8
+        - https://www.linkedin.com/in/demigames/
     - name: "Miguel Angel Fernández"
       bio: "Full Stack Amo de Casa."
-      photo:
+      photo: https://media.licdn.com/dms/image/C5603AQFc5_wfDTvfDQ/profile-displayphoto-shrink_800_800/0?e=1560384000&v=beta&t=3gv-EMia0ag4YNIjsaXffA_rexpzgP9NvAIXUwOkhfQ
       links:
+        - https://twitter.com/elmendalerenda
+        - https://github.com/elmendalerenda
+        - https://www.linkedin.com/in/miguelangelfernandezpaco/
 
 - startTime: "18:30"
   endTime: "19:30"
