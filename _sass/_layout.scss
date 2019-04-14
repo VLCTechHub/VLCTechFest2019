@@ -276,6 +276,10 @@ footer a:hover {
   @extend .section-pink;
 }
 
+#kid-sessions {
+  @extend .section-white;
+}
+
 #speakers {
   @extend .section-purple;
 }
@@ -668,9 +672,8 @@ ul.sessions {
           color: white;
           border: 3px solid white;
           .title {
-              color: white;
+            color: white;
           }
-
         }
         .title {
           grid-area: title;
@@ -688,7 +691,7 @@ ul.sessions {
         .room {
           grid-area: room;
           margin: 0;
-          opacity: .7;
+          opacity: 0.7;
           font-size: 0.9em;
         }
         > ul {
@@ -762,6 +765,54 @@ ul.sessions {
   }
 }
 
+
+#kid-sessions {
+  background-image: url(/images/fondo.svg);
+  background-color: white;
+  color: black;
+  .wrapper {
+    background-color: white;
+  }
+  .description {
+    max-width: 40em;
+    padding-right: 1.5em;
+  }
+  ul.sessions {
+    > li {
+      > p span {
+        color: black;
+      }
+      > ul > li {
+        border: 3px solid var(--primaryColor);
+        &.patio {
+          color: inherit;
+        }
+        .title {
+          color: var(--primaryColor);
+        }
+      }
+    }
+  }
+  .big-title {
+    font-size: 6vw;
+    font-weight: 900;
+    line-height: 1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: .03em;
+    -webkit-text-stroke-color: var(--primaryColor);
+    text-shadow: 0.04em .04em 0 var(--secondaryColor);
+    max-width: 40vw;
+    text-transform: uppercase;
+    strong {
+      font-size: 1.39em;
+      .en & {
+        font-size: 1.83em;
+        letter-spacing: 0.49em;
+      }
+    }
+  }
+}
+
 //speakers
 
 ul.speakers {
@@ -787,7 +838,7 @@ ul.speakers {
       border-radius: 50%;
       margin: 0 20%;
     }
-    >img {
+    > img {
       max-width: 60%;
     }
     > svg {
@@ -986,6 +1037,21 @@ ul.speakers {
   justify-content: space-around;
   > li {
     width: 45%;
+  }
+}
+
+#sponsors ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3em;
+  li {
+    width: 25%;
+    max-width: 170px;
+    img,
+    svg {
+      width: 100%;
+    }
   }
 }
 
