@@ -326,9 +326,9 @@
   endTime: "18:15"
   room: Visual Room
   title: "Tuneando el browser con extensiones"
-  description: "Los navegadores están construidos bajo un principio muy simple: la misma experiencia para todos los usuarios. A partir de ahí, ponen a nuestra disposición unas extensiones para que podamos personalizarlo a nuestro gusto. ¿Y si nos pusieramos al otro lado de la pantalla? ¡Construyamos una extensión! Si eres un programador, las APIs existentes te lo ponen muy fácil para adaptar el navegador a tus necesidades personales. Y por si esto no fuera del todo convincente, la extensión puede instalarse tanto en Firefox, Chrome como en Opera sin cambios o con mínimos cambios.</br></br>
+  description: "Los navegadores están construidos bajo un principio muy simple: la misma experiencia para todos los usuarios. A partir de ahí, ponen a nuestra disposición unas extensiones para que podamos personalizarlo a nuestro gusto. ¿Y si nos pusieramos al otro lado de la pantalla? ¡Construyamos una extensión! Si eres un programador, las APIs existentes te lo ponen muy fácil para adaptar el navegador a tus necesidades personales. Y por si esto no fuera del todo convincente, la extensión puede instalarse tanto en Firefox, Chrome como en Opera sin cambios o con mínimos cambios.
 
-  En esta sesión, aprenderás cómo desarrollar una extensión que se pueda utilizar en varios navegadores usando javascript. Además crearemos e instalaremos una extensión en directo y enseñaremos cómo hemos adaptado el navegador a nuestras necesidades con extensiones creadas por nosotros.</br></br>
+  En esta sesión, aprenderás cómo desarrollar una extensión que se pueda utilizar en varios navegadores usando javascript. Además crearemos e instalaremos una extensión en directo y enseñaremos cómo hemos adaptado el navegador a nuestras necesidades con extensiones creadas por nosotros.
 
   Cuando termine la sesión serás capaz de hacer que el navegador ejecute tareas por ti, como por ejemplo publicar una conferencia en tu sitio de eventos favorito."
   speaker:
