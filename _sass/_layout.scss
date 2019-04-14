@@ -668,9 +668,8 @@ ul.sessions {
           color: white;
           border: 3px solid white;
           .title {
-              color: white;
+            color: white;
           }
-
         }
         .title {
           grid-area: title;
@@ -688,7 +687,7 @@ ul.sessions {
         .room {
           grid-area: room;
           margin: 0;
-          opacity: .7;
+          opacity: 0.7;
           font-size: 0.9em;
         }
         > ul {
@@ -787,7 +786,7 @@ ul.speakers {
       border-radius: 50%;
       margin: 0 20%;
     }
-    >img {
+    > img {
       max-width: 60%;
     }
     > svg {
@@ -986,6 +985,21 @@ ul.speakers {
   justify-content: space-around;
   > li {
     width: 45%;
+  }
+}
+
+#sponsors ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3em;
+  li {
+    width: 25%;
+    max-width: 170px;
+    img,
+    svg {
+      width: 100%;
+    }
   }
 }
 

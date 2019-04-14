@@ -43,6 +43,7 @@ es:
     type:
       organizers: "Organiza:"
       collaborators: "Colabora:"
+      sponsors: "Patrocinadores"
   news:
     cfp_open:
       text: Call for papers abierto
@@ -102,6 +103,7 @@ en:
     type:
       organizers: "Organized by:"
       collaborators: "Supported by:"
+      sponsors: "Sponsors"
   news:
     cfp_open:
       text: Open call for papers
@@ -161,6 +163,7 @@ ca:
     type:
       organizers: "Organitza:"
       collaborators: "Col·labora:"
+      sponsors: "Sponsors"
   news:
     cfp_open:
       text: Call for papers obert
