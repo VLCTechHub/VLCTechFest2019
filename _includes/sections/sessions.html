@@ -24,7 +24,7 @@
             {%- endfor -%}
           </ul>
           <p class="room">Sala: <span>{{session.room}}</span></p>
-          <p class="description">{{session.description}}</p>
+          <div class="description">{{session.description | markdownify }}</div>
         </li>
       {%- endfor -%}
       </ul></li>
