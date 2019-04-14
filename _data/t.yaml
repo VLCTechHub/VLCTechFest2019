@@ -53,6 +53,18 @@ es:
       button: Anima a otra persona
   sessions:
     title: Agenda
+  kid-sessions:
+    title: "**Track** familiar"
+    description: "Queremos que VLCTechFest sea para todos y por eso hemos añadido un track extra al evento dedicado a los más pequeños.
+
+
+Vente a pasar un día aprendiendo a programar con Scratch, a navegar por internet de forma segura o construyendo un coche para hacer carreras con él.
+
+
+Reserva tu entrada escribiendo un mail a hola@vlctechfest.org con el título del taller al que quieres asistir, tu nombre y tu edad.
+
+
+¡Nos vemos allí!"
   speakers:
     title: Ponentes
   footer:
@@ -113,6 +125,8 @@ en:
       button: Encourage another person
   sessions:
     title: Schedule
+  kid-sessions:
+    title: "**Kid** Sessions"
   speakers:
     title: Speakers
   footer:
@@ -173,6 +187,8 @@ ca:
       button: Anima a altra persona
   sessions:
     title: Agenda
+  kid-sessions:
+    title: "**Kid** Sessions"
   speakers:
     title: Ponentes
   footer:
