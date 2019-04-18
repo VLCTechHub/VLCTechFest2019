@@ -53,7 +53,7 @@ es:
       button: Anima a otra persona
   sessions:
     title: Agenda
-  kid-sessions:
+  kids:
     title: "**Track** familiar"
     description: "Queremos que VLCTechFest sea para todos y por eso hemos añadido un track extra al evento dedicado a los más pequeños.
 
@@ -125,7 +125,7 @@ en:
       button: Encourage another person
   sessions:
     title: Schedule
-  kid-sessions:
+  kids:
     title: "**Kid** Sessions"
   speakers:
     title: Speakers
@@ -187,7 +187,7 @@ ca:
       button: Anima a altra persona
   sessions:
     title: Agenda
-  kid-sessions:
+  kids:
     title: "**Kid** Sessions"
   speakers:
     title: Ponentes

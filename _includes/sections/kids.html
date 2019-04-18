@@ -1,11 +1,11 @@
-{%- assign sessions = site.data.t[page.lang].kid-sessions -%}
-<section id="kid-sessions">
+{%- assign sessions = site.data.t[page.lang].kids -%}
+<section id="kids">
   <div class="wrapper">
     <div class="big-title">{{ sessions.title | markdownify }}</div>
     <div class="description">{{ sessions.description | markdownify }}</div>
     <ul class="sessions">
       {% assign time = "" %}
-      {%- for session in site.data.kid-sessions -%}
+      {%- for session in site.data.kids -%}
         {% if time != session.startTime %}
           {% if time != "" %}</ul></li>{%- endif -%}
           <li>
