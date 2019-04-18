@@ -160,7 +160,7 @@
         - https://www.linkedin.com/in/silvia-rueda-pascual-14b69946/
     - name: "Emilia López Iñesta"
       bio: "Licenciada en Matemáticas y Doctora en Ciencias de la Computación por la UV, es profesora en el Dpt. de Didàctica de la Matemàtica (UV), investigadora en IDAL (ETSE-UV), embajadora de Scientix y mentora en STEM Talent Girl y miembro AMIT"
-      photo: /images/sessions/ELI.png
+      photo: /images/speakers/ELI.png
       links:
         - https://twitter.com/elibeni2010
     - name: "Carmen Botella"
@@ -309,7 +309,7 @@
   speaker:
     - name: "Miguel Macías Enguídanos"
       bio: "Ingeniero Informático, trabajando en la UPV desde hace 17 años, con interés especial en la seguridad y en la identidad digital. Da charlas relacionadas con estos temas, frecuentemente, en los eventos de RedIRIS."
-      photo: /images/sessions/MME.png
+      photo: /images/speakers/MME.png
       links:
         - https://www.rediris.es/difusion/publicaciones/e-boletin/6/entrevista.html
 
