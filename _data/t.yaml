@@ -93,7 +93,7 @@ en:
       label: Schedule
     kids:
       link: "#kids"
-      label: Kid sessions
+      label: Kids sessions
     diversity:
       link: "#diversity"
       label: Diversity
@@ -132,7 +132,7 @@ en:
   sessions:
     title: Schedule
   kids:
-    title: "**Kid** Sessions"
+    title: "**Kids** Sessions"
     description: "We want VLCTechFest to be an event for everybody and that is why we have added an extra track dedicated to the little ones.
 
 
