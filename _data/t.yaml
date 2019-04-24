@@ -22,6 +22,9 @@ es:
     diversity:
       link: "#diversity"
       label: Diversidad
+    upfront:
+      link: "#upfront"
+      label: Upfront
     coc:
       link: "#coc"
       label: CoC
@@ -97,6 +100,9 @@ en:
     diversity:
       link: "#diversity"
       label: Diversity
+    upfront:
+      link: "#upfront"
+      label: Upfront
     coc:
       link: "#coc"
       label: CoC
@@ -172,6 +178,9 @@ ca:
     diversity:
       link: "#diversity"
       label: Diversitat
+    upfront:
+      link: "#upfront"
+      label: Upfront
     coc:
       link: "#coc"
       label: CoC

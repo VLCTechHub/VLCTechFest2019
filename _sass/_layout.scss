@@ -308,6 +308,10 @@ footer a:hover {
   @extend .section-purple;
 }
 
+#upfront {
+  @extend .section-navy;
+}
+
 .main {
   background-image: url(/images/fondo.svg);
   background-position: center center;
@@ -503,6 +507,7 @@ footer a:hover {
   --purple: #4c008c;
   --pink: #c9197c;
   --green: #10ffb3;
+  --navy: #101D49;
   --primaryFont: "Roboto", sans-serif;
   --textFont: "Montserrat", sans-serif;
   --slabFont: "Roboto Slab", serif;
@@ -527,6 +532,14 @@ body {
 }
 .section-blue {
   --backgroundColor: var(--blue);
+  --textColor: var(--white);
+  --primaryColor: var(--pink);
+  --primaryTextColor: var(--white);
+  --secondaryColor: var(--green);
+  --secondaryTextColor: var(--white);
+}
+.section-navy {
+  --backgroundColor: var(--navy);
   --textColor: var(--white);
   --primaryColor: var(--pink);
   --primaryTextColor: var(--white);
@@ -564,6 +577,24 @@ section {
   }
   .title {
     font-weight: 500;
+  }
+  .big-title {
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: .03em;
+    max-width: 40vw;
+    text-transform: uppercase;
+    strong {
+      font-size: 1.39em;
+      .en & {
+        letter-spacing: 0.40em;
+      }
+    }
+  }
+  strong {
+    color: var(--primaryColor);
   }
   h1 {
     font-weight: 900;
@@ -794,23 +825,23 @@ ul.sessions {
     }
   }
   .big-title {
-    font-size: 4vw;
-    font-weight: 900;
-    line-height: 1em;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: .03em;
     -webkit-text-stroke-color: var(--primaryColor);
     text-shadow: 0.04em .04em 0 var(--secondaryColor);
-    max-width: 40vw;
-    text-transform: uppercase;
-    strong {
-      font-size: 1.39em;
-      .en & {
-        letter-spacing: 0.40em;
-      }
-    }
   }
 }
+
+#upfront {
+  .description {
+    max-width: 40em;
+    padding-right: 1.5em;
+  }
+  .big-title {
+    -webkit-text-stroke-color: var(--secondaryColor);
+    text-shadow: 0.04em .04em 0 var(--primaryColor);
+  }
+}
+
+
 
 //speakers
 

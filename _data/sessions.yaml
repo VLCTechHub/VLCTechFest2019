@@ -34,7 +34,7 @@
 - startTime: "10:00"
   endTime: "10:45"
   room: Visual Room
-  title: "Ingeniería del caos: Rompiendo cosas a proposito en producción"
+  title: "Ingeniería del caos: Rompiendo cosas a propósito en producción"
   description: |-
     La ingeniería del caos es una joven disciplina centrada en la realización de experimentos controlados en sistemas en producción con el fin de mejorar su resiliencia.
 
