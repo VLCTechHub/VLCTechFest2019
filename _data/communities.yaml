@@ -102,6 +102,15 @@
     - https://github.com/geoinquietosvlc
     - https://telegram.me/geoinquietosvlc
 
+- name: GNU Linux Valencia
+  image: gnuvalencia_logo.png
+  links:
+    - https://twitter.com/GnuLinuxVlc
+    - https://telegram.me/canalgnulinuxvalencia
+    - https://floss.social/@gnulinuxvalencia
+    - https://diasp.org/public/gnulinuxvalencia
+    - https://gnulinuxvalencia.org
+
 - name: Hack & Beers
   image: hack&beers_logo.png
   links:
