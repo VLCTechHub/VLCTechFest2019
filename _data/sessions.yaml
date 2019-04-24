@@ -201,7 +201,7 @@
   speaker:
     - name: "Pedro Nieto Pelaez"
       bio: "Siempre he sido un apasionado de los datos, con el paso de los años esta pasión se ha convertido en mi profesión y me ha permitido centrarme en tecnologías tan diversas como IoT, AI, Big Data... "
-      photo:
+      photo: /images/speakers/PNP.jpeg
       links:
         - https://www.linkedin.com/in/pedronietopelaez/
     - name: "Esteban Chiner Sanz"
