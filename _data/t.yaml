@@ -16,6 +16,9 @@ es:
     agenda:
       link: "#sessions"
       label: Agenda
+    kids:
+      link: "#kids"
+      label: Track familiar
     diversity:
       link: "#diversity"
       label: Diversidad
@@ -55,7 +58,7 @@ es:
     title: Agenda
   kids:
     title: "**Track** familiar"
-    description: "Queremos que VLCTechFest sea para todos y por eso hemos añadido un track extra al evento dedicado a los más pequeños.
+    description: "Queremos que VLCTechFest sea un evento para todos y por eso hemos añadido un track extra dedicado a los más pequeños.
 
 
 Vente a pasar un día aprendiendo a programar con Scratch, a navegar por internet de forma segura o construyendo un coche para hacer carreras con él.
@@ -88,6 +91,9 @@ en:
     agenda:
       link: "#sessions"
       label: Schedule
+    kids:
+      link: "#kids"
+      label: Kid sessions
     diversity:
       link: "#diversity"
       label: Diversity
@@ -127,6 +133,16 @@ en:
     title: Schedule
   kids:
     title: "**Kid** Sessions"
+    description: "We want VLCTechFest to be an event for everybody and that is why we have added an extra track dedicated to the little ones.
+
+
+Come to spend a day learning how to program with Scratch, how to surf the internet safely or building a car to play races with it.
+
+
+Book your ticket by writing an email to <a href='mailto:hola@vlctechfest.org'>hola@vlctechfest.org</a> with the title of the workshop you want to attend, your name and your age.
+
+
+See you there!"
   speakers:
     title: Speakers
   footer:
@@ -150,6 +166,9 @@ ca:
     agenda:
       link: "#sessions"
       label: Agenda
+    kids:
+      link: "#kids"
+      label: Track familiar
     diversity:
       link: "#diversity"
       label: Diversitat
@@ -188,7 +207,17 @@ ca:
   sessions:
     title: Agenda
   kids:
-    title: "**Kid** Sessions"
+    title: "**Track** familiar"
+    description: "Volem que VLCTechFest siga un esdeveniment per a tots i per això hem afegit un track extra dedicat als més menuts.
+
+
+Vine't a passar un dia aprenent a programar amb Scratch, a navegar per internet de forma segura o construint un cotxe per a fer carreres amb ell.
+
+
+Reserva la teua entrada escrivint un mail a <a href='mailto:hola@vlctechfest.org'>hola@vlctechfest.org</a> amb el títol del taller al qual vols assistir, el teu nom i la teua edat.
+
+
+Ens veiem allí!"
   speakers:
     title: Ponents
   footer:
