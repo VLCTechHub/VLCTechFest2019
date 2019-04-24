@@ -206,7 +206,7 @@
         - https://www.linkedin.com/in/pedronietopelaez/
     - name: "Esteban Chiner Sanz"
       bio: "Arquitecto de software senior con larga experiencia en sistemas backend basados en Java. Trabajando en telcos, portales B2B e instituciones financieras. Acostumbrado a trabajar en equipos distribuidos y multiculturales y con larga experiencia en el ecosistema Java/JEE. También he trabajando en profundidad con Oracle, Informatica PowerCenter, Sistemas de Gestión de Reglas de Negocio (BRMS) y últimamente centrado en Hadoop."
-      photo: https://media.licdn.com/dms/image/C5603AQEYIkAkgp_Rkg/profile-displayphoto-shrink_800_800/0?e=1560384000&v=beta&t=yyf61HmCf8NLhUEegO--d7vrOS32fQmQ-UM3hDXhpQo
+      photo: /images/speakers/ECS.jpeg
       links:
         - https://www.linkedin.com/in/echiner/
 
@@ -361,9 +361,9 @@
 
     Cuando termine la sesión serás capaz de hacer que el navegador ejecute tareas por ti, como por ejemplo publicar una conferencia en tu sitio de eventos favorito.
   speaker:
-    - name: "Demi [Alvaro Martinez de Miguel]"
+    - name: "Alvaro Martinez de Miguel [Demi]"
       bio: "Programador @Xing. Modern JavaScript y lo que caiga."
-      photo: https://media.licdn.com/dms/image/C4D03AQEXolYmrMrerQ/profile-displayphoto-shrink_200_200/0?e=1560384000&v=beta&t=Nfv_x7Qslz0uJMCBI0pfZu_nJVYkOGyaVsAKjmDj9kg
+      photo: /images/speakers/AMM.jpeg
       links:
         - https://twitter.com/DemiTralla
         - https://github.com/demipel8
