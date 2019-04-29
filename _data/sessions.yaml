@@ -44,7 +44,7 @@
   speaker:
     - name: "David Lluna"
       bio: "Trabaja en esta nuestra industria desde 2002, actualmente como SRE en @flywire, friki de innumerables temas y habitual de ValenciaDevOps"
-      photo: https://pbs.twimg.com/profile_images/773229410/BENQ0011_400x400.jpg
+      photo: /images/speakers/BENQ0011_400x400.jpg
       links:
         - https://twitter.com/llunatweets
 
@@ -59,7 +59,7 @@
   speaker:
     - name: "Carles Climent"
       bio: "Inició su carrera desarrollando software de scoring para derivados de crédito, conocidos por la crisis financiera de 2009. Continuó en el ámbito Fin-Tech y en otros sectores como el juego online. Hoy trata de que el producto de su trabajo dañe lo menos posible a la sociedad en la que vive."
-      photo: https://pbs.twimg.com/profile_images/974979411584933889/KUivXHQQ_400x400.jpg
+      photo: /images/speakers/KUivXHQQ_400x400.jpg
       links:
         - https://twitter.com/Carles_Climent
         - https://github.com/carlescliment
@@ -78,7 +78,7 @@
   speaker:
     - name: "Vicente Baixauli"
       bio: "Cuando empezó a programar, tuvo un buen mentor que le enseñó el camino hacia ser un buen programador y mejor compañero. Varios años después sigue recorriendo ese camino, a la vez que intenta ayudar a otros a recorrerlo."
-      photo: https://pbs.twimg.com/profile_images/882829636836753408/UwnGaXlp_400x400.jpg
+      photo: /images/speakers/UwnGaXlp_400x400.jpg
       links:
         - https://twitter.com/vibaiher
         - https://github.com/vibaiher
@@ -93,7 +93,7 @@
   speaker:
     - name: "Pedro Igualada"
       bio: "Product Manager en Flywire. Ha trabajado en diferentes productos dentro de la empresa desde back office interno hasta la experiencia de pago."
-      photo: https://pbs.twimg.com/profile_images/828368696921976832/-UPP3hET_400x400.jpg
+      photo: /images/speakers/-UPP3hET_400x400.jpg
       links:
         - https://twitter.com/pediglo
         - https://www.linkedin.com/in/pedro-igualada-lopez-113ba82a/
@@ -109,7 +109,7 @@
       bio: "Técnico Superior en Administración de Sistemas Informáticos con experiencia laboral en el ámbito de la informática y las telecomunicaciones. Al igual que en la creación e implantaciones de proyectos tecnológicos y experto en seguridad informática. Amplia experiencia en el sector de las telecomunicaciones con experiencia en el día a día e implantación en centro de Datos.
 
       Fundador de asociación nacional P.I.N.T. ( Promoción e Impulsó de las Nuevas Tecnologías ), emprendedor, autodidacta y curioso por defecto."
-      photo: https://pbs.twimg.com/profile_images/908740564765507584/_6VMjwhW_400x400.jpg
+      photo: /images/speakers/6VMjwhW_400x400.jpg
       links:
         - https://twitter.com/jmaringarcia
         - https://www.linkedin.com/in/jmaringarcia
@@ -123,7 +123,7 @@
   speaker:
     - name: "Juan Diego Martín-Blas Ramos"
       bio: "Trabajo como frontend developer en Mr Jeff. Mi interés por conocer cómo funcionan las cosas me llevó a estudiar Diseño Industrial en la UPV y a formarme de manera autodidacta en muchos otros ámbitos. Después de 8 años trabajando por cuenta propia, a principios de 2018 empecé a aprender programación y pude descubrir un mundo que me permite disfrutar de mi trabajo y conocer algo nuevo cada día."
-      photo: https://pbs.twimg.com/profile_images/1081525166285438976/rJqwRcWu_400x400.jpg
+      photo: /images/speakers/rJqwRcWu_400x400.jpg
       links:
         - https://twitter.com/JuanDiegoMbr
         - https://www.linkedin.com/in/juandiego-martin/
@@ -139,7 +139,7 @@
   speaker:
     - name: "Lidia García"
       bio: "Ingeniería informática con más de 10 años de experiencia en el sector de la seguridad de la información, focalizando su experiencia en la gestión del riesgo y la protección de infraestructuras críticas. Actualmente formo parte del equipo de ElevenPaths, área de ciberseguridad de Teléfonica."
-      photo: https://pbs.twimg.com/profile_images/1068246816024641536/EaSq_gy-_400x400.jpg
+      photo: /images/speakers/EaSq_gy-_400x400.jpg
       links:
         - https://twitter.com/ligaresp
 
@@ -154,7 +154,7 @@
   speaker:
     - name: "Silvia Rueda"
       bio: "Ingeniera en Informática y Doctora en Ciencias de la Computación por la Universitat de València (UV), directora del Dpt. d’Informàtica de la ETSE-UV y miembro de la Asociación de Mujeres Investigadoras y Tecnólogas (AMIT)."
-      photo: https://pbs.twimg.com/profile_images/1087975795778379782/ycsL3in3_400x400.jpg
+      photo: /images/speakers/ycsL3in3_400x400.jpg
       links:
         - https://twitter.com/sruedapascual
         - https://www.linkedin.com/in/silvia-rueda-pascual-14b69946/
@@ -165,12 +165,12 @@
         - https://twitter.com/elibeni2010
     - name: "Carmen Botella"
       bio: "Ingeniera y Doctora en Ingeniería de Telecomunicaciones por la UPV, profesora en el Dpt. d’Informàtica de la ETSE-UV y asesora del Grupo de Afinidad de Rama Estudiantil ETSE-UV Women in Engineering (IEEE)."
-      photo: https://pbs.twimg.com/profile_images/1092398906049220608/dl34cAW1_400x400.jpg
+      photo: /images/speakers/dl34cAW1_400x400.jpg
       links:
         - https://twitter.com/CBotellaMascar
     - name: "Paula Marzal"
       bio: "Licenciada en Química y Doctora en Química por la UV, máster en Ciencia y Tecnología de Alimentos por la UPV, profesora en el Departamento de Ingeniería Química de la UV y Directora de la ETSE-UV."
-      photo: https://pbs.twimg.com/profile_images/826781112206839809/YaG1dsbk_400x400.jpg
+      photo: /images/speakers/YaG1dsbk_400x400.jpg
       links:
         - https://twitter.com/p_marzal
 
@@ -185,7 +185,7 @@
   speaker:
     - name: "Carlos Muncharaz"
       bio: "Desarrollador front-end en Datamaran, aplicación web de análisis de big data destinada a profesionales de la sostenibilidad. Anteriormente diseñador gráfico y fotógrafo (El Mundo, Corts Valencianes, trabajador autónomo). Persona con discapacidad auditiva, experimentada en el movimiento asociativo y comprometida con la accesibilidad."
-      photo: https://pbs.twimg.com/profile_images/840528351085359104/HkHD3C82_400x400.jpg
+      photo: /images/speakers/HkHD3C82_400x400.jpg
       links:
         - https://twitter.com/cmuncharaz
         - https://www.linkedin.com/in/cmuncharaz
@@ -227,7 +227,7 @@
   speaker:
     - name: "Fran Ramírez"
       bio: "Ingeniero/Grado en Informática de Sistemas, Técnico Superior en Electrónica Digital y Máster en Seguridad de las TIC, con más de 15 años de experiencia como administrador de sistemas, realizando múltiples proyectos internacionales en EEUU y Canadá. Investigador de seguridad informática en el equipo de Ideas Locas CDO de Telefónica y colabora con LUCA (Big Data e IA) y ElevenPaths (Seguridad Informática). Fundador y escritor en el blog de temas geek www.cyberhades.com (nick: cybercaronte) sobre Seguridad Informática e Historia de la Informática. Co-autor de los libros “MicroHistorias: anécdotas y curiosidades de la Informática” , “Docker:SecDevOps” y “Machine Learning aplicado a la seguridad”"
-      photo: https://pbs.twimg.com/profile_images/880678446506156032/-ZVXudpe_400x400.jpg
+      photo: /images/speakers/-ZVXudpe_400x400.jpg
       links:
         - https://twitter.com/cybercaronte
         - https://github.com/tuxotron
@@ -244,7 +244,7 @@
       bio: "Ingeniero de software... y millennial. Ha sobrevivido a varias startups construyendo productos orientados al consumidor y ahora está intentando vender lechugas en Mercadona Online.
 
       Le obsesiona estudiar comportamientos que emergen de las interacciones entre distintos actores en sistemas complejos. Eso le lleva a intentar entender cómo liderar equipos para construir productos de la manera más efectiva."
-      photo: https://pbs.twimg.com/profile_images/1099067008266715139/Szg7AEPH_400x400.png
+      photo: /images/speakers/Szg7AEPH_400x400.png
       links:
         - https://twitter.com/stanete
         - https://github.com/stanete
@@ -259,7 +259,7 @@
   speaker:
     - name: "Manuel S. Lemos"
       bio: "Desarrollador Multiplataforma con amplia experiencia en emprender proyectos. Organiza el Meetup de WordPressValencia y Unity3D, además de colaborar en muchos otros como LinuxCenter."
-      photo: https://pbs.twimg.com/profile_images/972873617137655808/wROZ8HPx_400x400.jpg
+      photo: /images/speakers/wROZ8HPx_400x400.jpg
       links:
         - https://twitter.com/manuels_lemos
         - https://www.linkedin.com/in/manuelslemos/
@@ -273,7 +273,7 @@
   speaker:
     - name: "Flavio Corpa"
       bio: "Lead Frontend Engineer for @EU_IPO. JavaScript and Functional Programming Enthusiast. OSS contributor in: React, Vue, Angular, Babel, Webpack, Styled Components and many others!"
-      photo: https://pbs.twimg.com/profile_images/1056856309167984640/NMaMPDxN_400x400.jpg
+      photo: /images/speakers/NMaMPDxN_400x400.jpg
       links:
         - https://twitter.com/flaviocorpa
         - https://github.com/kutyel
@@ -288,14 +288,14 @@
   speaker:
     - name: "Raquel Gálvez"
       bio: "Somos un combo de Research, UX y Agile... Es decir Lean UX. Ayudamos a crear y mejorar la experiencia de las personas en servicios y productos. Para que se entiendan mejor, sean más útiles y fáciles de usar. Y si además, son proyectos de impacto medioambiental o social mejor!"
-      photo: https://pbs.twimg.com/profile_images/648202541445087236/X7WtESBu_400x400.jpg
+      photo: /images/speakers/X7WtESBu_400x400.jpg
       links:
         - http://raquelgalvez.com/
         - https://twitter.com/RaquelGalvezO
         - https://www.linkedin.com/in/raquelgalvez/
     - name: "Tony Morellá"
       bio: "Difundiendo agilismo tanto a nivel de gestión de proyectos (Scrum, Kanban, Lean, Retrospectivas...) como de la calidad del software (TDD, Code reviews, DDD, IDD...). Practicante y fiel creyente de Lean UX."
-      photo: https://pbs.twimg.com/profile_images/378800000404300358/5fe6bc11582611a74f1dbbcde08b8a86_400x400.jpeg
+      photo: /images/speakers/5fe6bc11582611a74f1dbbcde08b8a86_400x400.jpeg
       links:
         - https://twitter.com/Hynnot
         - https://www.linkedin.com/in/tony-morella-llacer/
@@ -324,7 +324,7 @@
       bio: "Responsable de Innovación y Tecnología en Aguas Municipalizadas de Alicante, Ingeniero de Telecomunicaciones, Especialista Universitario en Economía de las Telecomunicaciones y MBA.
 
       Toni tiene más de 20 años de experiencia profesional, ha participado en diferentes proyectos de innovación nacional e internacional de implantación de tecnología en ciudades."
-      photo: https://pbs.twimg.com/profile_images/1068365006281080832/jKsEKy7C_400x400.jpg
+      photo: /images/speakers/jKsEKy7C_400x400.jpg
       links:
         - https://twitter.com/aszapla
         - https://www.linkedin.com/in/antonio-sánchez-zaplana
@@ -345,7 +345,7 @@
   speaker:
     - name: "Mateja Jermanis"
       bio: "Product Owner, actualmente trabajando con Devscola y Makoto Squad. Creativo y orientado al detalle. Obsesionada con Agile, los proyectos Open Source y el trabajo en equipo."
-      photo: https://pbs.twimg.com/profile_images/1112467746548264962/5UFVQcDf_400x400.jpg
+      photo: /images/speakers/5UFVQcDf_400x400.jpg
       links:
         - https://twitter.com/matejovski
         - https://www.linkedin.com/in/mateja-jermanis/
