@@ -433,6 +433,7 @@ footer a:hover {
       display: none;
     }
     .site-nav {
+      background-color: var(--pink);
       width: auto;
       .trigger > div {
         display: grid;
@@ -827,6 +828,9 @@ ul.sessions {
   .big-title {
     -webkit-text-stroke-color: var(--primaryColor);
     text-shadow: 0.04em .04em 0 var(--secondaryColor);
+    @include media-query($on-palm) {
+        font-size: 2em;
+    }
   }
 }
 
@@ -838,6 +842,9 @@ ul.sessions {
   .big-title {
     -webkit-text-stroke-color: var(--secondaryColor);
     text-shadow: 0.04em .04em 0 var(--primaryColor);
+    @include media-query($on-palm) {
+        font-size: 2em;
+    }
   }
 }
 
@@ -964,6 +971,9 @@ ul.speakers {
           left: 0;
           bottom: 0;
           right: 0;
+          max-height: 100%;
+          margin-left: auto;
+          margin-right: auto;
         }
       }
       ul {
@@ -1033,6 +1043,9 @@ ul.speakers {
     color: inherit;
     text-decoration: underline;
   }
+  strong {
+    color: inherit;
+  }
   @include media-query($on-laptop) {
     display: grid;
     grid-template-areas:
@@ -1082,12 +1095,19 @@ ul.speakers {
     svg {
       width: 100%;
     }
+    @include media-query($on-palm) {
+      width: 100%;
+      margin: 2em 0;
+    }
   }
   li.mrjeff {
     max-width: 219px;
   }
   li.xing {
     margin-bottom: 14px;
+  }
+  @include media-query($on-palm) {
+    display: block;
   }
 }
 

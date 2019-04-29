@@ -12,7 +12,7 @@
   speaker:
     - name: "Bernat Llopis"
       bio: "Coordinador de ByLinedu, maker , champion de CoderDojo Valencia"
-      photo: https://pbs.twimg.com/profile_images/877839899193475072/2m5ZduSK_400x400.jpg
+      photo: /images/speakers/2m5ZduSK_400x400.jpg
       links:
         - https://twitter.com/inedu
         - https://bylinedu.es/
